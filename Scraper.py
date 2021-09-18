@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -7,13 +8,13 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
 location_olx = 'ads'
-search_term = input("Insira search term: ") #inserir o search term na barra de pesquisa funciona, mas quebra a extração
+search_term = input("Insira search term: ").lower() #inserir o search term na barra de pesquisa funciona, mas quebra a extração
 
-location_input = input('Insira a regiao: ')
+location_input = input('Insira a regiao: ').lower()
 if location_input != '':
-    location_olx = location_input.lower()
+    location_olx = location_input
 
-search_term.replace(' ', '-').lower()
+re.sub('\\s+', '-', search_term)
 
 products = [] #List to store name of the product
 prices = [] #List to store price of the product
