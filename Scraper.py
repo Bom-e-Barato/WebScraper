@@ -1,6 +1,6 @@
-import pandas as pd
 import re
 import requests
+import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -16,19 +16,26 @@ if location_input != '':
 
 re.sub('\\s+', '-', search_term)
 
-products = [] #List to store name of the product
-prices = [] #List to store price of the product
 
-olx_page = requests.get(f'https://www.olx.pt/{location_olx}/q-{search_term}').text
-olx_soup = BeautifulSoup(olx_page,'lxml')
+##################################### OLX ##############################################
+counter = 0
+for i in range(25):
+    page = requests.get(f'https://www.olx.pt/{location_olx}/q-{search_term}/?page={i+1}')
+    soup = BeautifulSoup(page.text,'lxml')
 
-#print(soup.prettify())
+    # Verificar se houve redirect do link (pagina não existir)
+    if i != 0 and len(page.history) != 0 and page.history[0].url != '':
+        break
 
-products = olx_soup.find_all('div', class_ ='offer-wrapper')
+    products = soup.find_all('div', class_ ='offer-wrapper')
+    
+    print()
+    for product in products:
+        product_name = product.find('h3', class_='lheight22').find('strong').text
+        product_price = product.find('p', class_='price').find('strong').text[:-1]
+        product_link = product.find('a')['href']
+        counter = counter + 1
+        print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
+    print(counter)
+########################################################################################
 
-print()
-for product in products:
-    product_name = product.find('h3', class_='lheight22').find('strong').text
-    product_price = product.find('p', class_='price').find('strong').text[:-1]
-    product_link = product.find('a')['href']
-    print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
