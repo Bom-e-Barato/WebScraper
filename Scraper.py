@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from IPython.display import display
+
 
 import csv
 
@@ -64,6 +64,6 @@ df = pd.DataFrame(dict) # create dataframe from dictionary
 
 df.to_json('Produtos.json', orient='index', indent=2)
 
-display(df)
+
 
 
