@@ -1,26 +1,29 @@
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from bs4 import BeautifulSoup
-import pandas as pd
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-
+location_olx = 'ads'
 search_term = input("Insira search term: ") #inserir o search term na barra de pesquisa funciona, mas quebra a extração
 
-driver = webdriver.Chrome(ChromeDriverManager().install()) #Create instance of chrome webDriver
-driver.get("https://www.olx.pt/")
-Search = driver.find_element_by_id("headerSearch")
+location_input = input('Insira a regiao: ')
+if location_input != '':
+    location_olx = location_input.lower()
 
-Search.send_keys(search_term)
-Search.send_keys(Keys.ENTER)
+search_term.replace(' ', '-').lower()
 
 products = [] #List to store name of the product
 prices = [] #List to store price of the product
 
-content = driver.page_source
-soup = BeautifulSoup(content,'lxml')
+olx_page = requests.get(f'https://www.olx.pt/{location_olx}/q-{search_term}').text
+olx_soup = BeautifulSoup(olx_page,'lxml')
 
-products = soup.find_all('div', class_ ='offer-wrapper')
+#print(soup.prettify())
+
+products = olx_soup.find_all('div', class_ ='offer-wrapper')
 
 print()
 for product in products:
