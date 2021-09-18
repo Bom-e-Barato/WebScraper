@@ -46,7 +46,8 @@ for i in range(25):
     
     print()
     for product in products:
-        product_name = product.find('h3', class_='lheight22').find('strong').text
+        try:
+            product_name = product.find('h3', class_='lheight22').find('strong').text
         names.append(product_name)
         product_price = product.find('p', class_='price').find('strong').text[:-1]
         prices.append(product_price)
@@ -54,7 +55,9 @@ for i in range(25):
         links.append(product_link)
         counter = counter + 1
         print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
-    print(counter)
+        except:
+            continue
+print(counter)
 ########################################################################################
 
 
@@ -63,7 +66,3 @@ dict = {'Nome': names, 'precos': prices, 'links': links} #Criar cabeçalho do cs
 df = pd.DataFrame(dict) # create dataframe from dictionary
 
 df.to_json('Produtos.json', orient='index', indent=2)
-
-
-
-
