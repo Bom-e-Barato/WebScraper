@@ -31,11 +31,14 @@ for i in range(25):
     
     print()
     for product in products:
-        product_name = product.find('h3', class_='lheight22').find('strong').text
-        product_price = product.find('p', class_='price').find('strong').text[:-1]
-        product_link = product.find('a')['href']
-        counter = counter + 1
-        print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
-    print(counter)
+        try:
+            product_name = product.find('h3', class_='lheight22').find('strong').text
+            product_price = product.find('p', class_='price').find('strong').text[:-1].replace('.', '')
+            product_link = product.find('a')['href']
+            counter = counter + 1
+            print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
+        except:
+            continue
+print(counter)
 ########################################################################################
 
