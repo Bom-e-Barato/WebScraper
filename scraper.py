@@ -2,6 +2,7 @@ import re
 import requests
 import pandas as pd
 import urllib.parse
+from time import sleep
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -13,6 +14,10 @@ names = []  # List to store the names of the products
 prices = [] # List to store the prices of the products
 links=[]    # List to store the links of the products
 
+
+
+
+#OLX search function----------------------------------------------------------------------
 def olx_search(location, search_term):
     counter = 0
     for i in range(25):
@@ -44,6 +49,9 @@ def olx_search(location, search_term):
                 continue
     print(counter)  # For deubgging purposes
 
+
+
+#KuantoKusta search function--------------------------------------------------------------
 def kk_search(search_term):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
     page = requests.get(f'https://www.kuantokusta.pt/search?q={search_term}&sort=3', headers=headers)
@@ -62,6 +70,21 @@ def kk_search(search_term):
     return {'nome': product_name, 'preco': product_price, 'link': product_link}
 
 
+
+#FacebookMarketplace search function------------------------------------------------------Probabbly illegal, too bad
+# def face_search():
+#     starting_url="https://www.facebook.com"
+#     email="joaosilvascraper@gmail.com"
+#     password="yJ-B'#YsEf.^G75H"
+
+#     driver = webdriver.Chrome(ChromeDriverManager().install())
+#     driver.get("https://www.facebook.com/marketplace")
+#     sleep(3)
+    
+#     driver.close
+    
+
+
 def main():
     location_olx = 'ads'
     search_term = input("Procurar: ").lower()               # Product name
@@ -73,6 +96,9 @@ def main():
     kk_search_term = re.sub('\\s+', '+', search_term)       # Replace white spaces rows with '+'
 
     olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
+    print(kk_search(kk_search_term))
+
+    #face_search()
 
     d = {'nome': names, 'precos': prices, 'links': links}
     pd.DataFrame(d).sort_values('precos').to_json('produtos.json', orient='index', indent=2, force_ascii=False)
