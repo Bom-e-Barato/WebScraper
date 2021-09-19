@@ -21,7 +21,7 @@ fh_prices = []
 fh_links=[]    
 
 
-#OLX search function----------------------------------------------------------------------
+# OLX search function----------------------------------------------------------------------
 def olx_search(location, search_term):
     counter = 0
     for i in range(25):
@@ -54,7 +54,48 @@ def olx_search(location, search_term):
     print(counter)  # For deubgging purposes
 
 
-#KuantoKusta search function--------------------------------------------------------------
+def cj_search(location, search_term):
+    counter = 0
+    page_num = 1
+    while True:
+        page = requests.get(f'https://www.custojusto.pt/{location}/q/{search_term}?o={page_num}&sp=1&st=a')
+        soup = BeautifulSoup(page.text, 'lxml')
+        products = soup.find_all('div', class_='container_related')
+
+        if not products:
+            break
+
+        for product in products:
+            # Get the data
+            product_name = product.find('h2', class_='title_related').find('b').text
+            product_price = float(product.find('h5', class_='price_related').text.strip()[:-2])
+            product_link = product.find('a')['href']
+
+            # Append the data to the lists
+            sh_names.append(product_name)
+            sh_prices.append(product_price)
+            sh_links.append(product_link)
+
+            counter = counter + 1   # For deubgging purposes
+            page_num = page_num + 1
+            print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
+    print(counter)
+
+
+# FacebookMarketplace search function------------------------------------------------------Probabbly illegal, too bad
+# def fb_search():
+#     starting_url="https://www.facebook.com"
+#     email="joaosilvascraper@gmail.com"
+#     password="yJ-B'#YsEf.^G75H"
+
+#     driver = webdriver.Chrome(ChromeDriverManager().install())
+#     driver.get("https://www.facebook.com/marketplace")
+#     sleep(3)
+    
+#     driver.close
+   
+
+# KuantoKusta search function--------------------------------------------------------------
 def kk_search(search_term):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
     page = requests.get(f'https://www.kuantokusta.pt/search?q={search_term}&sort=3', headers=headers)
@@ -84,21 +125,9 @@ def kk_search(search_term):
         print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
 
 
-#FacebookMarketplace search function------------------------------------------------------Probabbly illegal, too bad
-# def fb_search():
-#     starting_url="https://www.facebook.com"
-#     email="joaosilvascraper@gmail.com"
-#     password="yJ-B'#YsEf.^G75H"
-
-#     driver = webdriver.Chrome(ChromeDriverManager().install())
-#     driver.get("https://www.facebook.com/marketplace")
-#     sleep(3)
-    
-#     driver.close
-    
-
 def main():
     location_olx = 'ads'
+    location_cj = 'portugal'
     search_term = input("Procurar: ").lower()               # Product name
     location_input = input('Regiao: ').lower()              # Region name
     if location_input != '':
@@ -106,8 +135,11 @@ def main():
 
     olx_search_term = re.sub('\\s+', '-', search_term)      # Replace white spaces rows with '-'
     kk_search_term = re.sub('\\s+', '+', search_term)       # Replace white spaces rows with '+'
+    cj_search_term = kk_search_term
 
     olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
+    cj_search(location_cj, cj_search_term)                  # Populate the list wtih CustoJusto data
+
     kk_search(kk_search_term)
 
     #fb_search()
