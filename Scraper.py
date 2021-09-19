@@ -1,6 +1,7 @@
 import re
 import requests
 import pandas as pd
+import urllib.parse
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -44,7 +45,8 @@ def olx_search(location, search_term):
     print(counter)  # For deubgging purposes
 
 def kk_search(search_term):
-    page = requests.get(f'https://www.kuantokusta.pt/search?q={search_term}&sort=3')
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
+    page = requests.get(f'https://www.kuantokusta.pt/search?q={search_term}&sort=3', headers=headers)
     soup = BeautifulSoup(page.text, 'lxml')
 
     product = soup.find('div', class_='product-item-inner')
@@ -52,8 +54,12 @@ def kk_search(search_term):
     product_name = product.find('a', class_='product-item-name')['title']
     product_price = product.find('a', class_='product-item-price').find('span').text[:-1].replace(',', '.')
     product_link = 'https://kuantokusta.pt/' + product.find('a', class_='product-item-store')['href']
+
+    if product_link == 'https://kuantokusta.pt/#':
+        encoded_link = product.find('a', class_='product-item-store')['onclick'].split(',')[2].strip().replace('"', '').replace('\'', '')
+        product_link = urllib.parse.unquote(encoded_link)
     
-    return {'name': product_name, 'price': product_price, 'link': product_link}
+    return {'nome': product_name, 'preco': product_price, 'link': product_link}
 
 
 def main():
@@ -66,13 +72,11 @@ def main():
     olx_search_term = re.sub('\\s+', '-', search_term)      # Replace white spaces rows with '-'
     kk_search_term = re.sub('\\s+', '+', search_term)       # Replace white spaces rows with '+'
 
-    print(kk_search(kk_search_term))
+    olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
 
-    """ olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
-
-    d = {'Nome': names, 'precos': prices, 'links': links}
+    d = {'nome': names, 'precos': prices, 'links': links}
     pd.DataFrame(d).sort_values('precos').to_json('produtos.json', orient='index', indent=2, force_ascii=False)
-    pd.DataFrame(kk_search(kk_search_term)).sort_values('preco').to_json('best.json', orient='index', indent=2, force_ascii=False) """
+    pd.DataFrame(kk_search(kk_search_term), index=[0]).to_json('best.json', orient='index', indent=2, force_ascii=False)
 
 if __name__ == '__main__':
     main()
