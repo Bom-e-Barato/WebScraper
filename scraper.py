@@ -71,7 +71,7 @@ def cj_search(location, search_term):
         for product in products:
             # Get the data
             product_name = product.find('h2', class_='title_related').find('b').text
-            product_price = float(product.find('h5', class_='price_related').text.strip()[:-2])
+            product_price = float(product.find('h5', class_='price_related').text.strip().replace(' ', '')[:-2])
             product_link = product.find('a')['href']
 
             # Append the data to the lists
