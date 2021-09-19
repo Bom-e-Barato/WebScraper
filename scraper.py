@@ -1,8 +1,11 @@
 import re
+import os
 from time import process_time
 import requests
 import pandas as pd
 import urllib.parse
+from os.path import join, dirname
+from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -84,6 +87,10 @@ def cj_search(location, search_term):
 
 # FacebookMarketplace search function------------------------------------------------------Probabbly illegal, too bad
 # def fb_search():
+    dotenv_path = join(dirname(__file__),'.env')
+    load_dotenv(dotenv_path)
+    EMAIL = os.environ.get("EMAIL")
+    PASSWORD = os.environ.get("PASSWORD")
 #     starting_url="https://www.facebook.com"
 #     email="joaosilvascraper@gmail.com"
 #     password="yJ-B'#YsEf.^G75H"
