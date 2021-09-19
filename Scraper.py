@@ -12,11 +12,11 @@ names = []  # List to store the names of the products
 prices = [] # List to store the prices of the products
 links=[]    # List to store the links of the products
 
-def olx_search(location_olx, search_term):
+def olx_search(location, search_term):
     counter = 0
     for i in range(25):
-        page = requests.get(f'https://www.olx.pt/{location_olx}/q-{search_term}/?page={i+1}')
-        soup = BeautifulSoup(page.text,'lxml')
+        page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page={i+1}')
+        soup = BeautifulSoup(page.text, 'lxml')
 
         # Check if the request was redirected (happens when the page doesnt exist)
         if i != 0 and len(page.history) != 0 and page.history[0].url != '':
@@ -43,19 +43,36 @@ def olx_search(location_olx, search_term):
                 continue
     print(counter)  # For deubgging purposes
 
+def kk_search(search_term):
+    page = requests.get(f'https://www.kuantokusta.pt/search?q={search_term}&sort=3')
+    soup = BeautifulSoup(page.text, 'lxml')
+
+    product = soup.find('div', class_='product-item-inner')
+
+    product_name = product.find('a', class_='product-item-name')['title']
+    product_price = product.find('a', class_='product-item-price').find('span').text[:-1].replace(',', '.')
+    product_link = 'https://kuantokusta.pt/' + product.find('a', class_='product-item-store')['href']
+    
+    return {'name': product_name, 'price': product_price, 'link': product_link}
+
+
 def main():
     location_olx = 'ads'
-    search_term = input("Procurar: ").lower()   # Product name
-    location_input = input('Regiao: ').lower()  # Region name
+    search_term = input("Procurar: ").lower()               # Product name
+    location_input = input('Regiao: ').lower()              # Region name
     if location_input != '':
-        location_olx = location_input           # Enter means the entier market
+        location_olx = location_input                       # Enter means the entier market
 
-    re.sub('\\s+', '-', search_term)            # Replace white spaces rows with '-'
+    olx_search_term = re.sub('\\s+', '-', search_term)      # Replace white spaces rows with '-'
+    kk_search_term = re.sub('\\s+', '+', search_term)       # Replace white spaces rows with '+'
 
-    olx_search(location_olx, search_term)       # Populate the list with OLX data
+    print(kk_search(kk_search_term))
+
+    """ olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
 
     d = {'Nome': names, 'precos': prices, 'links': links}
     pd.DataFrame(d).sort_values('precos').to_json('produtos.json', orient='index', indent=2, force_ascii=False)
+    pd.DataFrame(kk_search(kk_search_term)).sort_values('preco').to_json('best.json', orient='index', indent=2, force_ascii=False) """
 
 if __name__ == '__main__':
     main()
