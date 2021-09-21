@@ -1,646 +1,1646 @@
 {
-<<<<<<< HEAD
-
-=======
-  "104":{
-    "nome":"Bloco água para EVGA GeForce GTX 1060 SC 6GB",
-    "precos":30.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/bloco-gua-para-evga-geforce-gtx-1060-sc-6gb-IDGs21u.html#8560c9444d"
-  },
-  "118":{
-    "nome":"HP OMEN 870-100np + Monitor ASUS VS247",
-    "precos":40.0,
-    "links":"https:\/\/www.custojusto.pt\/aveiro\/informatica\/informatica-acessorios\/hp-omen-870-100np-monitor-as-34519328"
-  },
-  "119":{
-    "nome":"PC Gaming i7 GTX 1060",
-    "precos":60.0,
-    "links":"https:\/\/www.custojusto.pt\/faro\/informatica\/informatica-acessorios\/pc-gaming-i7-gtx-1060-34255827"
-  },
-  "120":{
-    "nome":"Portátil Lenovo Legion Y520-15IKBM-308 + Carregador",
-    "precos":60.0,
-    "links":"https:\/\/www.custojusto.pt\/viseu\/informatica\/informatica-acessorios\/portatil-lenovo-legion-y520-15-34678926"
-  },
-  "121":{
-    "nome":"PC Gaming - i7 7700k GTX1060 G+ 9gb 16gb Ram Ssd +2TB Hdd",
-    "precos":65.0,
-    "links":"https:\/\/www.custojusto.pt\/acores\/informatica\/informatica-acessorios\/pc-gaming-i7-7700k-gtx1060-g-34686905"
-  },
-  "122":{
-    "nome":"Portátil HP OMEN Gaming 15-DC0015NP Core i7, 16G R",
-    "precos":74.0,
-    "links":"https:\/\/www.custojusto.pt\/braga\/informatica\/informatica-acessorios\/portatil-hp-omen-gaming-15-dc0-34244134"
-  },
-  "18":{
-    "nome":"ASUS GeForce GTX 1060 3G OC para peças ou reparo",
-    "precos":75.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-geforce-gtx-1060-3g-oc-para-peas-ou-reparo-IDGHsRB.html#642fa996a8"
-  },
-  "123":{
-    "nome":"Pc Setup gaming gtx 1060 6GB",
-    "precos":80.0,
-    "links":"https:\/\/www.custojusto.pt\/braga\/informatica\/informatica-acessorios\/pc-setup-gaming-gtx-1060-6gb-34635321"
-  },
-  "124":{
-    "nome":"Computador Gaming",
-    "precos":85.0,
-    "links":"https:\/\/www.custojusto.pt\/viana-do-castelo\/informatica\/informatica-acessorios\/computador-gaming-34670677"
-  },
-  "125":{
-    "nome":"PC Gamer i5 9400 GTX 1060 Com garantia",
-    "precos":92.0,
-    "links":"https:\/\/www.custojusto.pt\/lisboa\/informatica\/informatica-acessorios\/pc-gamer-i5-9400-gtx-1060-com--34565445"
-  },
-  "126":{
-    "nome":"Computador Gaming + Monitor 144hz 1ms - Aguenta todos programas e jogos",
-    "precos":120.0,
-    "links":"https:\/\/www.custojusto.pt\/setubal\/informatica\/informatica-acessorios\/computador-gaming-monitor-14-34614124"
-  },
-  "74":{
-    "nome":"Clevo P650HP i7 | GTX1060 | Não recebe carga",
-    "precos":120.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/clevo-p650hp-i7-gtx1060-no-recebe-carga-IDGG2WA.html#66835062ab"
-  },
-  "13":{
-    "nome":"gigabyte gtx windforce 1060 3gb",
-    "precos":150.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gigabyte-gtx-windforce-1060-3gb-IDGHzI1.html#642fa996a8"
-  },
-  "4":{
-    "nome":"Asus GTX 1060 3gb",
-    "precos":160.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-gtx-1060-3gb-IDGgIQs.html#642fa996a8"
-  },
-  "127":{
-    "nome":"pc gaming",
-    "precos":180.0,
-    "links":"https:\/\/www.custojusto.pt\/acores\/informatica\/informatica-acessorios\/pc-gaming-34623564"
-  },
-  "61":{
-    "nome":"GTX 1060 3Gb ASUS",
-    "precos":190.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-3gb-asus-IDGDgsz.html#66835062ab"
-  },
-  "114":{
-    "nome":"Asus GeForce GTX 1060 Dual 3GB OC (Placa Gráfica)",
-    "precos":195.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-geforce-gtx-1060-dual-3gb-oc-placa-grfica-IDBc1aV.html#8560c9444d"
-  },
-  "12":{
-    "nome":"gtx 1060 6gb ZOTAC",
-    "precos":200.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-zotac-IDGHB9Q.html#642fa996a8"
-  },
-  "71":{
-    "nome":"MSI GeForce GTX 1060 3gb GAMING X",
-    "precos":210.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/msi-geforce-gtx-1060-3gb-gaming-x-IDGG5cS.html#66835062ab"
-  },
-  "117":{
-    "nome":"MSI GTX 1060 3GB GamingX - Como Nova",
-    "precos":210.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/msi-gtx-1060-3gb-gamingx-como-nova-IDGyfLb.html#8560c9444d"
-  },
-  "11":{
-    "nome":"Asus GTX 1060 3GB",
-    "precos":220.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-gtx-1060-3gb-IDGHBeT.html#642fa996a8"
-  },
-  "73":{
-    "nome":"Gráfica GTX 1060 6gb",
-    "precos":220.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/grfica-gtx-1060-6gb-IDGG3yy.html#66835062ab"
-  },
-  "32":{
-    "nome":"Placa Grafica NVIDIA GTX 1060 3GB",
-    "precos":230.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grafica-nvidia-gtx-1060-3gb-IDGDUTR.html#642fa996a8"
-  },
-  "77":{
-    "nome":"Placa Gráfica Asus GTX 1060 3 Gb",
-    "precos":240.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-asus-gtx-1060-3-gb-IDGFWzE.html#66835062ab"
-  },
-  "116":{
-    "nome":"Geforce GTX 1060 3GB",
-    "precos":240.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/geforce-gtx-1060-3gb-IDGuXvr.html#8560c9444d"
-  },
-  "58":{
-    "nome":"Oportunidade NVidia Asus GeForce GTX 1060 Dual 3GB OC",
-    "precos":250.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/oportunidade-nvidia-asus-geforce-gtx-1060-dual-3gb-oc-IDBc0Bw.html#66835062ab"
-  },
-  "89":{
-    "nome":"Geforce GTX 1060 Gaming X 3 GB",
-    "precos":250.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/geforce-gtx-1060-gaming-x-3-gb-IDGFqLD.html#8560c9444d"
-  },
-  "30":{
-    "nome":"GTX 1060 6gb Asus",
-    "precos":250.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-asus-IDGHeaW.html#642fa996a8"
-  },
-  "10":{
-    "nome":"Placa Gráfica MSI GTX1060 6GB GDDR5",
-    "precos":250.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-msi-gtx1060-6gb-gddr5-IDGHBAT.html#642fa996a8"
-  },
   "59":{
-    "nome":"PC desktop Placa Gráfica GTX 1060 6Gb",
-    "precos":255.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-desktop-placa-grfica-gtx-1060-6gb-IDGqtrD.html#66835062ab"
-  },
-  "110":{
-    "nome":"GTX 1060 6GB Asus rog strix gaming OC\/ LEIAM BEM A DESCRIÇÃO !!",
-    "precos":260.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-asus-rog-strix-gaming-oc-leiam-bem-a-descrio-IDGEyrK.html#8560c9444d"
-  },
-  "47":{
-    "nome":"GTX 1060 6GB Windforce OC",
-    "precos":270.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-windforce-oc-IDGGQxc.html#66835062ab"
-  },
-  "95":{
-    "nome":"GeForce GTX 1060 6gb",
-    "precos":270.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/geforce-gtx-1060-6gb-IDGFhGf.html#8560c9444d"
-  },
-  "52":{
-    "nome":"GTX 1060 6Gb como nova",
-    "precos":270.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-como-nova-IDGGHM3.html#66835062ab"
-  },
-  "33":{
-    "nome":"GTX 1060 6Gb como nova",
-    "precos":270.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-como-nova-IDGH74E.html#642fa996a8"
-  },
-  "5":{
-    "nome":"Gigabyte Aorus Gtx 1060 6Gb c\/nova e acessórios Placa Gráfica",
-    "precos":275.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gigabyte-aorus-gtx-1060-6gb-c-nova-e-acessrios-placa-grfica-IDGHF5R.html#642fa996a8"
-  },
-  "6":{
-    "nome":"Asus Strix Gtx 1060 6Gb c\/nova e acessórios Placa gráfica",
-    "precos":290.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-strix-gtx-1060-6gb-c-nova-e-acessrios-placa-grfica-IDGHF56.html#642fa996a8"
-  },
-  "8":{
-    "nome":"Asus GTX 1060 DUAL OC 6GB - placa gráfica GeForce gaming",
-    "precos":290.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-gtx-1060-dual-oc-6gb-placa-grfica-geforce-gaming-IDGHCA3.html#642fa996a8"
-  },
-  "9":{
-    "nome":"Asus GTX 1060 DUAL OC 6GB - placa gráfica GeForce",
-    "precos":290.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-gtx-1060-dual-oc-6gb-placa-grfica-geforce-IDGHCyD.html#642fa996a8"
-  },
-  "115":{
-    "nome":"Asus Rog Strix GTX 1060 6GB Gaming",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-rog-strix-gtx-1060-6gb-gaming-IDGzYuV.html#8560c9444d"
-  },
-  "83":{
-    "nome":"gtx 1060 6gb gddr5 zotac mini",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-gddr5-zotac-mini-IDGHv1u.html#8560c9444d;promoted"
-  },
-  "101":{
-    "nome":"Gráfica RGB MSI GeForce® GTX 1060 G1 Gaming 6G OC Edition",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/grfica-rgb-msi-geforce-gtx-1060-g1-gaming-6g-oc-edition-IDG8hLN.html#8560c9444d"
-  },
-  "57":{
-    "nome":"Asus GeForce GTX1060 ROG Strix OC 6GB GDDR5",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-geforce-gtx1060-rog-strix-oc-6gb-gddr5-IDGGjUg.html#66835062ab"
-  },
-  "54":{
-    "nome":"Descrição Asus STRIX-GTX1060-O6G-GAMING",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/descrio-asus-strix-gtx1060-o6g-gaming-IDFU3O6.html#66835062ab"
-  },
-  "67":{
-    "nome":"Placa Gráfica Asus GeForce GTX 1060 DUAL OC 6GB",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-asus-geforce-gtx-1060-dual-oc-6gb-IDGCfqg.html#66835062ab"
-  },
-  "105":{
-    "nome":"Placa Gráfica Asus GTX 1060 dual 3gb",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-asus-gtx-1060-dual-3gb-IDGwiGF.html#8560c9444d"
-  },
-  "0":{
-    "nome":"gtx 1060 6gb gddr5 zotac mini",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-gddr5-zotac-mini-IDGHv1u.html#642fa996a8;promoted"
-  },
-  "17":{
-    "nome":"gtx 1060 6gb gddr5 zotac mini",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-gddr5-zotac-mini-IDGHv1u.html#642fa996a8;promoted"
-  },
-  "25":{
-    "nome":"Nvidia GTX 1060 6GB",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/nvidia-gtx-1060-6gb-IDGHh0E.html#642fa996a8"
-  },
-  "29":{
-    "nome":"Placa Gráfica GTX 1060 *Nova*Fatura*Garantia*",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-gtx-1060-novafaturagarantia-IDGHf53.html#642fa996a8"
-  },
-  "41":{
-    "nome":"gtx 1060 6gb gddr5 zotac mini",
-    "precos":300.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-gddr5-zotac-mini-IDGHv1u.html#66835062ab;promoted"
-  },
-  "111":{
-    "nome":"GTX 1060 3GB      .",
-    "precos":310.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-3gb-IDGmftz.html#8560c9444d"
-  },
-  "63":{
-    "nome":"Placa gráfica GTX 1060 6GB msi gaming x",
-    "precos":320.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-gtx-1060-6gb-msi-gaming-x-IDGsfHX.html#66835062ab"
-  },
-  "99":{
-    "nome":"ZOTAC Geforce Gtx 1060 6G",
-    "precos":320.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/zotac-geforce-gtx-1060-6g-IDGCnns.html#8560c9444d"
-  },
-  "75":{
-    "nome":"Msi Gaming x Nvidia GTX 1060 6gb",
-    "precos":325.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/msi-gaming-x-nvidia-gtx-1060-6gb-IDGq3yw.html#66835062ab"
-  },
-  "27":{
-    "nome":"Placa gráfica ASUS GTX 1060 Expedition OC 6g GDDR4",
-    "precos":330.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-asus-gtx-1060-expedition-oc-6g-gddr4-IDGprY0.html#642fa996a8"
-  },
-  "44":{
-    "nome":"GTX 1060 3GB Windforce OC edition",
-    "precos":340.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-3gb-windforce-oc-edition-IDFDTyC.html#66835062ab"
-  },
-  "68":{
-    "nome":"Placa Gráfica Asus GeForce GTX 1060 Dual 3GB OC",
-    "precos":350.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-asus-geforce-gtx-1060-dual-3gb-oc-IDBcAti.html#66835062ab"
-  },
-  "35":{
-    "nome":"Placa gráfica GForce Gtx 1060 6gb",
-    "precos":375.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-gforce-gtx-1060-6gb-IDGmqZP.html#642fa996a8"
-  },
-  "113":{
-    "nome":"OPORTUNIDADE Asus GeForce GTX 1060 Dual 3GB OC (Placa Gráfica)",
-    "precos":380.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/oportunidade-asus-geforce-gtx-1060-dual-3gb-oc-placa-grfica-IDBc0QA.html#8560c9444d"
-  },
-  "87":{
-    "nome":"PC Gaming i5 \/ GTX 1060 \/ 16GB RAM",
-    "precos":380.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-i5-gtx-1060-16gb-ram-IDGFwfr.html#8560c9444d"
-  },
-  "66":{
-    "nome":"Torre gaming i5 6500 GTX 1060",
-    "precos":400.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-gaming-i5-6500-gtx-1060-IDGxHqt.html#66835062ab"
-  },
-  "100":{
-    "nome":"Nvidia GeForce GTX 1060 6gb Zotac",
-    "precos":400.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/nvidia-geforce-gtx-1060-6gb-zotac-IDGEUiO.html#8560c9444d"
-  },
-  "62":{
-    "nome":"Torre i5 7500 \/ GTX1060 \/ 250 GB SSD",
-    "precos":450.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-i5-7500-gtx1060-250-gb-ssd-IDDyrP5.html#66835062ab"
-  },
-  "112":{
-    "nome":"Torre AeroCool (i5-4460\/8GB\/128GB SSD\/GTX 1060 3GB)",
-    "precos":469.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-aerocool-i5-4460-8gb-128gb-ssd-gtx-1060-3gb-IDGrQJU.html#8560c9444d"
-  },
-  "45":{
-    "nome":"GTX 1060 6GB Windforce OC edition",
-    "precos":480.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-6gb-windforce-oc-edition-IDFpL5C.html#66835062ab"
-  },
-  "3":{
-    "nome":"Torre do Gaming i7+GTX 1060 para todos jogos",
-    "precos":495.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-do-gaming-i7-gtx-1060-para-todos-jogos-IDGy3QD.html#642fa996a8"
-  },
-  "21":{
-    "nome":"PC Gaming i5 7500 - GeForce MSI GTX 1060 - 8GB RAM",
-    "precos":500.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-i5-7500-geforce-msi-gtx-1060-8gb-ram-IDGiRrB.html#642fa996a8"
-  },
-  "79":{
-    "nome":"PC Gamer - I5 2400- GTX 1060 - 8GB RAM- HDD 1TB - SSD - Desktop",
-    "precos":500.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamer-i5-2400-gtx-1060-8gb-ram-hdd-1tb-ssd-desktop-IDFVWGp.html#66835062ab"
-  },
-  "1":{
-    "nome":"Pc Gamer \/ Edição Fotográfica i5 16GB ddr4 Gráfica GTX1060 C\/Garantia",
-    "precos":530.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamer-edio-fotogrfica-i5-16gb-ddr4-grfica-gtx1060-c-garantia-IDGDZgk.html#642fa996a8;promoted"
-  },
-  "84":{
-    "nome":"Pc Gamer \/ Edição Fotográfica i5 16GB ddr4 Gráfica GTX1060 C\/Garantia",
-    "precos":530.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamer-edio-fotogrfica-i5-16gb-ddr4-grfica-gtx1060-c-garantia-IDGDZgk.html#8560c9444d;promoted"
-  },
-  "42":{
-    "nome":"Pc Gamer \/ Edição Fotográfica i5 16GB ddr4 Gráfica GTX1060 C\/Garantia",
-    "precos":530.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamer-edio-fotogrfica-i5-16gb-ddr4-grfica-gtx1060-c-garantia-IDGDZgk.html#66835062ab;promoted"
-  },
-  "39":{
-    "nome":"Pc Gamer \/ Edição Fotográfica i5 16GB ddr4 Gráfica GTX1060 C\/Garantia",
-    "precos":530.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamer-edio-fotogrfica-i5-16gb-ddr4-grfica-gtx1060-c-garantia-IDGDZgk.html#642fa996a8;promoted"
-  },
-  "78":{
-    "nome":"PC Gamer - I7 - GTX 1060 - 16GB RAM - Desktop - HDD - 1TB - NVme 120GB",
-    "precos":550.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamer-i7-gtx-1060-16gb-ram-desktop-hdd-1tb-nvme-120gb-IDG4sh1.html#66835062ab"
-  },
-  "49":{
-    "nome":"PC Gaming (i5-7500+Nvidia GTX 1060 6GB)",
-    "precos":550.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-i5-7500-nvidia-gtx-1060-6gb-IDGGNmH.html#66835062ab"
-  },
-  "28":{
-    "nome":"Desktop Gaming Ryzen 5 2600, GTX 1060, 16GB RAM",
-    "precos":550.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/desktop-gaming-ryzen-5-2600-gtx-1060-16gb-ram-IDGDS2d.html#642fa996a8"
-  },
-  "98":{
-    "nome":"Pc Prodigy i7 Gamer Gráfica GTX1060 C\/Garantia EM STOCK",
-    "precos":580.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-prodigy-i7-gamer-grfica-gtx1060-c-garantia-em-stock-IDGwWUa.html#8560c9444d;promoted"
-  },
-  "43":{
-    "nome":"Pc Prodigy i7 Gamer Gráfica GTX1060 C\/Garantia EM STOCK",
-    "precos":580.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-prodigy-i7-gamer-grfica-gtx1060-c-garantia-em-stock-IDGwWUa.html#66835062ab;promoted"
-  },
-  "2":{
-    "nome":"Pc Prodigy i7 Gamer Gráfica GTX1060 C\/Garantia EM STOCK",
-    "precos":580.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-prodigy-i7-gamer-grfica-gtx1060-c-garantia-em-stock-IDGwWUa.html#642fa996a8;promoted"
-  },
-  "65":{
-    "nome":"Pc gaming gtx1060",
-    "precos":580.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-gtx1060-IDGG9pA.html#66835062ab"
-  },
-  "85":{
-    "nome":"Pc Prodigy i7 Gamer Gráfica GTX1060 C\/Garantia EM STOCK",
-    "precos":580.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-prodigy-i7-gamer-grfica-gtx1060-c-garantia-em-stock-IDGwWUa.html#8560c9444d;promoted"
-  },
-  "34":{
-    "nome":"Computador Gamer i5 \/ Grafica GTX 1060 6Gb",
-    "precos":589.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-gamer-i5-grafica-gtx-1060-6gb-IDGE6j0.html#642fa996a8"
-  },
-  "20":{
-    "nome":"PC Gaming - AMD Rizen 5 - GTX 1060 - RAM 16 GB DDR4",
-    "precos":599.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-amd-rizen-5-gtx-1060-ram-16-gb-ddr4-IDGHnNk.html#642fa996a8"
-  },
-  "16":{
-    "nome":"Pc Gaming i5\/Gtx 1060\/16Gb Ram DDR4",
-    "precos":599.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-i5-gtx-1060-16gb-ram-ddr4-IDGHxTW.html#642fa996a8"
-  },
-  "103":{
-    "nome":"Pc Gaming Desktop Intel i5 7600K GTX 1060 3Gb",
-    "precos":600.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-desktop-intel-i5-7600k-gtx-1060-3gb-IDGEPEU.html#8560c9444d"
-  },
-  "108":{
-    "nome":"Portátil Gaming HP Omen 17 (i5 8330H,GTX1060)",
-    "precos":600.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/porttil-gaming-hp-omen-17-i5-8330h-gtx1060-IDGEALx.html#8560c9444d"
-  },
-  "48":{
-    "nome":"Computador gtx 1060 6gb 16gb ram i7 6700 TM",
-    "precos":620.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-gtx-1060-6gb-16gb-ram-i7-6700-tm-IDGGOSA.html#66835062ab"
-  },
-  "80":{
-    "nome":"Computador Gaming Ryzen 5 GTX 1060",
-    "precos":620.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-gaming-ryzen-5-gtx-1060-IDGFRz1.html#66835062ab"
-  },
-  "76":{
-    "nome":"Portátil gaming HP Omen 15 com GTX 1060 e Intel i5-8300H",
-    "precos":625.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/porttil-gaming-hp-omen-15-com-gtx-1060-e-intel-i5-8300h-IDGhkjy.html#66835062ab"
-  },
-  "55":{
-    "nome":"Pc Gaming  Asus  Com Gráfica GTX1060  C\/Garantia",
-    "precos":640.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-asus-com-grfica-gtx1060-c-garantia-IDGAIrn.html#66835062ab"
-  },
-  "82":{
-    "nome":"GTX 1060 Lenovo Legion Y520-15IKBM",
-    "precos":640.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1060-lenovo-legion-y520-15ikbm-IDFMok5.html#66835062ab"
-  },
-  "14":{
-    "nome":"Lenovo Legion Y720 Puro Portátil Gaming i7 GTX 1060 32GB ram",
-    "precos":640.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/lenovo-legion-y720-puro-porttil-gaming-i7-gtx-1060-32gb-ram-IDGEacR.html#642fa996a8"
-  },
-  "23":{
-    "nome":"Lenovo Y520 GTX 1060",
-    "precos":645.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/lenovo-y520-gtx-1060-IDGybHt.html#642fa996a8"
-  },
-  "19":{
-    "nome":"Computador i7-8700\/ MSI GTX 1060 6GB\/ 16GB RAM",
-    "precos":650.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-i7-8700-msi-gtx-1060-6gb-16gb-ram-IDGzfk8.html#642fa996a8"
-  },
-  "7":{
-    "nome":"Torre Gaming i5 gtx1060",
-    "precos":650.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-gaming-i5-gtx1060-IDGGddc.html#642fa996a8"
-  },
-  "60":{
-    "nome":"Torre Gaming I3 8100 GTX 1060 3GB Ram 8GB",
-    "precos":650.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-gaming-i3-8100-gtx-1060-3gb-ram-8gb-IDGGfnn.html#66835062ab"
-  },
-  "96":{
-    "nome":"PC Gaming - I7-6700K, GTX 1060 6GB, 16GB DDR4 RAM, Oferta Óculos VR",
-    "precos":675.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-i7-6700k-gtx-1060-6gb-16gb-ddr4-ram-oferta-culos-vr-IDGFhoy.html#8560c9444d"
-  },
-  "106":{
-    "nome":"Pc Msi Pro Gaming Graf GTX1060 6GB 16GB DDR4 NVME C\/Garantia",
-    "precos":680.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-msi-pro-gaming-graf-gtx1060-6gb-16gb-ddr4-nvme-c-garantia-IDGCfBv.html#8560c9444d"
-  },
-  "38":{
-    "nome":"Laptop \/ Portátil Gaming i7700HQ GTX1060",
-    "precos":680.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/laptop-porttil-gaming-i7700hq-gtx1060-IDGDOH1.html#642fa996a8"
-  },
-  "37":{
-    "nome":"Computador Gaming MSI Ryzen 5 3500X \/ B450 \/ GTX1060 3Gb (NOVO)",
-    "precos":690.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-gaming-msi-ryzen-5-3500x-b450-gtx1060-3gb-novo-IDGcgSO.html#642fa996a8"
+    "nome":"MSI 2way SLI HB bridge M",
+    "precos":10.0,
+    "links":"https:\/\/www.custojusto.pt\/lisboa\/informatica\/informatica-acessorios\/msi-2way-sli-hb-bridge-m-34594812",
+    "sites":"custojusto"
   },
   "56":{
-    "nome":"Gaming PC Ryzen 7+GTX 1060+16GB ddr4",
-    "precos":690.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gaming-pc-ryzen-7-gtx-1060-16gb-ddr4-IDGGAie.html#66835062ab"
+    "nome":"Bloco de água EK para Gtx 1070\/1080",
+    "precos":25.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/bloco-de-gua-ek-para-gtx-1070-1080-IDCQNy3.html#1097b148bc",
+    "sites":"olx"
   },
-  "22":{
-    "nome":"Portátil HP Omen (15,6” 144Hz GTX 1060 i7) + Base",
-    "precos":700.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/porttil-hp-omen-15-6-144hz-gtx-1060-i7-base-IDGBktZ.html#642fa996a8"
+  "17":{
+    "nome":"Bloco WC Gtx 1080\/1080TI",
+    "precos":50.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/bloco-wc-gtx-1080-1080ti-IDGHbw8.html#b22c96c23c",
+    "sites":"olx"
   },
-  "36":{
-    "nome":"Portátil Gaming HP Omen (i7 8750H, GTX1060)",
-    "precos":700.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/porttil-gaming-hp-omen-i7-8750h-gtx1060-IDGH3qg.html#642fa996a8"
+  "248":{
+    "nome":"MSI GT73VR Laptop MXM3 GPU configurador do Upgrade-obtenha A GPU que você gosta",
+    "precos":59.69,
+    "links":"https:\/\/www.ebay.com\/itm\/132299839037?hash=item1ecdaf563d:g:-jwAAOSwNAJZlxXi",
+    "sites":"ebay"
   },
-  "40":{
-    "nome":"Torre Gaming Nova com Garantia Ryzen 5 1600AF, GTX 1060 3GB",
-    "precos":700.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-gaming-nova-com-garantia-ryzen-5-1600af-gtx-1060-3gb-IDGzajY.html#642fa996a8"
-  },
-  "94":{
-    "nome":"Computador Gaming i7 7700 GTX 1060 6GB",
-    "precos":700.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-gaming-i7-7700-gtx-1060-6gb-IDG7aNs.html#8560c9444d"
-  },
-  "93":{
-    "nome":"Portátil ACER Predator Helios 300 (i7, 1060gtx 6gb, 16gb ram)",
-    "precos":700.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/porttil-acer-predator-helios-300-i7-1060gtx-6gb-16gb-ram-IDFNggi.html#8560c9444d"
-  },
-  "31":{
-    "nome":"HP OMEN-I7 8750h-gtx 1060-16gb ram-SSD-TECLADO RGB",
-    "precos":710.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/hp-omen-i7-8750h-gtx-1060-16gb-ram-ssd-teclado-rgb-IDGHcZX.html#642fa996a8"
-  },
-  "88":{
-    "nome":"Computador Gaming - GTX 1060 6GB \/ i5-7600 \/ 16GB RAM",
-    "precos":750.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-gaming-gtx-1060-6gb-i5-7600-16gb-ram-IDGvrB5.html#8560c9444d"
-  },
-  "92":{
-    "nome":"Portatil MSI Gaming - GTX 1060 - 16G RAM - i7 8750H",
-    "precos":750.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/portatil-msi-gaming-gtx-1060-16g-ram-i7-8750h-IDGexAj.html#8560c9444d"
-  },
-  "51":{
-    "nome":"Torre NOX Infinity Atom RGB (i5-7640X\/16GB\/2.5TB\/GTX 1060 OC 6GB)",
-    "precos":759.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-nox-infinity-atom-rgb-i5-7640x-16gb-2-5tb-gtx-1060-oc-6gb-IDGDO5n.html#66835062ab"
+  "39":{
+    "nome":"EK-FC1080 GTX Ti Strix RGB - Nickel",
+    "precos":120.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/ek-fc1080-gtx-ti-strix-rgb-nickel-IDGG1Uf.html#1097b148bc",
+    "sites":"olx"
   },
   "46":{
-    "nome":"Computador Gaming i7-4790k, GTX 1060 3GB, 16Gb Ram, 500Gb SSD, faturas",
-    "precos":770.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-gaming-i7-4790k-gtx-1060-3gb-16gb-ram-500gb-ssd-faturas-IDGGRBw.html#66835062ab"
+    "nome":"Grafica Gtx 1080 8gb mxm pra arranjo",
+    "precos":130.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/grafica-gtx-1080-8gb-mxm-pra-arranjo-IDGoOQz.html#1097b148bc",
+    "sites":"olx"
   },
-  "50":{
-    "nome":"Laptop \/ Portátil Gaming MSI GF62  (i7 8750h & GTX 1060)",
-    "precos":780.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/laptop-porttil-gaming-msi-gf62-i7-8750h-gtx-1060-IDGpo4j.html#66835062ab"
-  },
-  "109":{
-    "nome":"MSI GE63 - i7-8750H - GTX 1060 - 16GB RAM",
-    "precos":780.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/msi-ge63-i7-8750h-gtx-1060-16gb-ram-IDFroIy.html#8560c9444d"
-  },
-  "64":{
-    "nome":"PC setup Gaming GTX 1060 6GB",
-    "precos":800.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-setup-gaming-gtx-1060-6gb-IDGG9zL.html#66835062ab"
-  },
-  "81":{
-    "nome":"PC Desktop Gaming i5 6600 GTX 1060 16GB DDR4",
-    "precos":800.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-desktop-gaming-i5-6600-gtx-1060-16gb-ddr4-IDG9Mxo.html#66835062ab"
-  },
-  "107":{
-    "nome":"PC Gaming RGB I5-7600K, GTX1060 6GB, 16GB RAM, 480 GB",
-    "precos":800.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-rgb-i5-7600k-gtx1060-6gb-16gb-ram-480-gb-IDG6VrZ.html#8560c9444d"
-  },
-  "15":{
-    "nome":"Torre Gaming - i5 -7 400 - 16GB RAM - GTX 1060 6G",
-    "precos":800.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-gaming-i5-7-400-16gb-ram-gtx-1060-6g-IDGE9FK.html#642fa996a8"
-  },
-  "86":{
-    "nome":"MSI GP73 Leopard 8RE(GeForce® GTX 1060)",
-    "precos":800.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/msi-gp73-leopard-8regeforce-gtx-1060-IDGdpyx.html#8560c9444d"
-  },
-  "26":{
-    "nome":"Acer Predator Helio 300 GTX 1060 6Gb",
-    "precos":800.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/acer-predator-helio-300-gtx-1060-6gb-IDF9029.html#642fa996a8"
-  },
-  "91":{
-    "nome":"PC GAMING (NOVO) gtx 1060 6gb Intel - 16Gb RAM - i3 10100f 4.3Ghz",
-    "precos":835.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-novo-gtx-1060-6gb-intel-16gb-ram-i3-10100f-4-3ghz-IDGFn8U.html#8560c9444d"
-  },
-  "102":{
-    "nome":"Portátil Gaming Lenovo Legion Y530-15ICH-831 | i7-8750H GTX 1060",
-    "precos":850.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/porttil-gaming-lenovo-legion-y530-15ich-831-i7-8750h-gtx-1060-IDGEPVq.html#8560c9444d"
-  },
-  "70":{
-    "nome":"PC Gaming (GTX 1060 6GB)",
-    "precos":850.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-gtx-1060-6gb-IDGG6nT.html#66835062ab"
-  },
-  "24":{
-    "nome":"Computador Gaming com I5 GTX1060 6GB 3TB RAM 16GB",
-    "precos":850.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-gaming-com-i5-gtx1060-6gb-3tb-ram-16gb-IDGHh4a.html#642fa996a8"
+  "60":{
+    "nome":"Portátil Asus GL553V para peças",
+    "precos":190.0,
+    "links":"https:\/\/www.custojusto.pt\/lisboa\/informatica\/informatica-acessorios\/portatil-asus-gl553v-para-peca-32681914",
+    "sites":"custojusto"
   },
   "69":{
-    "nome":"Razer blade 14\" de 2017 com gtx 1060",
-    "precos":900.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/razer-blade-14-de-2017-com-gtx-1060-IDGG7DB.html#66835062ab"
+    "nome":"NVIDIA GeForce GTX 1080 8gb Founders Edition cartão de referência",
+    "precos":296.93,
+    "links":"https:\/\/www.ebay.com\/itm\/165081746999?epid=2169702674&hash=item266fa38e37:g:IkkAAOSwQm9hR4Ok",
+    "sites":"ebay"
   },
-  "90":{
-    "nome":"Portatil Gaming Asus GL702VM, 7700HQ, GTX 1060, 120hz gsync 256SSD 1TB",
-    "precos":950.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/portatil-gaming-asus-gl702vm-7700hq-gtx-1060-120hz-gsync-256ssd-1tb-IDBHbSW.html#8560c9444d"
+  "70":{
+    "nome":"EVGA GTX 1080 Founders Edition gráficos 8GB taxa de dados Duplo 5X Com Accelero Xtreme III",
+    "precos":298.09,
+    "links":"https:\/\/www.ebay.com\/itm\/304153421114?epid=512988000&hash=item46d0f4e53a:g:ks4AAOSwVGdhR4NM",
+    "sites":"ebay"
+  },
+  "71":{
+    "nome":"Novo anúncioZOTAC GeForce GTX 1080 Amp! Edition, ZT-P10800C-10P, 8GB Gddr 5X",
+    "precos":314.79,
+    "links":"https:\/\/www.ebay.com\/itm\/363550835340?hash=item54a551828c:g:Bx8AAOSwCuphSfKU",
+    "sites":"ebay"
   },
   "72":{
-    "nome":"Oportunidade HP Omen + GTX 1060 + Nvme 512 GB",
-    "precos":1000.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/oportunidade-hp-omen-gtx-1060-nvme-512-gb-IDGuX8e.html#66835062ab"
+    "nome":"ASUS NVIDIA GeForce GTX 1080 8GB gráficos Double data rate 5X Placa Gráfica (STRIX-GTX1080-A8G - jogos)",
+    "precos":316.68,
+    "links":"https:\/\/www.ebay.com\/itm\/185060568887?epid=1183130452&hash=item2b16782f37:g:Z4gAAOSwZsNhR~Bs",
+    "sites":"ebay"
+  },
+  "73":{
+    "nome":"EVGA GeForce GTX 1080 Ftw Dt Jogos Gráficos 8GB, taxa de dados Duplo 5X, Rgb Led, ACX3.0, 08G-P4-6284-KR",
+    "precos":318.26,
+    "links":"https:\/\/www.ebay.com\/itm\/165080165150?epid=26021689585&hash=item266f8b6b1e:g:wrAAAOSw3eNhRlSz",
+    "sites":"ebay"
+  },
+  "75":{
+    "nome":"ASUS NVIDIA GeForce GTX 1080 8GB gráficos Double data rate 5X Placa Gráfica (STRIX-GTX1080-A8G - jogos)",
+    "precos":355.63,
+    "links":"https:\/\/www.ebay.com\/itm\/203608215180?epid=1183130452&hash=item2f67fece8c:g:JUYAAOSw0E1hQ54V",
+    "sites":"ebay"
+  },
+  "77":{
+    "nome":"GIGABYTE GeForce GTX 1080 G1 GAMING",
+    "precos":366.73,
+    "links":"https:\/\/www.ebay.com\/itm\/353675168648?hash=item5258aecb88:g:uC0AAOSwWi9hQicu",
+    "sites":"ebay"
+  },
+  "78":{
+    "nome":"MSI GTX1080Ti founders edition 11go",
+    "precos":380.0,
+    "links":"https:\/\/www.ebay.com\/itm\/174945990402?hash=item28bb97f702:g:F4sAAOSwGt1hR3R4",
+    "sites":"ebay"
+  },
+  "80":{
+    "nome":"MSI GTX 1080 GAMING X 8GB NVIDIA GPU",
+    "precos":392.0,
+    "links":"https:\/\/www.ebay.com\/itm\/203608051264?hash=item2f67fc4e40:g:lRsAAOSwP9FhQ3q8",
+    "sites":"ebay"
+  },
+  "35":{
+    "nome":"Geforce gtx 1080 Asus",
+    "precos":395.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/geforce-gtx-1080-asus-IDGy9At.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "81":{
+    "nome":"PNY GeForce GTX 1080 Ti 11GB gráficos Double data rate 5X Placa Gráfica",
+    "precos":395.29,
+    "links":"https:\/\/www.ebay.com\/itm\/174947095181?hash=item28bba8d28d:g:5tIAAOSwTKthPPWu",
+    "sites":"ebay"
+  },
+  "82":{
+    "nome":"Watercooled GTX1080 8GB Graphics Card    EK waterblock and backplate",
+    "precos":399.9,
+    "links":"https:\/\/www.ebay.com\/itm\/324619581799?hash=item4b94d5b967:g:5VUAAOSwhg5gm-oM",
+    "sites":"ebay"
+  },
+  "9":{
+    "nome":"GTX 1080 MSI Armor",
+    "precos":400.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1080-msi-armor-IDGHryx.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "16":{
+    "nome":"Placa Gráfica GTX 1080",
+    "precos":400.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-gtx-1080-IDGHbWN.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "83":{
+    "nome":"ASUS Turbo Nvidia GeForce GTX 1080 - 8GB ",
+    "precos":407.0,
+    "links":"https:\/\/www.ebay.com\/itm\/114994456163?epid=2254445676&hash=item1ac6342663:g:D0QAAOSwrmRg9oyn",
+    "sites":"ebay"
+  },
+  "12":{
+    "nome":"ASUS GTX 1080 Strix Advanced",
+    "precos":410.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-gtx-1080-strix-advanced-IDGHilm.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "32":{
+    "nome":"Gtx 1080 Gaming X 8Gb",
+    "precos":420.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1080-gaming-x-8gb-IDGGdKc.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "38":{
+    "nome":"Placa grafica Asus Rog Strix gtx 1080",
+    "precos":430.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grafica-asus-rog-strix-gtx-1080-IDGtio6.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "84":{
+    "nome":"KFA2 GeForce GTX 1080 EXOC 8GB GDDR5X Grafikkarte mit OVP",
+    "precos":445.99,
+    "links":"https:\/\/www.ebay.com\/itm\/114861351992?epid=1173611198&hash=item1abe452438:g:09sAAOSw~Ytg0d-u",
+    "sites":"ebay"
+  },
+  "54":{
+    "nome":"GTX 1080 founder's edition com bloco water-cooling e backplate",
+    "precos":450.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1080-founders-edition-com-bloco-water-cooling-e-backplate-IDGgh4S.html#1097b148bc",
+    "sites":"olx"
+  },
+  "52":{
+    "nome":"Gigabyte GeForce GTX 1080 G1  (OC) RGB - 8GB",
+    "precos":450.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gigabyte-geforce-gtx-1080-g1-oc-rgb-8gb-IDGFkGM.html#1097b148bc",
+    "sites":"olx"
+  },
+  "8":{
+    "nome":"GPU gtx 1080 evga Ftw hybrid watercooled",
+    "precos":450.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gpu-gtx-1080-evga-ftw-hybrid-watercooled-IDGxf5W.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "86":{
+    "nome":"Gigabyte GeForce GTX 1080 Founders Edition 8GB Gddr 5X Placa gráfica GPU GTX1080",
+    "precos":454.69,
+    "links":"https:\/\/www.ebay.com\/itm\/185048470047?hash=item2b15bf921f:g:SboAAOSwDmxhP3G5",
+    "sites":"ebay"
+  },
+  "87":{
+    "nome":"ZOTAC GeForce GTX 1080 Founders Edition 8GB com bloco de água EK-FC1080 GTX",
+    "precos":456.25,
+    "links":"https:\/\/www.ebay.com\/itm\/402980260528?epid=584892149&hash=item5dd37ecab0:g:nR4AAOSwPCFg54of",
+    "sites":"ebay"
+  },
+  "88":{
+    "nome":"Palit GeForce GTX 1080 Super JetStream 8GB Gddr 5X Placa Gráfica",
+    "precos":457.78,
+    "links":"https:\/\/www.ebay.com\/itm\/373728418561?hash=item5703f31b01:g:BK4AAOSwy0thSLJs",
+    "sites":"ebay"
+  },
+  "89":{
+    "nome":"MSI GeForce GTX 1080 Aero 8G OC 8GB GDDR5 Tatjeta Gráfica (V336 015R)",
+    "precos":460.0,
+    "links":"https:\/\/www.ebay.com\/itm\/265273384607?epid=20031265346&hash=item3dc3869e9f:g:~8UAAOSwWMhhHM5M",
+    "sites":"ebay"
+  },
+  "90":{
+    "nome":"MSI NVIDIA GeForce GTX 1080 8GB Para Jogos X8G Placa Gráfica gráficos Double data rate 5X",
+    "precos":460.11,
+    "links":"https:\/\/www.ebay.com\/itm\/402969255523?epid=2254310682&hash=item5dd2d6de63:g:Z-sAAOSwVGdg4VGD",
+    "sites":"ebay"
+  },
+  "91":{
+    "nome":"GIGABYTE GeForce GTX 1080 8GB gráficos Double data rate 5X Turbo OC Placa Gráfica (GVN 1080 ttoc 8GD)",
+    "precos":463.91,
+    "links":"https:\/\/www.ebay.com\/itm\/114994272224?epid=25025505565&hash=item1ac63157e0:g:pBQAAOSwpbFhQ4Dt",
+    "sites":"ebay"
+  },
+  "92":{
+    "nome":"GIGABYTE NVIDIA GEFORCE GTX 1080 8gb",
+    "precos":470.53,
+    "links":"https:\/\/www.ebay.com\/itm\/373716928790?epid=25025505565&hash=item570343c916:g:c60AAOSwRU5hPDPt",
+    "sites":"ebay"
+  },
+  "21":{
+    "nome":"MSI GTX 1080 GAMING X 8GB GDDR5",
+    "precos":475.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/msi-gtx-1080-gaming-x-8gb-gddr5-IDGH0LY.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "93":{
+    "nome":"Gigabyte GeForce GTX 1080 G1 Gaming, 8G Gv-n 1080G1 Placa de vídeo para jogos",
+    "precos":476.06,
+    "links":"https:\/\/www.ebay.com\/itm\/144195410765?epid=4018265923&hash=item2192b75b4d:g:RfkAAOSwv0hhPDNG",
+    "sites":"ebay"
+  },
+  "94":{
+    "nome":"ASUS ROG STRIX-GTX1080-A8G - Jogos",
+    "precos":476.18,
+    "links":"https:\/\/www.ebay.com\/itm\/384400894045?hash=item598014285d:g:MtcAAOSw80xhRT1~",
+    "sites":"ebay"
+  },
+  "95":{
+    "nome":"MSI GeForce GTX 1080 gráficos Board Twin Frozr Modelo Usado",
+    "precos":476.76,
+    "links":"https:\/\/www.ebay.com\/itm\/353585531252?epid=2254310682&hash=item5253570974:g:CEkAAOSw~sZg-UgF",
+    "sites":"ebay"
+  },
+  "96":{
+    "nome":"Gigabyte GTX 1080 GeForce G1 Gaming GV-N1080G1 Para Jogos 8G 1080 - 8GD Usado",
+    "precos":478.49,
+    "links":"https:\/\/www.ebay.com\/itm\/402954554921?hash=item5dd1f68e29:g:8PMAAOSw9eFg2gG0",
+    "sites":"ebay"
+  },
+  "26":{
+    "nome":"GTX 1080 G1 Gaming 8gb",
+    "precos":480.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1080-g1-gaming-8gb-IDGnvzi.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "58":{
+    "nome":"MSI NVIDIA Geforce GTX 1080 Gaming X 8G",
+    "precos":480.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/msi-nvidia-geforce-gtx-1080-gaming-x-8g-IDGBMCr.html#1097b148bc",
+    "sites":"olx"
   },
   "97":{
-    "nome":"Computador Ryzen 5 3.6Ghz + GeFORCE GTX 1060 - 6Gb",
-    "precos":1000.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-ryzen-5-3-6ghz-geforce-gtx-1060-6gb-IDGobBt.html#8560c9444d"
+    "nome":"GIGABYTE GeForce GTX 1080 G1 Gaming 8G Placa Gráfica 8GB gráficos Double data rate 5X Muito Bom",
+    "precos":481.01,
+    "links":"https:\/\/www.ebay.com\/itm\/393565991520?hash=item5ba25c7260:g:hM0AAOSwIf1hPK2o",
+    "sites":"ebay"
+  },
+  "13":{
+    "nome":"EVGA GTX 1080ti  com caixa",
+    "precos":490.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/evga-gtx-1080ti-com-caixa-IDGHhQ2.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "98":{
+    "nome":"Novo anúncioGigabyte GeForce GTX 1080 Ti gráficos 11GB taxa de dados Duplo Placa gráfica GPU 5X",
+    "precos":490.4,
+    "links":"https:\/\/www.ebay.com\/itm\/265323256523?epid=3035052471&hash=item3dc67f9acb:g:0eQAAOSwjQxhSaU6",
+    "sites":"ebay"
+  },
+  "99":{
+    "nome":"ASUS ROG Strix GeForce GTX 1080 Ti OC 11GB Gddr 5X Placa Gráfica",
+    "precos":496.87,
+    "links":"https:\/\/www.ebay.com\/itm\/165079229688?epid=21031290066&hash=item266f7d24f8:g:8oYAAOSw5WhhRbfc",
+    "sites":"ebay"
+  },
+  "74":{
+    "nome":"NVIDIA ZOTAC Geoforce GTX 1080 AMP Edition",
+    "precos":496.97,
+    "links":"https:\/\/www.ebay.com\/itm\/284456202134?hash=item423ae92f96:g:ucMAAOSw34RhRUBV",
+    "sites":"ebay"
+  },
+  "27":{
+    "nome":"ASUS GeForce GTX 1080TI 11GB",
+    "precos":500.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-geforce-gtx-1080ti-11gb-IDGGKgW.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "50":{
+    "nome":"Placa Gráfica Nvidia Gtx 1080 TI Founders Edition limited edition",
+    "precos":500.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-nvidia-gtx-1080-ti-founders-edition-limited-edition-IDGyWnj.html#1097b148bc",
+    "sites":"olx"
+  },
+  "28":{
+    "nome":"Asus poseidon Gtx1080ti 11gb",
+    "precos":500.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-poseidon-gtx1080ti-11gb-IDGGIwF.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "18":{
+    "nome":"Placa Gráfica Nvidia GTX 1080 TI ARMOR",
+    "precos":500.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-nvidia-gtx-1080-ti-armor-IDGBfm2.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "43":{
+    "nome":"Grafica ASUS GeForce GTX 1080 turbo 8gb!",
+    "precos":500.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/grafica-asus-geforce-gtx-1080-turbo-8gb-IDFU5ey.html#1097b148bc",
+    "sites":"olx"
+  },
+  "100":{
+    "nome":"HP NVIDIA GeForce GTX1080 Usado",
+    "precos":501.66,
+    "links":"https:\/\/www.ebay.com\/itm\/403122056422?hash=item5ddbf26ce6:g:enoAAOSwzzFhLzH1",
+    "sites":"ebay"
+  },
+  "101":{
+    "nome":"EVGA GEFORCE GTX 1080 Ftw híbrido placas gráficas de jogos (08G-P4-6288-KR)",
+    "precos":508.82,
+    "links":"https:\/\/www.ebay.com\/itm\/265289013287?epid=4016823055&hash=item3dc4751827:g:18EAAOSwbj1hKqHG",
+    "sites":"ebay"
+  },
+  "102":{
+    "nome":"NVIDIA GTX 1080 Placa Gráfica 8GB Clevo P870xx P775xx N17E-G3-A1",
+    "precos":510.87,
+    "links":"https:\/\/www.ebay.com\/itm\/154515493516?hash=item23f9d7528c:g:Wp4AAOSwr8Vfx2bv",
+    "sites":"ebay"
+  },
+  "103":{
+    "nome":"ASUS GeForce GTX 1080 Turbo 8GB Placa Gráfica YV09S1-A03",
+    "precos":512.43,
+    "links":"https:\/\/www.ebay.com\/itm\/313653165789?hash=item49072f7edd:g:JGsAAOSwWyBhId8z",
+    "sites":"ebay"
+  },
+  "104":{
+    "nome":"Mac Pro MacVidCards NVIDIA GeForce GTX 1080 8GB GDDR5X Video Card ink MwSt",
+    "precos":513.99,
+    "links":"https:\/\/www.ebay.com\/itm\/324705557621?hash=item4b99f59c75:g:RtAAAOSwq8tg5V32",
+    "sites":"ebay"
+  },
+  "105":{
+    "nome":"ASUS STRIX GeForce GTX 1080 A8G 8GB gráficos Double data rate 5X Placa Gráfica Quase perfeito",
+    "precos":517.78,
+    "links":"https:\/\/www.ebay.com\/itm\/234189802114?epid=1183130452&hash=item3686ccca82:g:gGQAAOSwBsZhQTO4",
+    "sites":"ebay"
+  },
+  "106":{
+    "nome":"EVGA GeForce GTX 1080 FTW2 8GB Gddr 5X",
+    "precos":522.43,
+    "links":"https:\/\/www.ebay.com\/itm\/294407548762?hash=item448c0eaf5a:g:2zAAAOSwN01hR1wj",
+    "sites":"ebay"
+  },
+  "107":{
+    "nome":"MSI Aero NVIDIA GeForce GTX 1080 8GB gráficos Double data rate 5X Placa Gráfica",
+    "precos":527.95,
+    "links":"https:\/\/www.ebay.com\/itm\/255010452205?hash=item3b5fceb2ed:g:cy4AAOSwK8lgwECS",
+    "sites":"ebay"
+  },
+  "108":{
+    "nome":"ASUS ROG Strix GeForce GTX 1080 Ti OC 11GB Gddr 5X Placa Gráfica",
+    "precos":528.37,
+    "links":"https:\/\/www.ebay.com\/itm\/133881599123?epid=21031290066&hash=item1f2bf71493:g:htUAAOSwENlhR5U6",
+    "sites":"ebay"
+  },
+  "109":{
+    "nome":"MSI GeForce GTX 1080 8GB Para Jogos Placa Gráfica Twin Frozr Vi Usado",
+    "precos":528.69,
+    "links":"https:\/\/www.ebay.com\/itm\/384374993307?hash=item597e88f19b:g:ScUAAOSwM2hhDsAZ",
+    "sites":"ebay"
+  },
+  "111":{
+    "nome":"MSI GeForce GTX 1080 8GB Para Jogos Placa Gráfica Usada Boa",
+    "precos":528.78,
+    "links":"https:\/\/www.ebay.com\/itm\/194245802697?hash=item2d39f3bac9:g:A3AAAOSwWeJg84BJ",
+    "sites":"ebay"
+  },
+  "110":{
+    "nome":"Novo anúncioASUS GeForce GTX 1080 Advanced Edition 8GB gráficos Double data rate 5X ROG STRIX Placa Gráfica Japão",
+    "precos":528.78,
+    "links":"https:\/\/www.ebay.com\/itm\/384405996887?epid=1183130452&hash=item5980620557:g:AdYAAOSwZ8RhSgEA",
+    "sites":"ebay"
+  },
+  "112":{
+    "nome":"GTX 1080 ZOTAC GeForce AMP Extreme Do Japão Frete Grátis Usado",
+    "precos":529.64,
+    "links":"https:\/\/www.ebay.com\/itm\/313634767823?hash=item490616c3cf:g:dz8AAOSws~phE-db",
+    "sites":"ebay"
+  },
+  "113":{
+    "nome":"Estado perfeito GIGABYTE Geforce GTX 1080 G1 Placa Gráfica (GV-N1080G1 Jogos 8GD)",
+    "precos":529.72,
+    "links":"https:\/\/www.ebay.com\/itm\/114980240994?epid=27030517196&hash=item1ac55b3e62:g:GDoAAOSwWoFhMWrG",
+    "sites":"ebay"
+  },
+  "114":{
+    "nome":"NVidia GeForce GTX 1080Ti Placa Gráfica",
+    "precos":531.6,
+    "links":"https:\/\/www.ebay.com\/itm\/324793918933?hash=item4b9f39e5d5:g:3hcAAOSwGt1hRRYC",
+    "sites":"ebay"
+  },
+  "115":{
+    "nome":"Novo anúncioELSA GeForce GTX 1080 8GB s.a.c",
+    "precos":531.92,
+    "links":"https:\/\/www.ebay.com\/itm\/194381113986?hash=item2d42046a82:g:EH8AAOSwgtdhSgR0",
+    "sites":"ebay"
+  },
+  "116":{
+    "nome":"ZOTAC GeForce GTX 1080 Mini",
+    "precos":541.56,
+    "links":"https:\/\/www.ebay.com\/itm\/133877638889?hash=item1f2bbaa6e9:g:ewgAAOSwWrxhQe28",
+    "sites":"ebay"
+  },
+  "117":{
+    "nome":"ZOTAC GeForce GTX 1080 AMP Edição 8GB Graphic Card",
+    "precos":541.62,
+    "links":"https:\/\/www.ebay.com\/itm\/403177700188?epid=1274844750&hash=item5ddf437b5c:g:Mt8AAOSwFIdhSC0k",
+    "sites":"ebay"
+  },
+  "118":{
+    "nome":"Nvidia Geforce GTX 1080 EVGA Fábrica Super Sincronizada 8GB gráficos Double data rate 5X Placa Gráfica",
+    "precos":543.87,
+    "links":"https:\/\/www.ebay.com\/itm\/324781232800?hash=item4b9e7852a0:g:2qkAAOSwBEthN~Qr",
+    "sites":"ebay"
+  },
+  "119":{
+    "nome":"Gigabyte GeForce GTX 1080 8GB Placa gráfica GPU GV-N1080NC-8GD",
+    "precos":543.87,
+    "links":"https:\/\/www.ebay.com\/itm\/393398496603?epid=24047719155&hash=item5b9860ad5b:g:UigAAOSwLL5gy1cU",
+    "sites":"ebay"
+  },
+  "79":{
+    "nome":"GIGABYTE GEFORCE GTX WINDFORCE OC 1080 8G",
+    "precos":544.55,
+    "links":"https:\/\/www.ebay.com\/itm\/194369801415?epid=907912136&hash=item2d4157ccc7:g:NUgAAOSwuO1hFeS9",
+    "sites":"ebay"
+  },
+  "120":{
+    "nome":"MSI GTX 1080 Aero GPU Placa Gráfica Nvidia GTX 1080",
+    "precos":544.57,
+    "links":"https:\/\/www.ebay.com\/itm\/154619312636?hash=item24000779fc:g:q8AAAOSwletg9LIn",
+    "sites":"ebay"
+  },
+  "121":{
+    "nome":"Novo anúncioEVGA GeForce GTX 1080 Ti FTW3 Jogos 11GB Placa Gráfica",
+    "precos":545.92,
+    "links":"https:\/\/www.ebay.com\/itm\/203614075845?epid=5032174213&hash=item2f68583bc5:g:1fcAAOSwIG9hSZQs",
+    "sites":"ebay"
+  },
+  "122":{
+    "nome":"ASUS ROG STRIX GTX 1080 A8G Jogos",
+    "precos":548.98,
+    "links":"https:\/\/www.ebay.com\/itm\/284457348203?hash=item423afaac6b:g:dzIAAOSwu-phRqgF",
+    "sites":"ebay"
+  },
+  "123":{
+    "nome":"ZOTAC GeForce GTX 1080 Mini 8GB DDR5X ZT-P10800H-10P Placa gráfica GPU para jogos",
+    "precos":549.6,
+    "links":"https:\/\/www.ebay.com\/itm\/114996468953?hash=item1ac652dcd9:g:KMUAAOSw8jFhRQsA",
+    "sites":"ebay"
+  },
+  "34":{
+    "nome":"Rog Strix Gtx 1080TI 11G",
+    "precos":550.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/rog-strix-gtx-1080ti-11g-IDGGc2s.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "22":{
+    "nome":"Geforce GTX 1080 ti Gaming 11GB",
+    "precos":550.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/geforce-gtx-1080-ti-gaming-11gb-IDGCQla.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "4":{
+    "nome":"Asus GTX 1080 TI OC Edition",
+    "precos":550.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/asus-gtx-1080-ti-oc-edition-IDFTogq.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "124":{
+    "nome":"EVGA GeForce GTX 1080 Ti FTW3 Jogos 11GB Placa Gráfica Ótimo Estado",
+    "precos":553.03,
+    "links":"https:\/\/www.ebay.com\/itm\/294405976875?epid=5032174213&hash=item448bf6b32b:g:LvUAAOSwbRNhRnz5",
+    "sites":"ebay"
+  },
+  "125":{
+    "nome":"Zotac GeForce GTX 1080 8GB, fabricante de equipamento original Founder's Edition Placa Gráfica",
+    "precos":556.54,
+    "links":"https:\/\/www.ebay.com\/itm\/324774133590?hash=item4b9e0bff56:g:ss4AAOSwiVphL~p0",
+    "sites":"ebay"
+  },
+  "126":{
+    "nome":"Benchmark \"Testado\" ASUS NVIDIA GeForce Turbo GTX1080 GPU 8GB gráficos Double data rate 5 Usado",
+    "precos":557.72,
+    "links":"https:\/\/www.ebay.com\/itm\/402900213239?epid=17034146664&hash=item5dceb95df7:g:fEUAAOSwhyhguvlG",
+    "sites":"ebay"
+  },
+  "127":{
+    "nome":"MSI GTX 1080 MXM #1",
+    "precos":560.0,
+    "links":"https:\/\/www.ebay.com\/itm\/124907843138?hash=item1d15166e42:g:TacAAOSwWEVhRddx",
+    "sites":"ebay"
+  },
+  "128":{
+    "nome":"MSI GTX 1080 MXM #2",
+    "precos":560.0,
+    "links":"https:\/\/www.ebay.com\/itm\/124907843725?hash=item1d1516708d:g:sb4AAOSwxzVhRdiQ",
+    "sites":"ebay"
+  },
+  "129":{
+    "nome":"ASUS GeForce GTX 1080 Ti 11GB gráficos Double data rate 5X Placa Gráfica Com Waterblock & refrigerador de ar",
+    "precos":562.9,
+    "links":"https:\/\/www.ebay.com\/itm\/124904209232?epid=3013776031&hash=item1d14defb50:g:WlEAAOSwOC9hLngk",
+    "sites":"ebay"
+  },
+  "130":{
+    "nome":"ASUS GeForce GTX 1080 Advanced Edition 8GB gráficos Double data rate 5X ROG STRIX Placa gráfica GPU",
+    "precos":563.18,
+    "links":"https:\/\/www.ebay.com\/itm\/185031422363?epid=1183130452&hash=item2b14bb719b:g:w54AAOSwIFNhMni~",
+    "sites":"ebay"
+  },
+  "131":{
+    "nome":"EVGA 08G-P4-6283-KB GeForce GTX 1080 ICX Placa de vídeo para jogos",
+    "precos":563.71,
+    "links":"https:\/\/www.ebay.com\/itm\/254997933706?epid=6032166647&hash=item3b5f0fae8a:g:VqAAAOSw6m1gsq3D",
+    "sites":"ebay"
+  },
+  "132":{
+    "nome":"MSI NVIDIA GeForce GTX 1080 Ti gráficos 11GB taxa de dados Duplo 5X Para Jogos Placa Gráfica...",
+    "precos":563.91,
+    "links":"https:\/\/www.ebay.com\/itm\/133879049209?epid=2260236094&hash=item1f2bd02bf9:g:LyUAAOSwWPFhQ-E-",
+    "sites":"ebay"
+  },
+  "133":{
+    "nome":"H7FC2 Dell Nvidia GeForce GTX 1080 8GB gráficos Double data rate 5 GPU Placa Gráfica testado limpo",
+    "precos":564.97,
+    "links":"https:\/\/www.ebay.com\/itm\/255067275656?epid=20024034207&hash=item3b6331c188:g:aEEAAOSwQntg~vYM",
+    "sites":"ebay"
+  },
+  "134":{
+    "nome":"\"em estoque\" MSI NVIDIA GeForce GTX 1080 Jogos 8GB X 8GB Twin Frozr Vi Funcionando",
+    "precos":570.49,
+    "links":"https:\/\/www.ebay.com\/itm\/324627222908?epid=2254310682&hash=item4b954a517c:g:OjsAAOSwY3lgoSC5",
+    "sites":"ebay"
+  },
+  "135":{
+    "nome":"Novo em folha MSI GeForce GTX 1080 Oc 8GB Placa Gráfica Double data rate 5X Placa Gráfica (GTX 1080 Duke 8G Oc)",
+    "precos":570.51,
+    "links":"https:\/\/www.ebay.com\/itm\/284452250300?hash=item423aace2bc:g:tWoAAOSwAgBhQUAR",
+    "sites":"ebay"
+  },
+  "136":{
+    "nome":"Galax GeForce GTX 1080 exoc 8gb",
+    "precos":570.57,
+    "links":"https:\/\/www.ebay.com\/itm\/313471729526?hash=item48fc5eff76:g:t20AAOSw~0FgYKZN",
+    "sites":"ebay"
+  },
+  "137":{
+    "nome":"EVGA GeForce GTX 1080 FTW Gaming 8GB GDDR5X ACX 3.0 SLI RGB",
+    "precos":579.99,
+    "links":"https:\/\/www.ebay.com\/itm\/154558534868?hash=item23fc6814d4:g:Mu0AAOSwtYBhDDIY",
+    "sites":"ebay"
+  },
+  "138":{
+    "nome":"Gigabyte GeForce GTX 1080 G1 Gaming",
+    "precos":580.87,
+    "links":"https:\/\/www.ebay.com\/itm\/304089518007?hash=item46cd25cfb7:g:4kkAAOSw1l5hB0Zk",
+    "sites":"ebay"
+  },
+  "139":{
+    "nome":"Novo anúncioASUS Turbo GeForce GTX 1080 Ti 11GB gráficos Double data rate 5X Placa Gráfica",
+    "precos":593.09,
+    "links":"https:\/\/www.ebay.com\/itm\/274955808102?epid=17017962957&hash=item4004a4ad66:g:a24AAOSwE11hSTmq",
+    "sites":"ebay"
+  },
+  "141":{
+    "nome":"Novo anúncioZOTAC GeForce GTX 1080 AMP Edição 8GB",
+    "precos":594.31,
+    "links":"https:\/\/www.ebay.com\/itm\/194381123998?hash=item2d4204919e:g:rlgAAOSw5-phSgaF",
+    "sites":"ebay"
+  },
+  "140":{
+    "nome":"Novo anúncioMSI GEFORCE GTX 1080 ARMOR 8G Oc",
+    "precos":594.31,
+    "links":"https:\/\/www.ebay.com\/itm\/194381106587?hash=item2d42044d9b:g:~bMAAOSwFwJhSgPQ",
+    "sites":"ebay"
+  },
+  "142":{
+    "nome":"NVIDIA GeForce GTX 1080 8gb Founders Edition cartão de referência",
+    "precos":595.93,
+    "links":"https:\/\/www.ebay.com\/itm\/304152192362?epid=8016237857&hash=item46d0e2256a:g:0TAAAOSwhzphRnN-",
+    "sites":"ebay"
+  },
+  "143":{
+    "nome":"Asus ROG STRIX GeForce GTX 1080 Ti (ROG-STRIX-GTX1080TI-11G - jogos)",
+    "precos":598.05,
+    "links":"https:\/\/www.ebay.com\/itm\/284449084013?hash=item423a7c926d:g:i7cAAOSwgbNhPd8p",
+    "sites":"ebay"
+  },
+  "11":{
+    "nome":"Vendo ou troco GTX 1080 Founder Edition Nova",
+    "precos":600.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/vendo-ou-troco-gtx-1080-founder-edition-nova-IDCIlf3.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "23":{
+    "nome":"NVIDIA GeForce GTX 1080 ASUS Rog Strix",
+    "precos":600.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/nvidia-geforce-gtx-1080-asus-rog-strix-IDGiABi.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "61":{
+    "nome":"Acer Nitro 5 i7 8ª geração (8750H)\/GTX1050\/8gb RAM",
+    "precos":600.0,
+    "links":"https:\/\/www.custojusto.pt\/braga\/informatica\/informatica-acessorios\/acer-nitro-5-i7-8-geracao-87-33617607",
+    "sites":"custojusto"
+  },
+  "2":{
+    "nome":"Placa gráfica Aorus GTX 1080 Ti Waterforce WB",
+    "precos":600.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-aorus-gtx-1080-ti-waterforce-wb-IDGC5uW.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "29":{
+    "nome":"Nvidia Geforce GTX 1080",
+    "precos":600.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/nvidia-geforce-gtx-1080-IDGhsEH.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "48":{
+    "nome":"GTX 1080 TI  Founders Edition como nova\/pouco usada",
+    "precos":600.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1080-ti-founders-edition-como-nova-pouco-usada-IDGFrMy.html#1097b148bc",
+    "sites":"olx"
+  },
+  "144":{
+    "nome":"ASUS GTX 1080ti Placa Gráfica",
+    "precos":600.14,
+    "links":"https:\/\/www.ebay.com\/itm\/403113580283?epid=17017962957&hash=item5ddb7116fb:g:Q4QAAOSwMF5hKy39",
+    "sites":"ebay"
+  },
+  "145":{
+    "nome":"Gigabyte GeForce GTX 1080 G1 Gaming benchmark de gráficos 8G 8GB Testado",
+    "precos":602.13,
+    "links":"https:\/\/www.ebay.com\/itm\/353562192210?epid=27030517196&hash=item5251f2e952:g:adAAAOSwaYBg4zuQ",
+    "sites":"ebay"
+  },
+  "146":{
+    "nome":"Geforce Gtx 1080 Ti 11gb Novo em folha Nunca Usado",
+    "precos":603.11,
+    "links":"https:\/\/www.ebay.com\/itm\/185057888889?hash=item2b164f4a79:g:jegAAOSwAbdhO7lT",
+    "sites":"ebay"
+  },
+  "147":{
+    "nome":"Novo anúncioGIGABYTE Geforce GTX 1080 GV-N1080G1",
+    "precos":603.39,
+    "links":"https:\/\/www.ebay.com\/itm\/194381130183?hash=item2d4204a9c7:g:pe8AAOSwhT5hSgdg",
+    "sites":"ebay"
+  },
+  "148":{
+    "nome":"Nvidia Republic Of Gamers Geforce GTX 1080 Ti Jogos Placa Gráfica 11GB gddrs 5X",
+    "precos":603.93,
+    "links":"https:\/\/www.ebay.com\/itm\/124911125417?hash=item1d154883a9:g:0ugAAOSw6n9hSLMI",
+    "sites":"ebay"
+  },
+  "149":{
+    "nome":"Novo anúncioASUS Nvidia Geforce GTX 1080 Turbo-GTX1080-8G",
+    "precos":604.3,
+    "links":"https:\/\/www.ebay.com\/itm\/194381104594?hash=item2d420445d2:g:i4YAAOSwxexhJ10N",
+    "sites":"ebay"
+  },
+  "150":{
+    "nome":"EVGA Nvidia Geforce GTX 1080 Fábrica Super Sincronizada 8GB gráficos Double data rate 5X Placa Gráfica",
+    "precos":606.86,
+    "links":"https:\/\/www.ebay.com\/itm\/154598642635?hash=item23fecc13cb:g:zwIAAOSw3m1hNVGk",
+    "sites":"ebay"
+  },
+  "151":{
+    "nome":"Novo anúncioMSI Geforce GTX 1080 8GB operação confirmada",
+    "precos":607.93,
+    "links":"https:\/\/www.ebay.com\/itm\/194381112361?hash=item2d42046429:g:bIEAAOSwm0BhSgRC",
+    "sites":"ebay"
+  },
+  "152":{
+    "nome":"Nvidia GeForce GTX 1080 8GB gráficos Double data rate 5X Placa Gráfica Founders Edition",
+    "precos":610.92,
+    "links":"https:\/\/www.ebay.com\/itm\/124886506110?hash=item1d13d0da7e:g:v2AAAOSwtDFhNSWT",
+    "sites":"ebay"
+  },
+  "156":{
+    "nome":"USED-MSI GeForce GTX 1080 GAMING X 8G 『Twin Frozr VI\/OC model』VD6060",
+    "precos":613.22,
+    "links":"https:\/\/www.ebay.com\/itm\/174778340108?hash=item28b199d30c:g:xOQAAOSwtOBgqdC0",
+    "sites":"ebay"
+  },
+  "153":{
+    "nome":"MSI GeForce GTX 1080 Sea Hawk EK X 8GB gráficos Double data rate 6 GPU Waterblock",
+    "precos":614.06,
+    "links":"https:\/\/www.ebay.com\/itm\/224534404907?hash=item34474b1f2b:g:uTUAAOSwd0hg7xCj",
+    "sites":"ebay"
+  },
+  "154":{
+    "nome":"EVGA GeForce GTX 1080 Ti SC Black Edition iCX 11264 MB GDDR5X IN TOP CONDITION!!",
+    "precos":614.99,
+    "links":"https:\/\/www.ebay.com\/itm\/274953318371?epid=21034150877&hash=item40047eafe3:g:ef8AAOSw2fJhNiDF",
+    "sites":"ebay"
+  },
+  "155":{
+    "nome":"ASUS GeForce GTX 1080ti STRIX OC 11 GB Gddr5x Grafikkarte",
+    "precos":616.0,
+    "links":"https:\/\/www.ebay.com\/itm\/294407126592?epid=735959544&hash=item448c083e40:g:awcAAOSwVqBhRwjM",
+    "sites":"ebay"
+  },
+  "157":{
+    "nome":"Zotac GeforceÂ ® Gtx 1080 Mini 8Gb",
+    "precos":618.99,
+    "links":"https:\/\/www.ebay.com\/itm\/164263246111?hash=item263eda391f:g:HBsAAOSw7t9e9aeR",
+    "sites":"ebay"
+  },
+  "159":{
+    "nome":"ASUS P104-100 Desbloqueado Para 8GB Mineração GPU Eth BTC Bitcoin como GTX1080",
+    "precos":621.81,
+    "links":"https:\/\/www.ebay.com\/itm\/174872982167?hash=item28b73df297:g:9ywAAOSw1VJhCmpk",
+    "sites":"ebay"
+  },
+  "158":{
+    "nome":"GIGABYTE GeForce GTX 1080 8GB-Excelente Estado -",
+    "precos":622.6,
+    "links":"https:\/\/www.ebay.com\/itm\/334004091521?epid=25025505565&hash=item4dc431fa81:g:a0UAAOSwxAhgogD-",
+    "sites":"ebay"
+  },
+  "160":{
+    "nome":"Gigabyte AORUS GeForce GTX 1080 TI 11GB gráficos Double data rate 5X GV-N 108 taorus - 11GD",
+    "precos":628.68,
+    "links":"https:\/\/www.ebay.com\/itm\/124909566650?epid=16026507463&hash=item1d1530baba:g:GmwAAOSwqElhR1wb",
+    "sites":"ebay"
+  },
+  "161":{
+    "nome":"EVGA GeForce GTX 1080 Ti FTW3 Jogos Gráficos 11GB, taxa de dados Duplo 5X, iCX Tech, Ótimo Estado",
+    "precos":632.14,
+    "links":"https:\/\/www.ebay.com\/itm\/144202513963?epid=5032174213&hash=item219323be2b:g:I6AAAOSwZIZhQfTt",
+    "sites":"ebay"
+  },
+  "162":{
+    "nome":"GIGABYTE Geforce GTX 1080 8GB - Eccellente Condizioni",
+    "precos":635.13,
+    "links":"https:\/\/www.ebay.com\/itm\/334084331521?epid=18003293960&hash=item4dc8fa5801:g:a0UAAOSwxAhgogD-",
+    "sites":"ebay"
+  },
+  "163":{
+    "nome":"Asus ROG Strix GeForce GTX1080-A8G Gaming Grafikkarte",
+    "precos":636.85,
+    "links":"https:\/\/www.ebay.com\/itm\/384347817282?epid=10011378927&hash=item597cea4542:g:e-kAAOSwks9hI4RF",
+    "sites":"ebay"
+  },
+  "76":{
+    "nome":"GTX 1080 ROG Strix 08G Jogos (1936 MHz), Aura Rgb, ASUS Ventilador Connect, DirectCU 3",
+    "precos":638.68,
+    "links":"https:\/\/www.ebay.com\/itm\/284459350280?hash=item423b193908:g:eFoAAOSwkV1hSM8Q",
+    "sites":"ebay"
+  },
+  "164":{
+    "nome":"Gigabyte Geforce GTX 1080 Xtreme per Giochi Waterforce 8G Scheda Grafica",
+    "precos":645.24,
+    "links":"https:\/\/www.ebay.com\/itm\/304006602127?hash=item46c8349d8f:g:pX8AAOSwKcRgpnw6",
+    "sites":"ebay"
+  },
+  "165":{
+    "nome":"Asus ROG GeForcce GTX 1080Ti Strix EK Waterblock",
+    "precos":646.91,
+    "links":"https:\/\/www.ebay.com\/itm\/203611257253?hash=item2f682d39a5:g:UC8AAOSwOKZhRmKN",
+    "sites":"ebay"
+  },
+  "166":{
+    "nome":"EVGA GeForce GTX 1080 8GB gráficos Double data rate 5X Placa Gráfica Japão Usado",
+    "precos":649.89,
+    "links":"https:\/\/www.ebay.com\/itm\/324781725299?hash=item4b9e7fd673:g:YWEAAOSwShxhOGVm",
+    "sites":"ebay"
+  },
+  "40":{
+    "nome":"GTX 1080ti MSI Gaming X 11gb",
+    "precos":650.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1080ti-msi-gaming-x-11gb-IDG69GU.html#1097b148bc",
+    "sites":"olx"
   },
   "53":{
-    "nome":"Portatil HP Omen 17' i7 8750H + GTX 1060 6GB + 32GB + 1TB SSD + 1TB HD",
+    "nome":"Gtx 1080ti Msi lightning Z",
+    "precos":650.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1080ti-msi-lightning-z-IDGwWFO.html#1097b148bc",
+    "sites":"olx"
+  },
+  "30":{
+    "nome":"Placa Gráfica Aorus GTX 1080Ti 11GB",
+    "precos":650.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-aorus-gtx-1080ti-11gb-IDGoYN4.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "10":{
+    "nome":"gtx 1080ti 11Gb OC editon",
+    "precos":650.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gtx-1080ti-11gb-oc-editon-IDGwABq.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "49":{
+    "nome":"placa grafica nvidia evga gtx 1080ti ftw3 hybrid com water cooling.",
+    "precos":650.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grafica-nvidia-evga-gtx-1080ti-ftw3-hybrid-com-water-cooling-IDC4ZlN.html#1097b148bc",
+    "sites":"olx"
+  },
+  "167":{
+    "nome":"Novo anúncioEVGA GeForce GTX 1080 Ti SC Black Edition Jogos 11GB gráficos Double data rate 5X Placa Gráfica",
+    "precos":651.6,
+    "links":"https:\/\/www.ebay.com\/itm\/255145318862?epid=17021690744&hash=item3b67d899ce:g:0PEAAOSwUjZhSkC7",
+    "sites":"ebay"
+  },
+  "168":{
+    "nome":"EVGA GeForce GTX 1080 Ti SC Black Edition Jogos 11GB gráficos Double data rate 5X Placa Gráfica",
+    "precos":652.56,
+    "links":"https:\/\/www.ebay.com\/itm\/334151047159?epid=17021690744&hash=item4dccf457f7:g:8IgAAOSw2mNhRAxN",
+    "sites":"ebay"
+  },
+  "169":{
+    "nome":"MSI GTX 1080 Jogos Z 8G Full-Escala de especificação de refrigeração de água Usado",
+    "precos":656.63,
+    "links":"https:\/\/www.ebay.com\/itm\/393372750832?hash=item5b96d7d3f0:g:VnMAAOSwhyBgtffZ",
+    "sites":"ebay"
+  },
+  "170":{
+    "nome":"Envio DOS EUA ZOTAC GeForce GTX 1080Ti Founders Edition 11GB 6pin+8pin",
+    "precos":660.17,
+    "links":"https:\/\/www.ebay.com\/itm\/265219318586?hash=item3dc04da33a:g:RgIAAOSwzelg4sVa",
+    "sites":"ebay"
+  },
+  "173":{
+    "nome":"GeForce GTX 1080 Ti 11GB Founders Edition very good condition",
+    "precos":662.5,
+    "links":"https:\/\/www.ebay.com\/itm\/274954884100?hash=item4004969404:g:G48AAOSwYndhRe29",
+    "sites":"ebay"
+  },
+  "171":{
+    "nome":"MSI GEFORCE GTX 1080 Jogos 8G operação confirmada Usado Bom Estado",
+    "precos":664.39,
+    "links":"https:\/\/www.ebay.com\/itm\/334007599643?hash=item4dc467821b:g:dSMAAOSwzLFgpdgM",
+    "sites":"ebay"
+  },
+  "172":{
+    "nome":"ZOTAC NVIDIA GeForce GTX 1080 Ti 11GB Placa Gráfica (ZTP10810D10P)",
+    "precos":665.24,
+    "links":"https:\/\/www.ebay.com\/itm\/313671155030?epid=13024353154&hash=item490841fd56:g:chEAAOSwxLJhPVXs",
+    "sites":"ebay"
+  },
+  "174":{
+    "nome":"Novo anúncioMSI Nvidia GeForce GTX 1080 Ti 11GB GPU VRAM Placa Gráfica Pc",
+    "precos":669.95,
+    "links":"https:\/\/www.ebay.com\/itm\/115003041322?hash=item1ac6b7262a:g:kjcAAOSwdB1hSJt5",
+    "sites":"ebay"
+  },
+  "175":{
+    "nome":"ZOTAC GeForce GTX 1080ti 11GB gráficos Double data rate 5X Graphic Card Japão Jp Usado",
+    "precos":673.77,
+    "links":"https:\/\/www.ebay.com\/itm\/313561901239?hash=item4901bee8b7:g:BToAAOSw0lVgwriE",
+    "sites":"ebay"
+  },
+  "176":{
+    "nome":"ZOTAC GeForce GTX 1080 Ti AMP Extreme Core Edition gráficos 11GB taxa de dados Duplo 5X 352-bit Pcie 3.0",
+    "precos":677.83,
+    "links":"https:\/\/www.ebay.com\/itm\/402990187532?epid=848500007&hash=item5dd416440c:g:haQAAOSw6iNg7Xvp",
+    "sites":"ebay"
+  },
+  "177":{
+    "nome":"GIGABYTE NVIDIA Gigabyte Gtx 1080ti 11gb",
+    "precos":678.52,
+    "links":"https:\/\/www.ebay.com\/itm\/403090554970?hash=item5dda11c05a:g:-z4AAOSw6WRhIJA6",
+    "sites":"ebay"
+  },
+  "178":{
+    "nome":"GIGABYTE GV-N 108 TAORUS X-11GD AORUS GeForce GTX 1080 TI Xtreme Edition gráficos 11GB taxa de dados Duplo",
+    "precos":681.81,
+    "links":"https:\/\/www.ebay.com\/itm\/224516746509?hash=item34463dad0d:g:-J4AAOSwj~hg3Tpf",
+    "sites":"ebay"
+  },
+  "179":{
+    "nome":"Asus ROG Strix Nvidia GeForce GTX 1080 8GB GDDR6 Scheda Grafica",
+    "precos":689.9,
+    "links":"https:\/\/www.ebay.com\/itm\/185020820588?epid=18032789115&hash=item2b1419ac6c:g:YggAAOSwQr9hKfW8",
+    "sites":"ebay"
+  },
+  "180":{
+    "nome":"NVIDIA GeForce GTX 1080 Ti Founders Edition 11GB gráficos Double data rate 5X Placa Gráfica DirectX 12",
+    "precos":691.62,
+    "links":"https:\/\/www.ebay.com\/itm\/294381076996?epid=24027038848&hash=item448a7ac204:g:yqQAAOSwsN9hN3EP",
+    "sites":"ebay"
+  },
+  "181":{
+    "nome":"ASUS GeForce GTX 1080 TI 11GB Turbo Edition gráficos Double data rate 5X Placa Gráfica",
+    "precos":692.16,
+    "links":"https:\/\/www.ebay.com\/itm\/124884404262?epid=22026660052&hash=item1d13b0c826:g:Hj4AAOSwsLlhMvuM",
+    "sites":"ebay"
+  },
+  "182":{
+    "nome":"ZOTAC GeForce GTX 1080 TI 11GB Mini Placa Gráfica cartão usado apenas",
+    "precos":692.34,
+    "links":"https:\/\/www.ebay.com\/itm\/403010691258?epid=12005247760&hash=item5dd54f20ba:g:54kAAOSwgSRg-Oor",
+    "sites":"ebay"
+  },
+  "183":{
+    "nome":"MSI GeForce GTX 1080 Jogos X 8G \"Twin Frozr Vi\/Oc Modelo Usado Com Caixa T",
+    "precos":695.09,
+    "links":"https:\/\/www.ebay.com\/itm\/194342391829?hash=item2d3fb59015:g:8pEAAOSw05xgypB-",
+    "sites":"ebay"
+  },
+  "62":{
+    "nome":"PC Gaming gtx 1080 Ryzen 7 1700",
+    "precos":700.0,
+    "links":"https:\/\/www.custojusto.pt\/aveiro\/informatica\/informatica-acessorios\/pc-gaming-gtx-1080-ryzen-7-170-34721357",
+    "sites":"custojusto"
+  },
+  "3":{
+    "nome":"PC Gaming  gtx 1080 Ryzen 7 1700",
+    "precos":700.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-gtx-1080-ryzen-7-1700-IDGHOT3.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "5":{
+    "nome":"Computador EVGA Hybrid GTX 1080 8gb 1600x",
+    "precos":700.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/computador-evga-hybrid-gtx-1080-8gb-1600x-IDGuCCN.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "185":{
+    "nome":"ASUS ROG Strix GeForce GTX 1080 Ti OC 11GB Gddr 5X Placa Gráfica",
+    "precos":705.36,
+    "links":"https:\/\/www.ebay.com\/itm\/393575045983?epid=21031290066&hash=item5ba2e69b5f:g:yBQAAOSwnjlhQnmx",
+    "sites":"ebay"
+  },
+  "187":{
+    "nome":"Apple Mac Pro nVIDIA GeForce GTX 1080Ti 11GB CUDA High Sierra.",
+    "precos":714.0,
+    "links":"https:\/\/www.ebay.com\/itm\/165013213150?hash=item266b8dcfde:g:PooAAOSwJ6Zgzbaf",
+    "sites":"ebay"
+  },
+  "186":{
+    "nome":"ASUS NVIDIA GeForce GTX 1080 TI FE gráficos 11gb taxa de dados Duplo 5X",
+    "precos":714.48,
+    "links":"https:\/\/www.ebay.com\/itm\/403156332528?hash=item5dddfd6ff0:g:lOYAAOSwDt9hPu5u",
+    "sites":"ebay"
+  },
+  "188":{
+    "nome":"Palit GTX 1080 GeForce GTX 1080 Dual Oc Graphic Card 8GB Usado",
+    "precos":716.41,
+    "links":"https:\/\/www.ebay.com\/itm\/294405051368?hash=item448be893e8:g:CooAAOSw48BhRgw3",
+    "sites":"ebay"
+  },
+  "189":{
+    "nome":"Expert orientada GeForce GTX1080 Placa Gráfica Com Caixa Usado Do Japão",
+    "precos":717.87,
+    "links":"https:\/\/www.ebay.com\/itm\/304133358905?hash=item46cfc2c539:g:cVwAAOSwwotgsOik",
+    "sites":"ebay"
+  },
+  "190":{
+    "nome":"EVGA GeForce GTX 1080 TI SC2 Jogos Gráficos 11GB taxa de dados Duplo Placa Gráfica 5X (11GP46593KR)",
+    "precos":719.76,
+    "links":"https:\/\/www.ebay.com\/itm\/274851743429?epid=6018267604&hash=item3ffe70c6c5:g:bqQAAOSwMxJg2Uwn",
+    "sites":"ebay"
+  },
+  "191":{
+    "nome":"MSI NVIDIA GTX 1080 Ti Jogos X 11GB gráficos Double data rate 5 Placa gráfica do JAPÃO F\/S",
+    "precos":719.83,
+    "links":"https:\/\/www.ebay.com\/itm\/384248875640?hash=item5977048a78:g:H6sAAOSwMxJg3nOa",
+    "sites":"ebay"
+  },
+  "192":{
+    "nome":"GIGABYTE GeForce GTX 1080 Ti Turbo 11G Edição Founders Placa De Vídeo",
+    "precos":722.2,
+    "links":"https:\/\/www.ebay.com\/itm\/324696138246?hash=item4b9965e206:g:-mgAAOSwc3Bg23sL",
+    "sites":"ebay"
+  },
+  "193":{
+    "nome":"NVIDIA GTX 1080 Mxm Placa Gráfica 8GB Gddr 5X GPU-MSI GT73VR, GT75VR, CLEVO",
+    "precos":722.63,
+    "links":"https:\/\/www.ebay.com\/itm\/224616785972?hash=item344c342834:g:5fMAAOSw6iRhSJMn",
+    "sites":"ebay"
+  },
+  "194":{
+    "nome":"EVGA GeForce GTX 1080 Jogos FTW2, gráficos 8GB 08G-P4-6686-KR, taxa de dados Duplo 5X, Icx - 9 térmico",
+    "precos":724.95,
+    "links":"https:\/\/www.ebay.com\/itm\/114587949982?epid=17030522874&hash=item1aadf95b9e:g:HUwAAOSwrDxf4Ry-",
+    "sites":"ebay"
+  },
+  "195":{
+    "nome":"Evga Geforce Gtx 1080 TI FTW3 Jogos 11gb Placa Gráfica",
+    "precos":726.3,
+    "links":"https:\/\/www.ebay.com\/itm\/284373744521?epid=5032174213&hash=item4235fefb89:g:QcwAAOSwm9Bg8YV3",
+    "sites":"ebay"
+  },
+  "196":{
+    "nome":"MSI NVIDIA GTX 1080 Jogos X Plus 8GB Gddr 5X Placa Gráfica",
+    "precos":728.29,
+    "links":"https:\/\/www.ebay.com\/itm\/133849100084?hash=item1f2a072f34:g:YKIAAOSwlJVgfYBy",
+    "sites":"ebay"
+  },
+  "197":{
+    "nome":"NVIDIA GeForce GTX 1080 Founders Edição 8GB",
+    "precos":729.34,
+    "links":"https:\/\/www.ebay.com\/itm\/284325583099?epid=233139523&hash=item42332018fb:g:Di8AAOSw5JNgv5vd",
+    "sites":"ebay"
+  },
+  "63":{
+    "nome":"Portátil HP OMEN Gaming 15-DC0015NP Core i7, 16G R",
+    "precos":749.0,
+    "links":"https:\/\/www.custojusto.pt\/braga\/informatica\/informatica-acessorios\/portatil-hp-omen-gaming-15-dc0-34244134",
+    "sites":"custojusto"
+  },
+  "64":{
+    "nome":"Omen 15-DC0016np",
+    "precos":750.0,
+    "links":"https:\/\/www.custojusto.pt\/porto\/informatica\/informatica-acessorios\/omen-15-dc0016np-34721511",
+    "sites":"custojusto"
+  },
+  "65":{
+    "nome":"Portátil Lenovo Legion Y530-15ICH",
+    "precos":750.0,
+    "links":"https:\/\/www.custojusto.pt\/lisboa\/informatica\/informatica-acessorios\/portatil-lenovo-legion-y530-15-34558720",
+    "sites":"custojusto"
+  },
+  "66":{
+    "nome":"Portátil Gaming ACER NITRO 5",
+    "precos":750.0,
+    "links":"https:\/\/www.custojusto.pt\/lisboa\/informatica\/informatica-acessorios\/portatil-gaming-acer-nitro-5-34558708",
+    "sites":"custojusto"
+  },
+  "47":{
+    "nome":"Placa Gráfica Asus Geforce GTX 1080 Ti 11Gb",
+    "precos":750.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-asus-geforce-gtx-1080-ti-11gb-IDGsRES.html#1097b148bc",
+    "sites":"olx"
+  },
+  "198":{
+    "nome":"NVIDIA GTX 1080 MXM 3.0b Graphic Card 8GB DDR5X",
+    "precos":750.52,
+    "links":"https:\/\/www.ebay.com\/itm\/203601882966?hash=item2f679e2f56:g:WLoAAOSwBkJgi17S",
+    "sites":"ebay"
+  },
+  "200":{
+    "nome":"EVGA Geforce GTX 1080 gráficos 8GB taxa de dados Duplo 5X 256Bit Placa De Vídeo Para Jogos Gráficos",
+    "precos":753.0,
+    "links":"https:\/\/www.ebay.com\/itm\/324622043206?epid=26021689585&hash=item4b94fb4846:g:XfkAAOSwsDZgnaBW",
+    "sites":"ebay"
+  },
+  "201":{
+    "nome":"Gigabyte GeForce GTX 1080 G1 Gaming gráficos 8G",
+    "precos":753.06,
+    "links":"https:\/\/www.ebay.com\/itm\/174675957450?epid=27030517196&hash=item28ab7f96ca:g:2V8AAOSwAQJgSOQ~",
+    "sites":"ebay"
+  },
+  "202":{
+    "nome":"Asus Rog Strix Geforce Gtx 1080 Ti Oc",
+    "precos":754.24,
+    "links":"https:\/\/www.ebay.com\/itm\/164946799779?hash=item2667986ca3:g:RdAAAOSwg5lg5Qdh",
+    "sites":"ebay"
+  },
+  "85":{
+    "nome":"EVGA GeForce GTX 1080 Ti 11GB Founders Edition (original box, warranty 2022)",
+    "precos":755.0,
+    "links":"https:\/\/www.ebay.com\/itm\/203613349918?hash=item2f684d281e:g:UF0AAOSwuXlhNTb6",
+    "sites":"ebay"
+  },
+  "203":{
+    "nome":"MSI Vr Vortex G65VR-082 NVIDIA GTX 1080 MXM 3.0b Graphic Card 8GB DDR5X + Montagem",
+    "precos":759.05,
+    "links":"https:\/\/www.ebay.com\/itm\/383915247625?hash=item596321c809:g:5X0AAOSwySVZ5m-f",
+    "sites":"ebay"
+  },
+  "204":{
+    "nome":"GIGABYTE GV-N 108 TAORUS X-11GD AORUS GeForce GTX 1080 TI Xtreme Edition 11GB Gd...",
+    "precos":763.23,
+    "links":"https:\/\/www.ebay.com\/itm\/265134787552?epid=16026507463&hash=item3dbb43cbe0:g:hQMAAOSwU6Jggt-9",
+    "sites":"ebay"
+  },
+  "205":{
+    "nome":"EVGA NVIDIA GeForce GTX 1080 Ti GDDR Placa Gráfica 5X (11GP46593KB)",
+    "precos":763.31,
+    "links":"https:\/\/www.ebay.com\/itm\/154598625634?hash=item23fecbd162:g:XWQAAOSwGNthNUwu",
+    "sites":"ebay"
+  },
+  "206":{
+    "nome":"NVIDIA GTX 1080 8GB MXM 3.1 G-Sync GPU Clevo P870TM1\/P775TM1\/P751TM1 10DE-1BE0",
+    "precos":765.0,
+    "links":"https:\/\/www.ebay.com\/itm\/293570278892?epid=25046890396&hash=item445a26f5ec:g:ofUAAOSwpCBewplz",
+    "sites":"ebay"
+  },
+  "207":{
+    "nome":"Asus Gtx 1080Ti Asus Rog Strix Jogos",
+    "precos":765.44,
+    "links":"https:\/\/www.ebay.com\/itm\/194248189608?hash=item2d3a1826a8:g:m0MAAOSwSxVgZOgm",
+    "sites":"ebay"
+  },
+  "208":{
+    "nome":"Republic Of Gamers GTX 1080ti STRIX Overclocked Edition-Perfeito Estado",
+    "precos":770.13,
+    "links":"https:\/\/www.ebay.com\/itm\/363436743003?hash=item549e84995b:g:j3kAAOSwPcRgymZ3",
+    "sites":"ebay"
+  },
+  "209":{
+    "nome":"EVGA GeForce GTX 1080 Ti FTW3 Jogos 11GB Placa Gráfica",
+    "precos":778.13,
+    "links":"https:\/\/www.ebay.com\/itm\/384377427544?epid=5032174213&hash=item597eae1658:g:tSUAAOSwLJRhN-vX",
+    "sites":"ebay"
+  },
+  "210":{
+    "nome":"ASUS Turbo GeForce GTX 1080 Ti 11 Go Carte graphique GDDR 5X",
+    "precos":780.0,
+    "links":"https:\/\/www.ebay.com\/itm\/384352974203?hash=item597d38f57b:g:sQ8AAOSwGu5hJ3q-",
+    "sites":"ebay"
+  },
+  "211":{
+    "nome":"MSI GeForce GTX 1080 Sea Hawk EK X 8GB gráficos Double data rate 6 Placa Gráfica Waterblock Seahawk",
+    "precos":781.44,
+    "links":"https:\/\/www.ebay.com\/itm\/174675042849?epid=10030647879&hash=item28ab71a221:g:MMMAAOSwuwdgSBM5",
+    "sites":"ebay"
+  },
+  "212":{
+    "nome":"Novo anúncioMSI GEFORCE GTX 1080 Ti",
+    "precos":784.92,
+    "links":"https:\/\/www.ebay.com\/itm\/194381119501?hash=item2d4204800d:g:Dy0AAOSw0fFhSgUw",
+    "sites":"ebay"
+  },
+  "213":{
+    "nome":"Novo anúncioASUS Geforce GTX 1080 Ti TURBO-GTX1080TI-11G",
+    "precos":786.06,
+    "links":"https:\/\/www.ebay.com\/itm\/194381121381?hash=item2d42048765:g:FMIAAOSwP79hSgXu",
+    "sites":"ebay"
+  },
+  "214":{
+    "nome":"GEFORCE GTX 1080 TI AERO 11G",
+    "precos":793.45,
+    "links":"https:\/\/www.ebay.com\/itm\/164930551781?hash=item2666a07fe5:g:FJAAAOSw6Qlgrqy4",
+    "sites":"ebay"
+  },
+  "215":{
+    "nome":"MSI GEFORCE GTX 1080 TI Jogos 11G Japonês",
+    "precos":794.88,
+    "links":"https:\/\/www.ebay.com\/itm\/324776758161?hash=item4b9e340b91:g:t-wAAOSwA7thDhog",
+    "sites":"ebay"
+  },
+  "216":{
+    "nome":"GEFORCE GTX 1080 TI Jogos X 11G Para Jogos Placa Gráfica",
+    "precos":796.04,
+    "links":"https:\/\/www.ebay.com\/itm\/403146994484?hash=item5ddd6ef334:g:m6QAAOSwdoZhOoNh",
+    "sites":"ebay"
+  },
+  "217":{
+    "nome":"ASUS Turbo GeForce GTX 1080 Ti gráficos 11GB taxa de dados Duplo Placa de Vídeo Gráfica 5X",
+    "precos":796.45,
+    "links":"https:\/\/www.ebay.com\/itm\/324624332464?epid=17017962957&hash=item4b951e36b0:g:PpEAAOSw47FgnySh",
+    "sites":"ebay"
+  },
+  "218":{
+    "nome":"GIGABYTE GTX 1080 Ti GAMING Oc 11G",
+    "precos":797.91,
+    "links":"https:\/\/www.ebay.com\/itm\/403133275232?epid=3035052471&hash=item5ddc9d9c60:g:52EAAOSw~ohhNGeL",
+    "sites":"ebay"
+  },
+  "67":{
+    "nome":"Portatil ACER V Nitro Black Edition - VN7-791G",
+    "precos":800.0,
+    "links":"https:\/\/www.custojusto.pt\/porto\/informatica\/informatica-acessorios\/portatil-acer-v-nitro-black-ed-34372474",
+    "sites":"custojusto"
+  },
+  "7":{
+    "nome":"Pc i7-7700k 4.2ghz gtx 1080 8gb founders edition",
+    "precos":800.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-i7-7700k-4-2ghz-gtx-1080-8gb-founders-edition-IDGDTiW.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "219":{
+    "nome":"EVGA NVIDIA GTX 1080 Ti -- 11GB 11G-P4-6390-KR Testado",
+    "precos":804.6,
+    "links":"https:\/\/www.ebay.com\/itm\/284343982815?epid=23031094619&hash=item423438dadf:g:YDAAAOSwMiZg0zsm",
+    "sites":"ebay"
+  },
+  "220":{
+    "nome":"MSI ARMOR GeForce GTX 1080 Ti 11G OC gráfico Board Placas De Vídeo Usado Raro do Japão",
+    "precos":805.97,
+    "links":"https:\/\/www.ebay.com\/itm\/353682640357?hash=item525920cde5:g:RxUAAOSwFKlhR077",
+    "sites":"ebay"
+  },
+  "221":{
+    "nome":"NVidia GTX Titan X 12GB RAM Reference | Apple Mac Pro Upgrade Video Card CUDA",
+    "precos":807.99,
+    "links":"https:\/\/www.ebay.com\/itm\/122663255542?hash=item1c8f4cbdf6:g:6ToAAOSwrL9ds3-N",
+    "sites":"ebay"
+  },
+  "222":{
+    "nome":"Novo anúncioPalit Geforce GTX 1080 Ti Jetstream",
+    "precos":821.23,
+    "links":"https:\/\/www.ebay.com\/itm\/194381127713?hash=item2d4204a021:g:K-IAAOSwoLZhSgbh",
+    "sites":"ebay"
+  },
+  "223":{
+    "nome":"EVGA GeForce GTX 1080 TI Hybrid SC2 gráficos 11GB taxa de dados Duplo Placa gráfica GPU 5X",
+    "precos":823.48,
+    "links":"https:\/\/www.ebay.com\/itm\/194196813622?epid=20026516299&hash=item2d37083736:g:rNwAAOSwKaxgfLE5",
+    "sites":"ebay"
+  },
+  "224":{
+    "nome":"GIGABYTE GeForce GTX 1080 DirectX 12 GV-N1080WF3OC-8GD 8GB 256-Bit Placa Gráfica Double data rate 5X Pci Ex",
+    "precos":823.95,
+    "links":"https:\/\/www.ebay.com\/itm\/173857043786?hash=item287aaff54a:g:OaUAAOSw61dbr6ui",
+    "sites":"ebay"
+  },
+  "225":{
+    "nome":"MSI NVIDIA GeForce GTX 1080 Ti gráficos 11GB taxa de dados Duplo 5X Para Jogos Placa Gráfica (GTX 1080 tigaming",
+    "precos":835.82,
+    "links":"https:\/\/www.ebay.com\/itm\/114997936277?epid=2260236094&hash=item1ac6694095:g:-coAAOSwtkhhDT9~",
+    "sites":"ebay"
+  },
+  "226":{
+    "nome":"MSI MS16L1 Kit de atualização GPU; novo NVIDIA GTX 1080; 8GB DDR5X; Mxm 3.1",
+    "precos":844.52,
+    "links":"https:\/\/www.ebay.com\/itm\/122498233515?hash=item1c8576b4ab:g:HZUAAOSwK6RZGfg9",
+    "sites":"ebay"
+  },
+  "227":{
+    "nome":"MSI 1080 TI Jogos X Trio + Estoque + Completo Waterblock fãs",
+    "precos":848.74,
+    "links":"https:\/\/www.ebay.com\/itm\/224615670951?epid=8031290550&hash=item344c2324a7:g:3rcAAOSwIG9hR1hk",
+    "sites":"ebay"
+  },
+  "1":{
+    "nome":"Placa Gráfica GTX 1080 EVGA FTW",
+    "precos":850.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/placa-grfica-gtx-1080-evga-ftw-IDGHTfr.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "228":{
+    "nome":"Novo anúncioZOTAC GeForce GTX 1080 Ti AMP Extreme",
+    "precos":853.0,
+    "links":"https:\/\/www.ebay.com\/itm\/194381122676?hash=item2d42048c74:g:dhoAAOSwH5dhSgZX",
+    "sites":"ebay"
+  },
+  "229":{
+    "nome":"ASUS ROG Strix GeForce GTX 1080 Ti OC Água Refrigerado Ekwb",
+    "precos":858.05,
+    "links":"https:\/\/www.ebay.com\/itm\/165082663104?epid=21031290066&hash=item266fb188c0:g:9ZgAAOSwdwBhSFxC",
+    "sites":"ebay"
+  },
+  "230":{
+    "nome":"GIGABYTE NVIDIA GeForce GTX 1080 Ti 11GB gráficos Double data rate 5X Placa Gráfica (GV-N 108 tgaming Oc",
+    "precos":874.16,
+    "links":"https:\/\/www.ebay.com\/itm\/313657971334?epid=3035052471&hash=item490778d286:g:3BkAAOSwhPJhLwfs",
+    "sites":"ebay"
+  },
+  "231":{
+    "nome":"Novo anúncioASUS Geforce GTX 1080 Ti ROG-STRIX-GTX1080TI-O11G - Jogos",
+    "precos":877.95,
+    "links":"https:\/\/www.ebay.com\/itm\/194381117382?hash=item2d420477c6:g:ek0AAOSw6fBhSgTx",
+    "sites":"ebay"
+  },
+  "232":{
+    "nome":"MSI GTX 1080 Ti 11GB Para Jogos X GPU usado para jogos",
+    "precos":882.73,
+    "links":"https:\/\/www.ebay.com\/itm\/144202871692?epid=2260236094&hash=item219329338c:g:AVcAAOSwCs1hQkN7",
+    "sites":"ebay"
+  },
+  "233":{
+    "nome":"ZOTAC NVIDIA GeForce GTX1080 8GB gráficos Double data rate 5X Pci-e Placa de vídeo gráficos Dp Hdmi",
+    "precos":887.0,
+    "links":"https:\/\/www.ebay.com\/itm\/324522253423?hash=item4b8f089c6f:g:LkkAAOSwkVtgWM1Q",
+    "sites":"ebay"
+  },
+  "234":{
+    "nome":"Evga Geoforce Gtx 1080 Sc 8gb Gddr 5x",
+    "precos":891.53,
+    "links":"https:\/\/www.ebay.com\/itm\/273091299735?epid=233139523&hash=item3f95828997:g:UiUAAOSwGvlamJpB",
+    "sites":"ebay"
+  },
+  "235":{
+    "nome":"NVIDIA EVGA GeForce GTX 1080 Founders Edition 8GB Placa Gráfica (08G-P4-6180-KR)",
+    "precos":893.6,
+    "links":"https:\/\/www.ebay.com\/itm\/114897031568?epid=512988000&hash=item1ac0659190:g:Og8AAOSwnxlg9F4Y",
+    "sites":"ebay"
+  },
+  "68":{
+    "nome":"Setup Gamer Completo",
+    "precos":900.0,
+    "links":"https:\/\/www.custojusto.pt\/acores\/informatica\/informatica-acessorios\/setup-gamer-completo-34575548",
+    "sites":"custojusto"
+  },
+  "44":{
+    "nome":"PC Gaming GTX 1080 8GB, Ryzen 5 2600, 8 GB DDR4, 500 GB, Win10 x64",
+    "precos":900.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-gtx-1080-8gb-ryzen-5-2600-8-gb-ddr4-500-gb-win10-x64-IDFtRBs.html#1097b148bc",
+    "sites":"olx"
+  },
+  "236":{
+    "nome":"EVGA GeForce GTX 1080 Ti SC Preto Para Jogos Gráficos 11GB Double data rate 5X Placa Gráfica Em Mãos Agora.",
+    "precos":906.94,
+    "links":"https:\/\/www.ebay.com\/itm\/393256824303?epid=17021690744&hash=item5b8feeedef:g:3EQAAOSwgzxggSp5",
+    "sites":"ebay"
+  },
+  "237":{
+    "nome":"GIGABYTE AORUS GeForce GTX 1080 Ti 11GB gráficos Double data rate 5X Placa Gráfica Ótimo Estado!",
+    "precos":928.79,
+    "links":"https:\/\/www.ebay.com\/itm\/120939401094?epid=16026507463&hash=item1c288ccf86:g:5N0AAOSwbmJgInbL",
+    "sites":"ebay"
+  },
+  "238":{
+    "nome":"EVGA GeForce GTX 1080 Ti FTW3 Jogos 11G-P4-6696-KR 11GB Placa Gráfica Double data rate 5X iCX Technology",
+    "precos":933.91,
+    "links":"https:\/\/www.ebay.com\/itm\/124788495017?epid=5032174213&hash=item1d0df952a9:g:enAAAOSwao9g2Adx",
+    "sites":"ebay"
+  },
+  "42":{
+    "nome":"Torre Gaming MSI Aegis X com GTX 1080 + I7 6700 + 16GB RAM",
+    "precos":945.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-gaming-msi-aegis-x-com-gtx-1080-i7-6700-16gb-ram-IDGFUx4.html#1097b148bc",
+    "sites":"olx"
+  },
+  "239":{
+    "nome":"ASUS NVIDIA GeForce GTX1080 8GB gráficos Double data rate 5X Pci-e Placa de vídeo gráficos Dvi Hdmi Dp",
+    "precos":980.81,
+    "links":"https:\/\/www.ebay.com\/itm\/324523896904?hash=item4b8f21b048:g:jYsAAOSwSpVgUHL9",
+    "sites":"ebay"
+  },
+  "20":{
+    "nome":"PC gaming I7 6700K GTX 1080",
+    "precos":1000.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-i7-6700k-gtx-1080-IDGH2jR.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "37":{
+    "nome":"Gaming Msi i7 + Msi GTX 1080 + Nvme",
+    "precos":1000.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gaming-msi-i7-msi-gtx-1080-nvme-IDGpm5A.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "41":{
+    "nome":"PC GAMER - GTX 1080 - TROCO POR PORTATIL",
+    "precos":1000.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamer-gtx-1080-troco-por-portatil-IDGFVSY.html#1097b148bc",
+    "sites":"olx"
+  },
+  "241":{
+    "nome":"Clevo P870TM1\/P775TM1\/P751TM1 Kit de atualização GPU; G-SYNC; Nvidia Gtx 1080; 8GB; Mxm 3.1",
+    "precos":1050.71,
+    "links":"https:\/\/www.ebay.com\/itm\/112758635055?hash=item1a40f03a2f:g:33IAAOSwjXNaXiLC",
+    "sites":"ebay"
+  },
+  "240":{
+    "nome":"Clevo P87xxx\/P7xxx Kit de atualização VGA; Novo Nvidia Gtx 1080; 8GB DDR5; Mxm 3.0b",
+    "precos":1050.71,
+    "links":"https:\/\/www.ebay.com\/itm\/132119962202?hash=item1ec2f6a25a:g:LWwAAOSw4CFYwGhE",
+    "sites":"ebay"
+  },
+  "242":{
+    "nome":"ASUS ROG-STRIX-GTX1080TI-O11G - jogos Japonês",
+    "precos":1070.63,
+    "links":"https:\/\/www.ebay.com\/itm\/154596062052?epid=3013776031&hash=item23fea4b364:g:-U0AAOSwuwlhDhrq",
+    "sites":"ebay"
+  },
+  "243":{
+    "nome":"ASUS ROG-STRIX-GTX1080TI-O11G Jogos-Frete Grátis",
+    "precos":1082.58,
+    "links":"https:\/\/www.ebay.com\/itm\/384400892050?hash=item5980142092:g:a08AAOSwrjxhRTyr",
+    "sites":"ebay"
+  },
+  "244":{
+    "nome":"NVIDIA GeForce GTX 1080 Founders Edition 8GB gráficos Double data rate 5X Pcie 3.0 Video Graphics Card",
+    "precos":1085.04,
+    "links":"https:\/\/www.ebay.com\/itm\/292787551394?epid=233139523&hash=item442b7f7ca2:g:WIcAAOSw1u9b0eeZ",
+    "sites":"ebay"
+  },
+  "245":{
+    "nome":"EVGA GeForce GTX 1080 Ftw Jogos ACX 3.0 08G-P4-6286-KR Placa De Vídeo 8GB gráficos Double data rate 5",
+    "precos":1093.51,
+    "links":"https:\/\/www.ebay.com\/itm\/292816647855?epid=25026504601&hash=item442d3b76af:g:DaMAAOSwrm5cTuMI",
+    "sites":"ebay"
+  },
+  "24":{
+    "nome":"Ryzen 5 3600X \/ MSI GTX 1080 \/ DDR4 16GB RAM \/ MAG B550 TOMAHAWK",
     "precos":1100.0,
-    "links":"https:\/\/www.olx.pt\/d\/anuncio\/portatil-hp-omen-17-i7-8750h-gtx-1060-6gb-32gb-1tb-ssd-1tb-hd-IDGGGXD.html#66835062ab"
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/ryzen-5-3600x-msi-gtx-1080-ddr4-16gb-ram-mag-b550-tomahawk-IDGGOjn.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "246":{
+    "nome":"ZOTAC GeForce GTX 1080 Amp! Edition, ZT-P10800C-10P gráficos 8GB, taxa de dados Duplo 5X IceStorm de arrefecimento",
+    "precos":1103.67,
+    "links":"https:\/\/www.ebay.com\/itm\/172355522042?epid=1274844750&hash=item2821308dfa:g:hxUAAOSwYIxX6dc6",
+    "sites":"ebay"
+  },
+  "247":{
+    "nome":"GIGABYTE P104-100 4GB Mineração GPU Eth BTC Bitcoin como GTX1080",
+    "precos":1124.85,
+    "links":"https:\/\/www.ebay.com\/itm\/293555640312?hash=item44594797f8:g:PZkAAOSw6lZeoE54",
+    "sites":"ebay"
+  },
+  "249":{
+    "nome":"Placa de vídeo GeForce GTX 1080 8GB DDR5 Hdmi\/# 2610 7A5 T",
+    "precos":1144.26,
+    "links":"https:\/\/www.ebay.com\/itm\/185061186719?hash=item2b16819c9f:g:ze0AAOSwPwJhSHQU",
+    "sites":"ebay"
+  },
+  "25":{
+    "nome":"Torre Kolink Citadel RGB (Ryzen 5 5600X\/16GB\/1TB SSD\/GTX 1080 8GB)",
+    "precos":1145.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-kolink-citadel-rgb-ryzen-5-5600x-16gb-1tb-ssd-gtx-1080-8gb-IDGGNXc.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "250":{
+    "nome":"Usado Aorus GeForce Experience GTX 1080Ti 11G Placa Gráfica Vr Windforce",
+    "precos":1147.96,
+    "links":"https:\/\/www.ebay.com\/itm\/402591259789?hash=item5dbc4f1c8d:g:fz0AAOSwht1fls5N",
+    "sites":"ebay"
+  },
+  "251":{
+    "nome":"EVGA Nvidia GeForce GTX 1080 Ti SC2 GPU para jogos de jogos 11G-P4-6593-KR Novo 11GB",
+    "precos":1170.2,
+    "links":"https:\/\/www.ebay.com\/itm\/265240292372?hash=item3dc18dac14:g:yngAAOSw8jVg-wes",
+    "sites":"ebay"
+  },
+  "55":{
+    "nome":"PC gamer Monstro I7 8700K + 16GB RAM + GTX 1080 ROG STRIX + SSD",
+    "precos":1200.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamer-monstro-i7-8700k-16gb-ram-gtx-1080-rog-strix-ssd-IDGoMWR.html#1097b148bc",
+    "sites":"olx"
+  },
+  "184":{
+    "nome":"NVIDIA GTX 1080 Ti FONDATEUR EDITION",
+    "precos":1200.0,
+    "links":"https:\/\/www.ebay.com\/itm\/224612041783?hash=item344bebc437:g:7dIAAOSwZpphHm3M",
+    "sites":"ebay"
+  },
+  "252":{
+    "nome":"ASUS ROG STRIX GeForce GTX 1080 8GB VR Ready Gaming Graphics Card",
+    "precos":1215.0,
+    "links":"https:\/\/www.ebay.com\/itm\/184721675476?epid=7026969349&hash=item2b024514d4:g:esEAAOSwiV5gV~5Y",
+    "sites":"ebay"
+  },
+  "14":{
+    "nome":"PC Gaming - GTX 1080 8GB OC + i5 10600KF",
+    "precos":1250.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-gtx-1080-8gb-oc-i5-10600kf-IDGzBW2.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "31":{
+    "nome":"Desktop Gaming Core i7 6900K GTX 1080 Evga FTW",
+    "precos":1299.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/desktop-gaming-core-i7-6900k-gtx-1080-evga-ftw-IDGDbcp.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "253":{
+    "nome":"KFA2 GTX 1080 HALL OF FAME EDITION Novo Em Folha!!!",
+    "precos":1304.91,
+    "links":"https:\/\/www.ebay.com\/itm\/254901614344?hash=item3b5951f708:g:n9MAAOSwRZpgTSJs",
+    "sites":"ebay"
+  },
+  "199":{
+    "nome":"GIGABYTE GeForce GTX 1080 Ti Turbo 11G",
+    "precos":1310.0,
+    "links":"https:\/\/www.ebay.com\/itm\/353682532182?hash=item52591f2756:g:3GEAAOSwiQthRzo3",
+    "sites":"ebay"
+  },
+  "254":{
+    "nome":"Pny Geforce Gtx 1080 Ti 11GB Pci-e x16 3.0 Gddr 5X Placa Gráfica GF108IGTXCR11EPB",
+    "precos":1310.8,
+    "links":"https:\/\/www.ebay.com\/itm\/292816719745?epid=26033166923&hash=item442d3c8f81:g:hEQAAOSwWrNcTuKD",
+    "sites":"ebay"
+  },
+  "255":{
+    "nome":"ASUS Turbo GeForce GTX 1080 Ti 11GB gráficos Double data rate 5X Placa Gráfica",
+    "precos":1324.38,
+    "links":"https:\/\/www.ebay.com\/itm\/274920306804?epid=17017962957&hash=item400286f874:g:xaUAAOSwsblhJl2Y",
+    "sites":"ebay"
+  },
+  "256":{
+    "nome":"NVIDIA GeForce GTX 1080 8GB gráficos Double data rate 5 Sdram Pci Express 3.0 Placa De Vídeo",
+    "precos":1327.31,
+    "links":"https:\/\/www.ebay.com\/itm\/224484444857?epid=233139523&hash=item344450cab9:g:bCMAAOSw9BpguN8p",
+    "sites":"ebay"
+  },
+  "257":{
+    "nome":"Asus ROG STRIX GTX 1080 TI OC (ROG-STRIX-GTX1080TI-O11G - jogos)",
+    "precos":1345.58,
+    "links":"https:\/\/www.ebay.com\/itm\/255076956144?epid=3013776031&hash=item3b63c577f0:g:KVQAAOSwLd5hCdMM",
+    "sites":"ebay"
+  },
+  "258":{
+    "nome":"PNY VCGGTX1080T11PB-CG Geforce GTX 1080 Ti 11GB PCI Express 3.0 x16 Scheda Video",
+    "precos":1346.98,
+    "links":"https:\/\/www.ebay.com\/itm\/203563922169?hash=item2f655af2f9:g:xioAAOSw2GdhGr0Z",
+    "sites":"ebay"
+  },
+  "259":{
+    "nome":"PNY VCGGTX 1080T11PB-CG GeForce GTX 1080 TI 11GB Pci Express 3.0 x16 Placa De Vídeo",
+    "precos":1351.18,
+    "links":"https:\/\/www.ebay.com\/itm\/174895195812?hash=item28b890e6a4:g:xioAAOSw2GdhGr0Z",
+    "sites":"ebay"
+  },
+  "260":{
+    "nome":"PNY VCGGTX 1080T11PB-CG GeForce GTX 1080 TI 11GB Pci Express 3.0 x16 Placa De Vídeo",
+    "precos":1360.34,
+    "links":"https:\/\/www.ebay.com\/itm\/203563551857?epid=26033166923&hash=item2f65554c71:g:xioAAOSw2GdhGr0Z",
+    "sites":"ebay"
+  },
+  "261":{
+    "nome":"Placa De Vídeo PNY VCGGTX 1080T11PB-CG GeForce GTX 1080 TI 11GB Pci Express 3.0 x16",
+    "precos":1360.34,
+    "links":"https:\/\/www.ebay.com\/itm\/144164646906?epid=26033166923&hash=item2190e1effa:g:JogAAOSwLnRhIOwk",
+    "sites":"ebay"
+  },
+  "262":{
+    "nome":"PNY VCGGTX 1080T11PB-CG GeForce GTX 1080 TI 11GB Pci Express 3.0 x16 Placa De Vídeo",
+    "precos":1364.48,
+    "links":"https:\/\/www.ebay.com\/itm\/203563876821?epid=26033166923&hash=item2f655a41d5:g:xioAAOSw2GdhGr0Z",
+    "sites":"ebay"
+  },
+  "263":{
+    "nome":"PNY VCGGTX 1080T11PB-CG GeForce GTX 1080 TI 11GB Pci Express 3.0 x16 Placa De Vídeo",
+    "precos":1365.03,
+    "links":"https:\/\/www.ebay.com\/itm\/174895195802?hash=item28b890e69a:g:xioAAOSw2GdhGr0Z",
+    "sites":"ebay"
+  },
+  "57":{
+    "nome":"PC Gamig+Monitor-GTX 1080 8GB - i7 9700k",
+    "precos":1375.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gamig-monitor-gtx-1080-8gb-i7-9700k-IDGoVxb.html#1097b148bc",
+    "sites":"olx"
+  },
+  "15":{
+    "nome":"Pc\/Desktop Gaming i7 com GTX 1080",
+    "precos":1400.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-desktop-gaming-i7-com-gtx-1080-IDGqCPG.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "264":{
+    "nome":"Gigabyte GV-N1080IXEB-8GD - GeForce GTX 1080 - 8 GB - GDDR5X - 10010 MHz",
+    "precos":1427.9,
+    "links":"https:\/\/www.ebay.com\/itm\/363545488722?epid=2288239300&hash=item54a4ffed52:g:TlUAAOSwQm9hQ2m2",
+    "sites":"ebay"
+  },
+  "265":{
+    "nome":"GeForce 11GB placas gráficas N 108 tgamingoc - 11GD (RENOVADA) GTX 1080 Ti Gaming Oc",
+    "precos":1441.79,
+    "links":"https:\/\/www.ebay.com\/itm\/144115671121?hash=item218df6a051:g:Ae0AAOSwuYdg8bgw",
+    "sites":"ebay"
+  },
+  "266":{
+    "nome":"MSI NVIDIA GeForce GTX 1080 Jogos 8GB X 8GB Twin Frozr Vi",
+    "precos":1457.51,
+    "links":"https:\/\/www.ebay.com\/itm\/203483820570?epid=2254310682&hash=item2f6094b21a:g:nSgAAOSweptgusC9",
+    "sites":"ebay"
+  },
+  "0":{
+    "nome":"PC Gaming GTX1080 como NOVO",
+    "precos":1500.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-gtx1080-como-novo-IDGHY37.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "51":{
+    "nome":"Pc gaming streaming i7 8700k gtx 1080 msi",
+    "precos":1500.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-streaming-i7-8700k-gtx-1080-msi-IDC88wK.html#1097b148bc",
+    "sites":"olx"
+  },
+  "267":{
+    "nome":"ASUS R.O.G. STRIX NVIDIA GeForce GTX 1080 Placa Gráfica Base Clock 1759MHz",
+    "precos":1507.11,
+    "links":"https:\/\/www.ebay.com\/itm\/284401895910?epid=1774081910&hash=item4237ac89e6:g:dBoAAOSwxllhEIo1",
+    "sites":"ebay"
+  },
+  "268":{
+    "nome":"ROG-POSEIDON-GTX1080TI-P11G x2 + ROG MAXIMUS VIII EXTREME + Intel Core i7-6700K",
+    "precos":1670.31,
+    "links":"https:\/\/www.ebay.com\/itm\/255126190843?hash=item3b66b4bafb:g:wHQAAOSw9BJhOAKr",
+    "sites":"ebay"
+  },
+  "6":{
+    "nome":"PC Ryzen GTX1080 + Oculus Rift S",
+    "precos":1700.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-ryzen-gtx1080-oculus-rift-s-IDGBu6j.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "269":{
+    "nome":"EVGA Geforce GTX 1080 SC2 Jogos Gráficos 8GB, taxa de dados Duplo 5X, Icx Technology - 9 sensores térmicos",
+    "precos":1744.05,
+    "links":"https:\/\/www.ebay.com\/itm\/324796597123?hash=item4b9f62c383:g:ueMAAOSw84ZhSLK6",
+    "sites":"ebay"
+  },
+  "36":{
+    "nome":"Gaming i7 + GTX 1080 Ti + GX 650W",
+    "precos":1750.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/gaming-i7-gtx-1080-ti-gx-650w-IDGnnj8.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "19":{
+    "nome":"Torre Pc i9 9900k GTX 1080ti",
+    "precos":1750.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/torre-pc-i9-9900k-gtx-1080ti-IDGH4oi.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "45":{
+    "nome":"PC Gaming(LGA2011-3) I7+WC+32GB-ddr4+GTX1080TI+SSD-512G-M.2+2Tb+2Tb",
+    "precos":1800.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaminglga2011-3-i7-wc-32gb-ddr4-gtx1080ti-ssd-512g-m-2-2tb-2tb-IDBQqwg.html#1097b148bc",
+    "sites":"olx"
+  },
+  "33":{
+    "nome":"PC GAMING DE SONHO! i9 9900K - GTX 1080ti - 16GB DDR4 - 1TB SSD M.2",
+    "precos":2000.0,
+    "links":"https:\/\/www.olx.pt\/d\/anuncio\/pc-gaming-de-sonho-i9-9900k-gtx-1080ti-16gb-ddr4-1tb-ssd-m-2-IDGG5oS.html#b22c96c23c",
+    "sites":"olx"
+  },
+  "270":{
+    "nome":"ASUS R.O.G. STRIX Series Placa de vídeo com NVIDIA GeForce GTX Usado 1080 Do Japão",
+    "precos":2129.13,
+    "links":"https:\/\/www.ebay.com\/itm\/304147905518?hash=item46d0a0bbee:g:5HQAAOSwEA5gpFkS",
+    "sites":"ebay"
+  },
+  "271":{
+    "nome":"Nvidia Founder Edition GTX 1080 Asus GIGABYTE Xtreme Gaming GTX 1070 Do Japão",
+    "precos":2567.71,
+    "links":"https:\/\/www.ebay.com\/itm\/304147905681?hash=item46d0a0bc91:g:NDgAAOSw7khgpGer",
+    "sites":"ebay"
+  },
+  "272":{
+    "nome":"MSI GeForce GTX1080Ti GAMINGX 11G Conjunto De 4 Peças Com Caixa Usado Do Japão",
+    "precos":3911.49,
+    "links":"https:\/\/www.ebay.com\/itm\/304133359890?hash=item46cfc2c912:g:HZIAAOSwe1pgsP8d",
+    "sites":"ebay"
+  },
+  "273":{
+    "nome":"Sistema de refrigeração MSI Original \"TWINFROZR Vi 'GeForce GTX 1080 gráficos De Jogos X 8G",
+    "precos":4561.27,
+    "links":"https:\/\/www.ebay.com\/itm\/163951378833?epid=1876931167&hash=item262c438191:g:i-EAAOSwqMtd09-5",
+    "sites":"ebay"
   }
->>>>>>> 2217f3f74a7c94629f3a0c16f2377bd19c604f33
 }
