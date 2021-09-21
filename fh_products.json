@@ -1,3 +1,41 @@
 {
+<<<<<<< HEAD
 
+=======
+  "0":{
+    "nome":"Chip7 SPIDER V1 I5 10600KF 16GB 480GB GTX 1660",
+    "precos":909.0,
+    "links":"https:\/\/www.chip7.pt\/desktops\/86302-computador-gaming-chip7-spider-v1-i5-10600kf-hexa-core-gtx-1660-6gb-16gb-ram-480gb-ssd-600w.html"
+  },
+  "1":{
+    "nome":"HP Pavilion Desktop TP01-1017ns i5-10400 16GB 1TB SSD GTX1060 W10",
+    "precos":918.29,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/170507\/hp-pavilion-desktop-tp01-1017ns-i5-10400-16gb-1tb-ssd-gtx1060-w10"
+  },
+  "2":{
+    "nome":"Chip7 Taurus V1 I5 10600KF 16GB 512GB SSD GTX 1660 6GB 700W",
+    "precos":1039.0,
+    "links":"https:\/\/www.chip7.pt\/desktops\/84243-computador-gaming-chip7-taurus-v1-i5-10600kf-hexa-core-10th-gen-gtx-1660-ti-6gb-16gb-ram-512gb-ssd-550w.html"
+  },
+  "3":{
+    "nome":"HP OMEN Obelisk 875-0002np i5-8400 16GB 1TB + 256GB SSD GTX 1060 (Recondicionado Grade A)",
+    "precos":1039.97,
+    "links":"https:\/\/www.worten.pt\/outlet\/informatica-e-acessorios\/desktops\/desktop-gaming-hp-omen-obelisk-875-0002np-recondicionado-grade-a-intel-core-i5-8400-nvidia-geforce-gtx-1060-ram-16-gb-1-tb-hdd-256-gb-ssd-7335386?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=Outlet&utm_content=comparadordeprecos&utm_term=Outlet_Informatica-e-Acessorios-Outlet_Desktops-Outlet"
+  },
+  "4":{
+    "nome":"HP Omen 15-DC0015NP 15.6\" i7-8750H 16GB 1TB + 256GB SSD - 4JW49EA",
+    "precos":1077.37,
+    "links":"https:\/\/www.worten.pt\/outlet\/informatica-e-acessorios\/portateis\/portatil-gaming-hp-omen-15-dc0015np-recondicionado-grade-a-15-6-intel-core-i7-8750h-16-gb-ram-1-tb-hdd-256-gb-ssd-nvidia-geforce-gtx-1060-7155540?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=Outlet&utm_content=comparadordeprecos&utm_term=Outlet_Informatica-e-Acessorios-Outlet_Portateis-Outlet"
+  },
+  "5":{
+    "nome":"Asus Gaming GR8 II-6GT013Z i7-7700 16GB 1TB + 128GB SSD GTX 1060 (Recondicionado Grade B)",
+    "precos":1619.17,
+    "links":"https:\/\/www.worten.pt\/outlet\/informatica-e-acessorios\/desktops\/desktop-gaming-asus-gr8-ii-6gt013z-recondicionado-grade-b-intel-core-i7-7700-nvidia-geforce-gtx-1060-ram-16-gb-1-tb-hdd-128-gb-ssd-7376397?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=Outlet&utm_content=comparadordeprecos&utm_term=Outlet_Informatica-e-Acessorios-Outlet_Desktops-Outlet"
+  },
+  "6":{
+    "nome":"Microsoft Surface Studio 2 28\" 4K i7-7820HQ 16GB 1TB SSD W10 Pro - LAJ-00019",
+    "precos":4050.07,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/206771\/microsoft-surface-studio-2-28-4k-i7-7820hq-16gb-1tb-ssd-w10-pro-laj-00019"
+  }
+>>>>>>> 2217f3f74a7c94629f3a0c16f2377bd19c604f33
 }

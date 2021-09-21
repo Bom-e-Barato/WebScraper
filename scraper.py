@@ -9,9 +9,12 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from time import sleep
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 # Lists to store second hand names, prices and links of the products
@@ -143,21 +146,41 @@ def ebay_search(search_term):
 
 
 # FacebookMarketplace search function------------------------------------------------------Probabbly illegal, too bad
-# def fb_search():
+def fb_search(search_term):
     dotenv_path = join(dirname(__file__),'.env')
     load_dotenv(dotenv_path)
     EMAIL = os.environ.get("EMAIL")
     PASSWORD = os.environ.get("PASSWORD")
-#     starting_url="https://www.facebook.com"
-#     email="joaosilvascraper@gmail.com"
-#     password="yJ-B'#YsEf.^G75H"
 
-#     driver = webdriver.Chrome(ChromeDriverManager().install())
-#     driver.get("https://www.facebook.com/marketplace")
-#     sleep(3)
-    
-#     driver.close
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver.get("https://www.facebook.com")
+    sleep(3)
+
+    email_input=driver.find_element_by_id("email")
+    email_input.send_keys(EMAIL)
+
+    sleep(0.5)
+
+    pass_input=driver.find_element_by_id("pass")
+    pass_input.send_keys(PASSWORD)
+
+    sleep(0.5)
+
+    actions = ActionChains(driver)
+    actions.send_keys(Keys.ENTER)
+    actions.perform()
    
+    sleep(5)
+    search_term=f"https://www.facebook.com/marketplace/search/?query={search_term}"
+    driver.get(search_term)
+    sleep(60)
+    
+    #content=driver.page_source
+    #soup=BeautifulSoup(content,'lxml')
+    #print(soup.prettify())
+    #driver.close
+
+
 
 # KuantoKusta search function--------------------------------------------------------------
 def kk_search(search_term):
@@ -206,12 +229,10 @@ def main():
 
     #olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
     #cj_search(location_cj, cj_search_term)                  # Populate the list wtih CustoJusto data
+    ebay_search(ebay_search_term)
+    fb_search(search_term)
 
     #kk_search(kk_search_term)
-
-    ebay_search(ebay_search_term)
-
-    #fb_search()
 
     sh_d = {'nome': sh_names, 'precos': sh_prices, 'links': sh_links}
     pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
