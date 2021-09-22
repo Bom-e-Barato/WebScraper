@@ -37,6 +37,7 @@ def sh_append(name, price, link, site):
 
 
 def olx_search(location, search_term):
+    # Olx has a max of 25 pages
     for i in range(25):
         page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page={i+1}')
         soup = BeautifulSoup(page.text, 'lxml')
@@ -64,10 +65,11 @@ def olx_search(location, search_term):
 
 
 def cj_search(location, search_term):
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'}
     counter = 0
     page_num = 1
     while True:
-        page = requests.get(f'https://www.custojusto.pt/{location}/q/{search_term}?o={page_num}&sp=1&st=a')
+        page = requests.get(f'https://www.custojusto.pt/{location}/q/{search_term}?o={page_num}&sp=1&st=a', headers=headers)
         soup = BeautifulSoup(page.text, 'lxml')
         products = soup.find_all('div', class_='container_related')
 
@@ -79,24 +81,22 @@ def cj_search(location, search_term):
             try:
                 # Get the data
                 product_name = product.find('h2', class_='title_related').find('b').text
-                product_price = float(product.find('h5', class_='price_related').text.strip()[:-2])
+                product_price = float(product.find('h5', class_='price_related').text.strip()[:-2].replace(' ', ''))
                 product_link = product.find('a')['href']
 
                 # Append the data to the lists
                 sh_append(name=product_name, price=product_price, link=product_link, site='custojusto')
+                print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
             except:
                 continue
-
-            counter = counter + 1   # For deubgging purposes
-            page_num = page_num + 1
-            print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
-    print(counter)  # For deubgging purposes
+            
+        page_num = page_num + 1
 
 
 def ebay_search(search_term):
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
     page_num = 1
     while True:
-        headers = {'user-agent': 'Mozilla/5.0'}
         page = requests.get(f'https://www.ebay.com/sch/i.html?_nkw={search_term}&_fcid=164&_sop=15&_pgn={page_num}', headers=headers)
         soup = BeautifulSoup(page.text, 'lxml')
 
@@ -153,6 +153,10 @@ def ebay_search(search_term):
 
 # FacebookMarketplace search function------------------------------------------------------Probabbly illegal, too bad
 def fb_search(search_term):
+    """ opts = Options()
+    opts.headless = True
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opts) """
+
     dotenv_path = join(dirname(__file__),'.env')
     load_dotenv(dotenv_path)
     EMAIL = os.environ.get("EMAIL")
@@ -221,8 +225,8 @@ def kk_search(search_term):
 def main():
     location_olx = 'ads'
     location_cj = 'portugal'
-    search_term = 'gtx 1080'#input("Procurar: ").lower()               # Product name
-    location_input = ''#input('Regiao: ').lower()              # Region name
+    search_term = input("Procurar: ").lower().strip()       # Product name
+    location_input = input('Regiao: ').lower().strip()      # Region name
     if location_input != '':
         location_olx = location_input                       # Enter means the entier market
 
@@ -233,7 +237,7 @@ def main():
 
     olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
     cj_search(location_cj, cj_search_term)                  # Populate the list wtih CustoJusto data
-    ebay_search(ebay_search_term)
+    #ebay_search(ebay_search_term)                           # Populate the list wtih eBay data
     #fb_search(search_term)
 
     kk_search(kk_search_term)
@@ -243,6 +247,14 @@ def main():
 
     fh_d = {'nome': fh_names, 'precos': fh_prices, 'links': fh_links}
     pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
+
+    cnt_d = {'olx': 0, 'custojusto': 0, 'ebay': 0}
+    for site in ['olx', 'custojusto', 'ebay']:
+        for value in sh_d['sites']:
+            if value == site:
+                cnt_d[site] = cnt_d[site] + 1
+    
+    print('olx: {}, custojusto: {}, ebay: {}'.format(cnt_d['olx'], cnt_d['custojusto'], cnt_d['ebay']))
 
 
 if __name__ == '__main__':
