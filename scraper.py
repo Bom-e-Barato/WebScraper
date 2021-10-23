@@ -94,7 +94,7 @@ def cj_search(location, search_term):
 
 
 def ebay_search(search_term):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
+    headers = {'user-agent': 'Mozilla/5.0'}
     page_num = 1
     while True:
         page = requests.get(f'https://www.ebay.com/sch/i.html?_nkw={search_term}&_fcid=164&_sop=15&_pgn={page_num}', headers=headers)
@@ -225,27 +225,28 @@ def kk_search(search_term):
 def main():
     location_olx = 'ads'
     location_cj = 'portugal'
-    search_term = input("Procurar: ").lower().strip()       # Product name
+    search_term = 'gtx 1060'
+    """ search_term = input("Procurar: ").lower().strip()       # Product name
     location_input = input('Regiao: ').lower().strip()      # Region name
     if location_input != '':
-        location_olx = location_input                       # Enter means the entier market
+        location_olx = location_input                       # Enter means the entier market """
 
     olx_search_term = re.sub('\\s+', '-', search_term)      # Replace white spaces rows with '-'
     kk_search_term = re.sub('\\s+', '+', search_term)       # Replace white spaces rows with '+'
     cj_search_term = kk_search_term
     ebay_search_term = kk_search_term
 
-    olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
-    cj_search(location_cj, cj_search_term)                  # Populate the list wtih CustoJusto data
-    #ebay_search(ebay_search_term)                           # Populate the list wtih eBay data
+    #olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
+    #cj_search(location_cj, cj_search_term)                  # Populate the list wtih CustoJusto data
+    ebay_search(ebay_search_term)                           # Populate the list wtih eBay data
     #fb_search(search_term)
 
     kk_search(kk_search_term)
 
-    sh_d = {'nome': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+    sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
     pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
 
-    fh_d = {'nome': fh_names, 'precos': fh_prices, 'links': fh_links}
+    fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
     pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
 
     cnt_d = {'olx': 0, 'custojusto': 0, 'ebay': 0}
