@@ -236,8 +236,8 @@ def main():
     cj_search_term = kk_search_term
     ebay_search_term = kk_search_term
 
-    #olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
-    #cj_search(location_cj, cj_search_term)                  # Populate the list wtih CustoJusto data
+    olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
+    cj_search(location_cj, cj_search_term)                  # Populate the list wtih CustoJusto data
     ebay_search(ebay_search_term)                           # Populate the list wtih eBay data
     #fb_search(search_term)
 
