@@ -22,6 +22,7 @@ sh_names = []
 sh_prices = []
 sh_links = []
 sh_sites = []
+sh_img=[]
 
 # Lists to store first hand names, prices and links of the products
 fh_names = []
@@ -29,11 +30,13 @@ fh_prices = []
 fh_links = []
 
 
-def sh_append(name, price, link, site):
+def sh_append(name, price, link, site,img):
+
     sh_names.append(name)
     sh_prices.append(price)
     sh_links.append(link)
     sh_sites.append(site)
+    sh_img.append(img)
 
 
 def olx_search(location, search_term):
@@ -55,11 +58,13 @@ def olx_search(location, search_term):
                 product_name = product.find('h3', class_='lheight22').find('strong').text
                 product_price = float(product.find('p', class_='price').find('strong').text[:-2].replace('.', '').replace(',', '.'))
                 product_link = product.find('a')['href']
+                product_img = product.find('img')['src']
+                
                 
                 # Append the data to the lists
-                sh_append(name=product_name, price=product_price, link=product_link, site='olx')
+                sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
 
-                print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
+                print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\nImg: {product_img}')
             except:
                 continue
 
@@ -83,10 +88,11 @@ def cj_search(location, search_term):
                 product_name = product.find('h2', class_='title_related').find('b').text
                 product_price = float(product.find('h5', class_='price_related').text.strip()[:-2].replace(' ', ''))
                 product_link = product.find('a')['href']
+                product_img = product.find('img')['src']
 
                 # Append the data to the lists
-                sh_append(name=product_name, price=product_price, link=product_link, site='custojusto')
-                print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
+                sh_append(name=product_name, price=product_price, link=product_link, site='custojusto', img=product_img)
+                print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\nImg: {product_img}')
             except:
                 continue
             
@@ -108,6 +114,7 @@ def ebay_search(search_term):
                 product_name = product.find('h3', class_='s-item__title').text
                 # Retrieve the section with price and shipping information
                 product_info = product.find('div', class_='s-item__details').find_all('div', class_='s-item__detail--primary')
+                product_img = product.find('img')['src']
                 product_base_price = 0
                 cost_shipping = -1
 
@@ -139,10 +146,10 @@ def ebay_search(search_term):
                 continue
             
             # Append the data to the lists
-            sh_append(name=product_name, price=product_price, link=product_link, site='ebay')
+            sh_append(name=product_name, price=product_price, link=product_link, site='ebay', img=product_img)
 
             counter = counter + 1   # For deubgging purposes
-            print(f'Name: {product_name}\nPrice: {product_base_price}€ + {cost_shipping} ({product_price})€\nLink: {product_link}\n')
+            print(f'Name: {product_name}\nPrice: {product_base_price}€ + {cost_shipping} ({product_price})€\nLink: {product_link}\nImg{product_img}')
             
         page_num = page_num + 1
         if counter == 0:    
