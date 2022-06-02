@@ -1,6 +1,8 @@
+from ast import arg
 from posixpath import pardir
 import re
 import os
+from sys import argv
 from time import process_time
 import requests
 import pandas as pd
@@ -38,10 +40,19 @@ def sh_append(name, price, link, site,img):
     sh_sites.append(site)
     sh_img.append(img)
 
+def sh_clear():
+    sh_names.clear()
+    sh_prices.clear()
+    sh_links.clear()
+    sh_sites.clear()
+    sh_img.clear()
 
-def olx_search(location, search_term):
+
+def olx_search(location, search_term, max_pages):
     # Olx has a max of 25 pages
-    for i in range(25):
+    if max_pages>25:
+        max_pages=25
+    for i in range(max_pages):
         page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page={i+1}')
         soup = BeautifulSoup(page.text, 'lxml')
 
@@ -51,7 +62,6 @@ def olx_search(location, search_term):
 
         products = soup.find_all('div', class_ ='offer-wrapper')
         
-        print()
         for product in products:
             try:
                 # Get the data
@@ -64,14 +74,12 @@ def olx_search(location, search_term):
                 # Append the data to the lists
                 sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
 
-                print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\nImg: {product_img}')
             except:
                 continue
 
 
-def cj_search(location, search_term):
+def cj_search(location, search_term, max_pages):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'}
-    counter = 0
     page_num = 1
     while True:
         page = requests.get(f'https://www.custojusto.pt/{location}/q/{search_term}?o={page_num}&sp=1&st=a', headers=headers)
@@ -92,14 +100,15 @@ def cj_search(location, search_term):
 
                 # Append the data to the lists
                 sh_append(name=product_name, price=product_price, link=product_link, site='custojusto', img=product_img)
-                print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\nImg: {product_img}')
             except:
                 continue
             
         page_num = page_num + 1
+        if page_num >= max_pages:
+            break
 
 
-def ebay_search(search_term):
+def ebay_search(search_term, max_pages):
     headers = {'user-agent': 'Mozilla/5.0'}
     page_num = 1
     while True:
@@ -107,8 +116,7 @@ def ebay_search(search_term):
         soup = BeautifulSoup(page.text, 'lxml')
 
         products = soup.find_all('li', class_='s-item')
-        
-        counter = 0
+
         for product in products:
             try:             
                 product_name = product.find('h3', class_='s-item__title').text
@@ -147,15 +155,10 @@ def ebay_search(search_term):
             
             # Append the data to the lists
             sh_append(name=product_name, price=product_price, link=product_link, site='ebay', img=product_img)
-
-            counter = counter + 1   # For deubgging purposes
-            print(f'Name: {product_name}\nPrice: {product_base_price}€ + {cost_shipping} ({product_price})€\nLink: {product_link}\nImg{product_img}')
             
         page_num = page_num + 1
-        if counter == 0:    
+        if page_num >= max_pages:
             break
-        print(page_num)
-    print(page_num - 1)  # For deubgging purposes
 
 
 # FacebookMarketplace search function------------------------------------------------------Probabbly illegal, too bad
@@ -226,44 +229,51 @@ def kk_search(search_term):
         fh_prices.append(product_price)
         fh_links.append(product_link)
 
-        print(f'Name: {product_name}\nPrice: {product_price}€\nLink: {product_link}\n')
+def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
+    print("Searching for: " + search_term)
+    print("Max pages: " + str(max_pages))
+    print("Marketplaces: " + str(marketplaces))
 
-
-def main():
     location_olx = 'ads'
     location_cj = 'portugal'
-    search_term = 'gtx 1060'
-    """ search_term = input("Procurar: ").lower().strip()       # Product name
-    location_input = input('Regiao: ').lower().strip()      # Region name
-    if location_input != '':
-        location_olx = location_input                       # Enter means the entier market """
 
-    olx_search_term = re.sub('\\s+', '-', search_term)      # Replace white spaces rows with '-'
-    kk_search_term = re.sub('\\s+', '+', search_term)       # Replace white spaces rows with '+'
+    olx_search_term = re.sub('\\s+', '-', search_term.lower().strip())      # Replace white spaces rows with '-'
+    kk_search_term = re.sub('\\s+', '+', search_term.lower().strip())       # Replace white spaces rows with '+'
     cj_search_term = kk_search_term
     ebay_search_term = kk_search_term
 
-    olx_search(location_olx, olx_search_term)               # Populate the list with OLX data
-    cj_search(location_cj, cj_search_term)                  # Populate the list wtih CustoJusto data
-    ebay_search(ebay_search_term)                           # Populate the list wtih eBay data
-    #fb_search(search_term)
+    data = []
 
-    kk_search(kk_search_term)
+    if 'olx' in marketplaces:
+        olx_search(location_olx, olx_search_term, max_pages)               # Populate the list with OLX data
+        sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+        pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        data.append({'olx': [(sh_names[i], sh_prices[i], sh_links[i], sh_img[i]) for i in range(len(sh_names))]})
+        sh_clear()
 
-    sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-    pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+    if 'cj' in marketplaces:
+        cj_search(location_cj, cj_search_term, max_pages)       # Populate the list wtih CustoJusto data
+        sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+        pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        data.append({'cj': [(sh_names[i], sh_prices[i], sh_links[i], sh_img[i]) for i in range(len(sh_names))]})
+        sh_clear()
 
-    fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
-    pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
+    if 'ebay' in marketplaces:
+        ebay_search(ebay_search_term, max_pages)                # Populate the list wtih eBay data
+        sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+        pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        data.append({'ebay': [(sh_names[i], sh_prices[i], sh_links[i], sh_img[i]) for i in range(len(sh_names))]})
+        sh_clear()
 
-    cnt_d = {'olx': 0, 'custojusto': 0, 'ebay': 0}
-    for site in ['olx', 'custojusto', 'ebay']:
-        for value in sh_d['sites']:
-            if value == site:
-                cnt_d[site] = cnt_d[site] + 1
-    
-    print('olx: {}, custojusto: {}, ebay: {}'.format(cnt_d['olx'], cnt_d['custojusto'], cnt_d['ebay']))
+    if 'kk' in marketplaces:
+        kk_search(kk_search_term)                    # Populate the list wtih KuantoKusta data
+        fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
+        pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
+        data.append({'kk': [(fh_names[i], fh_prices[i], fh_links[i]) for i in range(len(fh_names))]})
+
+    print(data)
+    return data
 
 
 if __name__ == '__main__':
-    main()
+    handler(argv[1], int(argv[2]))

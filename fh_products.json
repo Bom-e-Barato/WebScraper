@@ -1,17 +1,172 @@
 {
   "0":{
-    "nomes":"HP Pavilion Desktop TP01-1017ns i5-10400 16GB 1TB SSD GTX1060 W10",
-    "precos":763.9,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/170507\/hp-pavilion-desktop-tp01-1017ns-i5-10400-16gb-1tb-ssd-gtx1060-w10"
+    "nomes":"Castrol Óleo Motor GTX 10W40 A3\/B4 5L",
+    "precos":29.25,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/5076638\/castrol-oleo-motor-gtx-10w40-a3b4-5l"
   },
   "1":{
-    "nomes":"HP OMEN 17-W200NP 17.3\" FHD i7-7700HQ 16GB 1TB + 128 GB GTX 1060 W10H (Recondicionado Grade A)",
-    "precos":1107.0,
-    "links":"https:\/\/www.worten.pt\/outlet\/informatica-e-acessorios\/portateis\/portatil-gaming-hp-omen-17-w200np-outlet-grade-a-intel-core-i7-7700hq-nvidia-geforce-gtx-1060-ram-16-gb-1-tb-128-gb-17-3-7430923?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=Outlet&utm_content=comparadordeprecos&utm_term=Outlet_Informatica-e-Acessorios-Outlet_Portateis-Outlet"
+    "nomes":"Inno3D Geforce GTX1030 2GB GDDR5 - N1030-1SDV-E5BL",
+    "precos":149.97,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/177185\/inno3d-geforce-gtx1030-2gb-gddr5-n1030-1sdv-e5bl"
   },
   "2":{
-    "nomes":"Asus Gaming GR8 II-6GT013Z i7-7700 16GB 1TB + 128GB SSD GTX 1060 (Recondicionado Grade B)",
-    "precos":1619.17,
-    "links":"https:\/\/www.worten.pt\/outlet\/informatica-e-acessorios\/desktops\/desktop-gaming-asus-gr8-ii-6gt013z-outlet-grade-b-intel-core-i7-7700-nvidia-geforce-gtx-1060-ram-16-gb-1-tb-hdd-128-gb-ssd-7376397?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=Outlet&utm_content=comparadordeprecos&utm_term=Outlet_Informatica-e-Acessorios-Outlet_Desktops-Outlet"
+    "nomes":"Asus GeForce GTX1050 TI PH 4GB GDDR5 - 90YV0A70-M0NA00",
+    "precos":188.9,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37446\/asus-geforce-gtx1050-ti-ph-4gb-gddr5-90yv0a70-m0na00"
+  },
+  "3":{
+    "nomes":"MSI GeForce GTX1050 TI 4GT LP 4GB GDDR5",
+    "precos":189.9,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/210432\/msi-geforce-gtx1050-ti-4gt-lp-4gb-gddr5"
+  },
+  "4":{
+    "nomes":"MSI GeForce GTX1050 Ti AERO ITX 4GB OCV1 GDDR5 - 912-V809-2608",
+    "precos":190.0,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/210436\/msi-geforce-gtx1050-ti-aero-itx-4gb-ocv1-gddr5-912-v809-2608"
+  },
+  "5":{
+    "nomes":"Asus GeForce GTX1050 Ti Advanced 4GB GDDR5 - 90YV0A75-M0NA00",
+    "precos":193.0,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37441\/asus-geforce-gtx1050-ti-advanced-4gb-gddr5-90yv0a75-m0na00"
+  },
+  "6":{
+    "nomes":"Asus GeForce GTX1050 TI Cerberus OC 4GB GDDR5 - 90YV0A74-M0NA00",
+    "precos":197.9,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37442\/asus-geforce-gtx1050-ti-cerberus-oc-4gb-gddr5-90yv0a74-m0na00"
+  },
+  "7":{
+    "nomes":"Gigabyte GeForce GTX1050 TI 4GB GDDR5 - GV-N105TD5-4GD",
+    "precos":209.8,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/136212\/gigabyte-geforce-gtx1050-ti-4gb-gddr5-gv-n105td5-4gd"
+  },
+  "8":{
+    "nomes":"Gainward GeForce GTX 1050TI 4GB GDDR5",
+    "precos":234.7,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/133235\/gainward-geforce-gtx-1050ti-4gb-gddr5"
+  },
+  "9":{
+    "nomes":"Palit GeForce GTX1050 Ti StormX 4GB GDDR5 - NE5105T018G1F",
+    "precos":249.0,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/225508\/palit-geforce-gtx1050-ti-stormx-4gb-gddr5-ne5105t018g1f"
+  },
+  "10":{
+    "nomes":"Asus GeForce GTX 1660 SUPER Phoenix 6GB OC GDDR6 - 90YV0DT0-M0NA00",
+    "precos":309.99,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37406\/asus-geforce-gtx-1660-super-phoenix-6gb-oc-gddr6-90yv0dt0-m0na00"
+  },
+  "11":{
+    "nomes":"Asus GeForce GTX 1660 SUPER TUF Gaming OC 6GB GDDR6 - 90YV0DT2-M0NA00",
+    "precos":314.5,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37410\/asus-geforce-gtx-1660-super-tuf-gaming-oc-6gb-gddr6-90yv0dt2-m0na00"
+  },
+  "12":{
+    "nomes":"Asus GeForce GTX1660 OC 6GB GDDR5 - 90YV0CU0-M0NA00",
+    "precos":319.0,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37489\/asus-geforce-gtx1660-oc-6gb-gddr5-90yv0cu0-m0na00"
+  },
+  "13":{
+    "nomes":"Gigabyte GeForce GTX1660 SUPER OC 6GB GDDR6 - GV-N166SOC-6GD",
+    "precos":325.19,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/136277\/gigabyte-geforce-gtx1660-super-oc-6gb-gddr6-gv-n166soc-6gd"
+  },
+  "14":{
+    "nomes":"MSI GeForce GTX 1660 Super Gaming X 6GB GDDR6 (PCIE) - 912-V375-408",
+    "precos":326.99,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/210413\/msi-geforce-gtx-1660-super-gaming-x-6gb-gddr6-pcie-912-v375-408"
+  },
+  "15":{
+    "nomes":"MSI GeForce GTX 1660 SUPER Ventus XS 6GB OC GDDR6 (PCIE)",
+    "precos":333.42,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/210416\/msi-geforce-gtx-1660-super-ventus-xs-6gb-oc-gddr6-pcie"
+  },
+  "16":{
+    "nomes":"Gigabyte GeForce GTX1660 Ti 6GB OC GDDR6 - GV-N166TOC-6GD",
+    "precos":338.5,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/136278\/gigabyte-geforce-gtx1660-ti-6gb-oc-gddr6-gv-n166toc-6gd"
+  },
+  "17":{
+    "nomes":"Asus GeForce GTX 1660 SUPER Dual 6GB EVO GDDR6 - 90YV0DS5-M0NA00",
+    "precos":343.99,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37402\/asus-geforce-gtx-1660-super-dual-6gb-evo-gddr6-90yv0ds5-m0na00"
+  },
+  "18":{
+    "nomes":"Gigabyte GeForce GTX1660 OC 6GB GDDR5 - GV-N1660OC-6GD",
+    "precos":344.5,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/136273\/gigabyte-geforce-gtx1660-oc-6gb-gddr5-gv-n1660oc-6gd"
+  },
+  "19":{
+    "nomes":"Asus GeForce GTX 1660 SUPER Dual 6GB OC GDDR6 - 90YV0DS3-M0NA00",
+    "precos":347.99,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37403\/asus-geforce-gtx-1660-super-dual-6gb-oc-gddr6-90yv0ds3-m0na00"
+  },
+  "20":{
+    "nomes":"Inno3D GeForce GTX1050 Ti Twin X2 4GB GDDR5 N105T-1DDV-M5CM",
+    "precos":349.98,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/177188\/inno3d-geforce-gtx1050-ti-twin-x2-4gb-gddr5-n105t-1ddv-m5cm"
+  },
+  "21":{
+    "nomes":"KFA2 GeForce GTX1660 SUPER 1-CLICK OC 6GB GDDR5 60SRL7DSY91K",
+    "precos":359.9,
+    "links":"https:\/\/dex.pt\/placas-graficas\/6883-placa-grafica-kfa2-geforce-gtx1660-super-1-click-oc-6gb-gddr5.html?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=catalogo"
+  },
+  "22":{
+    "nomes":"EVGA GeForce GTX1660 SUPER SC Ultra Gaming 6GB GDDR6 - 06G-P4-1068-KR",
+    "precos":365.5,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/114741\/evga-geforce-gtx1660-super-sc-ultra-gaming-6gb-gddr6-06g-p4-1068-kr"
+  },
+  "23":{
+    "nomes":"Asus GeForce GTX 1660 SUPER Phoenix 6GB OC GDDR6 - 90YV0DT1-M0NA00",
+    "precos":379.5,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37407\/asus-geforce-gtx-1660-super-phoenix-6gb-oc-gddr6-90yv0dt1-m0na00"
+  },
+  "24":{
+    "nomes":"Asus GeForce GTX 1660 Ti EVO GAMING 6GB - 90YV0CT8-M0NA00",
+    "precos":383.99,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/37416\/asus-geforce-gtx-1660-ti-evo-gaming-6gb-90yv0ct8-m0na00"
+  },
+  "25":{
+    "nomes":"Asus GeForce GTX 1660 Ti EVO GAMING 6GB - 90YV0CT9-M0NA00",
+    "precos":389.9,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/6520616\/asus-geforce-gtx-1660-ti-evo-gaming-6gb-90yv0ct9-m0na00"
+  },
+  "26":{
+    "nomes":"Asus GeForce GTX 1660 Ti TUF EVO GAMING OC 6GB - 90YV0CT7-M0NA00",
+    "precos":389.99,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/6348187\/asus-geforce-gtx-1660-ti-tuf-evo-gaming-oc-6gb-90yv0ct7-m0na00"
+  },
+  "27":{
+    "nomes":"MSI GeForce GTX 1660 SUPER AERO ITX 6G OC GDDR6 (PCIE) - V809-3262R",
+    "precos":401.3,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/210412\/msi-geforce-gtx-1660-super-aero-itx-6g-oc-gddr6-pcie-v809-3262r"
+  },
+  "28":{
+    "nomes":"Palit GeForce GTX 1660 TI StormX 6GB OC GDDR6 - NE6166T018J9-161F",
+    "precos":404.7,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/225501\/palit-geforce-gtx-1660-ti-stormx-6gb-oc-gddr6-ne6166t018j9-161f"
+  },
+  "29":{
+    "nomes":"Lenovo Legion T530-28ICB-896 Core i5-8400 8GB 128GB SSD + 1TB HDD GTX1050Ti",
+    "precos":491.9,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/190735\/lenovo-legion-t530-28icb-896-core-i5-8400-8gb-128gb-ssd-1tb-hdd-gtx1050ti"
+  },
+  "30":{
+    "nomes":"Fender Mustang GTX100",
+    "precos":499.0,
+    "links":"https:\/\/www.ftshopping.pt\/product\/fender-mustang-gtx100?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=catalogo"
+  },
+  "31":{
+    "nomes":"Gainward GeForce GTX 1660 Super Ghost V1 6GB GDDR6 - NE6166S018J9-1160X",
+    "precos":526.0,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/133245\/gainward-geforce-gtx-1660-super-ghost-v1-6gb-gddr6-ne6166s018j9-1160x"
+  },
+  "32":{
+    "nomes":"Insys .FORCE GAMER PRO i3-9100F - 231018",
+    "precos":527.82,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/177312\/insys-force-gamer-pro-i3-9100f-231018"
+  },
+  "33":{
+    "nomes":"Palit GeForce GTX1660 Super 6GB GDDR6",
+    "precos":555.55,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/225529\/palit-geforce-gtx1660-super-6gb-gddr6"
   }
 }
