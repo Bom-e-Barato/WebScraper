@@ -52,28 +52,36 @@ def olx_search(location, search_term, max_pages):
     # Olx has a max of 25 pages
     if max_pages>25:
         max_pages=25
-    for i in range(max_pages):
+
+    # Olx has a max of 25 pages
+    page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page=1')
+    soup = BeautifulSoup(page.text, 'lxml')
+
+    n = soup.find_all('li', class_='pagination-item')
+    print(int(n[-1].text))
+
+    for i in range(int(n[-1].text)):
         page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page={i+1}')
         soup = BeautifulSoup(page.text, 'lxml')
 
-        # Check if the request was redirected (happens when the page doesnt exist)
-        if i != 0 and len(page.history) != 0 and page.history[0].url != '':
-            break
-
-        products = soup.find_all('div', class_ ='offer-wrapper')
+        products = soup.find_all('div', class_ ='css-19ucd76')
         
         for product in products:
             try:
                 # Get the data
-                product_name = product.find('h3', class_='lheight22').find('strong').text
-                product_price = float(product.find('p', class_='price').find('strong').text[:-2].replace('.', '').replace(',', '.'))
-                product_link = product.find('a')['href']
-                product_img = product.find('img')['src']
+                product_name = product.find('h6', class_='css-v3vynn-Text').text
+
+                price_str = product.find('p', class_='css-l0108r-Text').text[:-2].replace('.', '').replace(',', '.')
                 
+                if price_str[-1] == 'v':
+                    price_str = price_str[:-10]
+
+                product_price = float(price_str)
+                product_link = 'https://www.olx.pt/d' + product.find('a')['href']
+                product_img = product.find('img')['src']
                 
                 # Append the data to the lists
                 sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
-
             except:
                 continue
 
@@ -276,4 +284,4 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
 
 
 if __name__ == '__main__':
-    handler(argv[1], int(argv[2]))
+    handler(argv[2], int(argv[3]))

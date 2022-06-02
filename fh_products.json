@@ -1,13 +1,13 @@
 {
   "0":{
-    "nomes":"Castrol Óleo Motor GTX 10W40 A3\/B4 5L",
-    "precos":29.25,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/5076638\/castrol-oleo-motor-gtx-10w40-a3b4-5l"
+    "nomes":"Broyen MHT-F5 Scanner 1D Laser com Fio",
+    "precos":25.9,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/54855\/broyen-mht-f5-scanner-1d-laser-com-fio"
   },
   "1":{
-    "nomes":"Inno3D Geforce GTX1030 2GB GDDR5 - N1030-1SDV-E5BL",
-    "precos":149.97,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/177185\/inno3d-geforce-gtx1030-2gb-gddr5-n1030-1sdv-e5bl"
+    "nomes":"Broyen MHT-F6W - Scanner 1D Laser Wireless - BRN2104",
+    "precos":53.9,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/54856\/broyen-mht-f6w-scanner-1d-laser-wireless-brn2104"
   },
   "2":{
     "nomes":"Asus GeForce GTX1050 TI PH 4GB GDDR5 - 90YV0A70-M0NA00",
@@ -40,133 +40,133 @@
     "links":"https:\/\/kuantokusta.pt\/\/p\/136212\/gigabyte-geforce-gtx1050-ti-4gb-gddr5-gv-n105td5-4gd"
   },
   "8":{
+    "nomes":"Beltax BGC-1050 IX Gás Butano",
+    "precos":219.99,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/1902741\/beltax-bgc-1050-ix-gas-butano"
+  },
+  "10":{
+    "nomes":"Palit GeForce GTX1050 Ti StormX 4GB GDDR5 - NE5105T018G1F",
+    "precos":227.0,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/225508\/palit-geforce-gtx1050-ti-stormx-4gb-gddr5-ne5105t018g1f"
+  },
+  "9":{
     "nomes":"Gainward GeForce GTX 1050TI 4GB GDDR5",
     "precos":234.7,
     "links":"https:\/\/kuantokusta.pt\/\/p\/133235\/gainward-geforce-gtx-1050ti-4gb-gddr5"
   },
-  "9":{
-    "nomes":"Palit GeForce GTX1050 Ti StormX 4GB GDDR5 - NE5105T018G1F",
-    "precos":249.0,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/225508\/palit-geforce-gtx1050-ti-stormx-4gb-gddr5-ne5105t018g1f"
-  },
-  "10":{
-    "nomes":"Asus GeForce GTX 1660 SUPER Phoenix 6GB OC GDDR6 - 90YV0DT0-M0NA00",
-    "precos":309.99,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/37406\/asus-geforce-gtx-1660-super-phoenix-6gb-oc-gddr6-90yv0dt0-m0na00"
-  },
   "11":{
-    "nomes":"Asus GeForce GTX 1660 SUPER TUF Gaming OC 6GB GDDR6 - 90YV0DT2-M0NA00",
-    "precos":314.5,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/37410\/asus-geforce-gtx-1660-super-tuf-gaming-oc-6gb-gddr6-90yv0dt2-m0na00"
-  },
-  "12":{
-    "nomes":"Asus GeForce GTX1660 OC 6GB GDDR5 - 90YV0CU0-M0NA00",
-    "precos":319.0,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/37489\/asus-geforce-gtx1660-oc-6gb-gddr5-90yv0cu0-m0na00"
-  },
-  "13":{
-    "nomes":"Gigabyte GeForce GTX1660 SUPER OC 6GB GDDR6 - GV-N166SOC-6GD",
-    "precos":325.19,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/136277\/gigabyte-geforce-gtx1660-super-oc-6gb-gddr6-gv-n166soc-6gd"
-  },
-  "14":{
-    "nomes":"MSI GeForce GTX 1660 Super Gaming X 6GB GDDR6 (PCIE) - 912-V375-408",
-    "precos":326.99,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/210413\/msi-geforce-gtx-1660-super-gaming-x-6gb-gddr6-pcie-912-v375-408"
-  },
-  "15":{
-    "nomes":"MSI GeForce GTX 1660 SUPER Ventus XS 6GB OC GDDR6 (PCIE)",
-    "precos":333.42,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/210416\/msi-geforce-gtx-1660-super-ventus-xs-6gb-oc-gddr6-pcie"
-  },
-  "16":{
-    "nomes":"Gigabyte GeForce GTX1660 Ti 6GB OC GDDR6 - GV-N166TOC-6GD",
-    "precos":338.5,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/136278\/gigabyte-geforce-gtx1660-ti-6gb-oc-gddr6-gv-n166toc-6gd"
-  },
-  "17":{
-    "nomes":"Asus GeForce GTX 1660 SUPER Dual 6GB EVO GDDR6 - 90YV0DS5-M0NA00",
-    "precos":343.99,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/37402\/asus-geforce-gtx-1660-super-dual-6gb-evo-gddr6-90yv0ds5-m0na00"
-  },
-  "18":{
-    "nomes":"Gigabyte GeForce GTX1660 OC 6GB GDDR5 - GV-N1660OC-6GD",
-    "precos":344.5,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/136273\/gigabyte-geforce-gtx1660-oc-6gb-gddr5-gv-n1660oc-6gd"
-  },
-  "19":{
-    "nomes":"Asus GeForce GTX 1660 SUPER Dual 6GB OC GDDR6 - 90YV0DS3-M0NA00",
-    "precos":347.99,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/37403\/asus-geforce-gtx-1660-super-dual-6gb-oc-gddr6-90yv0ds3-m0na00"
-  },
-  "20":{
     "nomes":"Inno3D GeForce GTX1050 Ti Twin X2 4GB GDDR5 N105T-1DDV-M5CM",
     "precos":349.98,
     "links":"https:\/\/kuantokusta.pt\/\/p\/177188\/inno3d-geforce-gtx1050-ti-twin-x2-4gb-gddr5-n105t-1ddv-m5cm"
   },
+  "12":{
+    "nomes":"Switch Desktop Gaming Ghost V0 Powered By Asus i3-10100F 16GB 240GB SSD GTX 1050TI S\/SO",
+    "precos":469.0,
+    "links":"https:\/\/www.switchtechnology.pt\/catalog\/product\/view\/id\/15523?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=catalogo"
+  },
+  "13":{
+    "nomes":"Assis Inspire i3-10100F 8GB 480GB SSD GTX 1050Ti S\/SO",
+    "precos":489.0,
+    "links":"https:\/\/www.assismatica.pt\/pt\/catalog\/product\/view\/id\/1442440\/category\/7590"
+  },
+  "14":{
+    "nomes":"Switch Desktop Gaming Slayer G3 i3-10100F 16GB 480GB SSD GTX 1050TI S\/SO",
+    "precos":579.0,
+    "links":"https:\/\/www.switchtechnology.pt\/catalog\/product\/view\/id\/17467?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=catalogo"
+  },
+  "15":{
+    "nomes":"Chip7 DOIT FIRST V11 i3-10100F 8GB 512GB SSD GTX 1050 TI W10P",
+    "precos":604.0,
+    "links":"https:\/\/chip7.pt\/computadores\/desktops\/pcs-gaming-chip7\/computador-gaming\/chip7-doit-first-v11-i3-10100f-quad-core-gtx-1050-ti-4gb-8gb-ram-51"
+  },
+  "16":{
+    "nomes":"Chip7 Doit First V9 I5 10400F Hexa Core Gtx 1050 Ti 4GB 8GB + 512GB SSD S\/ SO",
+    "precos":619.0,
+    "links":"https:\/\/chip7.pt\/computadores\/desktops\/pcs-gaming-chip7\/computador-gaming\/chip7-doit-first-v9-i5-10400f-hexa-core-gtx-1050-ti-4gb-8gb-ram-512"
+  },
+  "17":{
+    "nomes":"Chip7 DOIT GAMER LIMITED EDITION V6.6 i5-10400F 8GB 240GB SSD GTX 1050 Ti W10P",
+    "precos":664.0,
+    "links":"https:\/\/chip7.pt\/computadores\/desktops\/pcs-gaming-chip7\/computador-gaming\/chip7-doit-gamer-limited-edition-v66-i5-10400f-6core-gtx-1050-ti-4gb"
+  },
+  "18":{
+    "nomes":"HP Pavilion 15-CX0011NP 15.6\" i7-8750H 12GB 1TB + 256GB SSD - 4KE68EA",
+    "precos":822.77,
+    "links":"https:\/\/www.worten.pt\/outlet\/informatica-e-acessorios\/portateis\/portatil-gaming-hp-pavilion-15-cx0011np-outlet-grade-a-15-6-intel-core-i7-8750h-ram-12-gb-1-tb-hdd-256-gb-ssd-nvidia-geforce-gtx-1050-ti-7155537?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=Outlet&utm_content=comparadordeprecos&utm_term=Outlet_Informatica-e-Acessorios-Outlet_Portateis-Outlet"
+  },
+  "19":{
+    "nomes":"HP Victus 16-e0090ns 16.1\" FHD Ryzen 7 5800H 16GB 512GB SSD RTX 3050Ti S\/SO (Teclado Espanhol)",
+    "precos":856.33,
+    "links":"https:\/\/www.pccomponentes.pt\/hp-victus-16-e0090ns-amd-ryzen-7-5800h-16gb-512gb-ssd-rtx-3050ti-161?utm_source=kuantokusta"
+  },
+  "20":{
+    "nomes":"MSI GF63 Thin 11UD-271XES 15.6\" FHD i7-11800H 16GB 512GB SSD RTX 3050Ti S\/SO (Teclado Espanhol)",
+    "precos":889.35,
+    "links":"https:\/\/www.pccomponentes.pt\/msi-gf63-thin-11ud-271xes-intel-core-i7-11800h-16-gb-512gb-ssd-rtx-3050ti-156?utm_source=kuantokusta"
+  },
   "21":{
-    "nomes":"KFA2 GeForce GTX1660 SUPER 1-CLICK OC 6GB GDDR5 60SRL7DSY91K",
-    "precos":359.9,
-    "links":"https:\/\/dex.pt\/placas-graficas\/6883-placa-grafica-kfa2-geforce-gtx1660-super-1-click-oc-6gb-gddr5.html?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=catalogo"
+    "nomes":"MSI Katana GF66 12UD-081XES 15.6\" FHD i7-12700H 16GB 512GB SSD RTX 3050Ti S\/SO (Teclado Espanhol)",
+    "precos":1008.81,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/7727366\/msi-katana-gf66-12ud-081xes-156-fhd-i7-12700h-16gb-512gb-ssd-rtx-3050ti-sso-teclado-espanhol"
   },
   "22":{
-    "nomes":"EVGA GeForce GTX1660 SUPER SC Ultra Gaming 6GB GDDR6 - 06G-P4-1068-KR",
-    "precos":365.5,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/114741\/evga-geforce-gtx1660-super-sc-ultra-gaming-6gb-gddr6-06g-p4-1068-kr"
+    "nomes":"Gigabyte G5 MD-51ES123SD 15.6\" FHD i5-11400H 16GB 512GB SSD RTX 3050Ti S\/SO (Teclado Espanhol) - 9RC45MD02LG101ES800",
+    "precos":1009.52,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/6409176\/gigabyte-g5-md-51es123sd-156-fhd-i5-11400h-16gb-512gb-ssd-rtx-3050ti-sso-teclado-espanhol-9rc45md02lg101es800"
   },
   "23":{
-    "nomes":"Asus GeForce GTX 1660 SUPER Phoenix 6GB OC GDDR6 - 90YV0DT1-M0NA00",
-    "precos":379.5,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/37407\/asus-geforce-gtx-1660-super-phoenix-6gb-oc-gddr6-90yv0dt1-m0na00"
+    "nomes":"MSI Infinite 8RB-830EU i7-8700 16GB 1TB HDD + 128 GB SSD GTX 1050 Ti (Recondicionado Grade A)",
+    "precos":1039.27,
+    "links":"https:\/\/www.worten.pt\/outlet\/informatica-e-acessorios\/desktops\/desktop-gaming-msi-infinite-8rb-830eu-outlet-grade-a-intel-core-i7-8700-nvidia-geforce-gtx-1050-ti-ram-16-gb-1-tb-hdd-128-gb-ssd-7533988?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=Outlet&utm_content=comparadordeprecos&utm_term=Outlet_Informatica-e-Acessorios-Outlet_Desktops-Outlet"
   },
   "24":{
-    "nomes":"Asus GeForce GTX 1660 Ti EVO GAMING 6GB - 90YV0CT8-M0NA00",
-    "precos":383.99,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/37416\/asus-geforce-gtx-1660-ti-evo-gaming-6gb-90yv0ct8-m0na00"
+    "nomes":"LG Ultra 15U70P-J.AA78B 15.6\" FHD i7-1165G7 16GB 512GB SSD GTX 1650 Ti W10H (Teclado Espanhol)",
+    "precos":1103.95,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/6498769\/lg-ultra-15u70p-jaa78b-156-fhd-i7-1165g7-16gb-512gb-ssd-gtx-1650-ti-w10h-teclado-espanhol"
   },
   "25":{
-    "nomes":"Asus GeForce GTX 1660 Ti EVO GAMING 6GB - 90YV0CT9-M0NA00",
-    "precos":389.9,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/6520616\/asus-geforce-gtx-1660-ti-evo-gaming-6gb-90yv0ct9-m0na00"
+    "nomes":"Asus Ux550Ge-78Dt5Ab1 15.6\" i7-8750H 16GB 512GB SSD GTX 1050 TI (Recondicionado Grade A )",
+    "precos":1145.27,
+    "links":"https:\/\/www.worten.pt\/outlet\/informatica-e-acessorios\/portateis\/portatil-asus-ux550ge-78dt5ab1-outlet-grade-a-15-6-intel-core-i7-8750h-16-gb-ram-512-gb-ssd-nvidia-geforce-gtx-1050-ti-7397222?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=Outlet&utm_content=comparadordeprecos&utm_term=Outlet_Informatica-e-Acessorios-Outlet_Portateis-Outlet"
   },
   "26":{
-    "nomes":"Asus GeForce GTX 1660 Ti TUF EVO GAMING OC 6GB - 90YV0CT7-M0NA00",
-    "precos":389.99,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/6348187\/asus-geforce-gtx-1660-ti-tuf-evo-gaming-oc-6gb-90yv0ct7-m0na00"
+    "nomes":"Assismática NP50PNK i7 12Gen RTX 3050ti S\/ SO",
+    "precos":1148.99,
+    "links":"https:\/\/www.assismatica.pt\/pt\/catalog\/product\/view\/id\/1440160\/category\/7592"
   },
   "27":{
-    "nomes":"MSI GeForce GTX 1660 SUPER AERO ITX 6G OC GDDR6 (PCIE) - V809-3262R",
-    "precos":401.3,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/210412\/msi-geforce-gtx-1660-super-aero-itx-6g-oc-gddr6-pcie-v809-3262r"
+    "nomes":"Asus ROG Strix G513IE 15.6\" FHD Ryzen 7 4800H 16GB 512GB SSD RTX 3050Ti S\/SO",
+    "precos":1199.0,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/7352423\/asus-rog-strix-g513ie-156-fhd-ryzen-7-4800h-16gb-512gb-ssd-rtx-3050ti-sso"
   },
   "28":{
-    "nomes":"Palit GeForce GTX 1660 TI StormX 6GB OC GDDR6 - NE6166T018J9-161F",
-    "precos":404.7,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/225501\/palit-geforce-gtx-1660-ti-stormx-6gb-oc-gddr6-ne6166t018j9-161f"
+    "nomes":"MSI Katana GF66 12UE-091XES 15.6\" FHD i7-12700H 16GB 512GB SSD RTX 3050Ti S\/SO (Teclado Espanhol)",
+    "precos":1265.46,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/7727367\/msi-katana-gf66-12ue-091xes-156-fhd-i7-12700h-16gb-512gb-ssd-rtx-3050ti-sso-teclado-espanhol"
   },
   "29":{
-    "nomes":"Lenovo Legion T530-28ICB-896 Core i5-8400 8GB 128GB SSD + 1TB HDD GTX1050Ti",
-    "precos":491.9,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/190735\/lenovo-legion-t530-28icb-896-core-i5-8400-8gb-128gb-ssd-1tb-hdd-gtx1050ti"
+    "nomes":"HP Pavilion 17-cd2004np 17.3\" FHD i7-11370h 16GB 512GB SSD RTX 3050 ti W11H",
+    "precos":1299.0,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/7456712\/hp-pavilion-17-cd2004np-173-fhd-i7-11370h-16gb-512gb-ssd-rtx-3050-ti-w11h"
   },
   "30":{
-    "nomes":"Fender Mustang GTX100",
-    "precos":499.0,
-    "links":"https:\/\/www.ftshopping.pt\/product\/fender-mustang-gtx100?utm_source=kuantokusta&utm_medium=cpc&utm_campaign=catalogo"
+    "nomes":"MSI Katana GF76 12UD-036XES 17.3\" FHD i7-12700H 16GB 512GB SSD RTX 3050Ti S\/SO (Teclado Espanhol)",
+    "precos":1313.76,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/7785366\/msi-katana-gf76-12ud-036xes-173-fhd-i7-12700h-16gb-512gb-ssd-rtx-3050ti-sso-teclado-espanhol"
   },
   "31":{
-    "nomes":"Gainward GeForce GTX 1660 Super Ghost V1 6GB GDDR6 - NE6166S018J9-1160X",
-    "precos":526.0,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/133245\/gainward-geforce-gtx-1660-super-ghost-v1-6gb-gddr6-ne6166s018j9-1160x"
+    "nomes":"LG 17U70P 17\" WQXGA i7-1165G7 8GB 512GB SSD GTX 1650Ti W10H - 17U70P-P.AA78B",
+    "precos":1331.6,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/196635\/lg-17u70p-17-wqxga-i7-1165g7-8gb-512gb-ssd-gtx-1650ti-w10h-17u70p-paa78b"
   },
   "32":{
-    "nomes":"Insys .FORCE GAMER PRO i3-9100F - 231018",
-    "precos":527.82,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/177312\/insys-force-gamer-pro-i3-9100f-231018"
+    "nomes":"Asus TUF Gaming FX517ZE 15.6\" FHD i7-12650H 16GB 512GB SSD RTX3050 S\/SO",
+    "precos":1374.99,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/8131845\/asus-tuf-gaming-fx517ze-156-fhd-i7-12650h-16gb-512gb-ssd-rtx3050-sso"
   },
   "33":{
-    "nomes":"Palit GeForce GTX1660 Super 6GB GDDR6",
-    "precos":555.55,
-    "links":"https:\/\/kuantokusta.pt\/\/p\/225529\/palit-geforce-gtx1660-super-6gb-gddr6"
+    "nomes":"Asus ROG Strix G713QE 17.3\" FHD Ryzen 7 5800H 16GB 512GB SSD RTX 3050Ti S\/SO",
+    "precos":1399.9,
+    "links":"https:\/\/kuantokusta.pt\/\/p\/7352299\/asus-rog-strix-g713qe-173-fhd-ryzen-7-5800h-16gb-512gb-ssd-rtx-3050ti-sso"
   }
 }
