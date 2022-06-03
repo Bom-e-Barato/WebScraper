@@ -25,6 +25,9 @@ urlpatterns = [
     # Account URLS
     path("account/api/", include("account.api.urls", "account_api")),
 
+    # Advertisement URLS
+    path("advertisement/api/", include("advertisement.api.urls", "advertisement_api")),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

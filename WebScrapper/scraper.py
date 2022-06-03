@@ -47,6 +47,38 @@ def sh_clear():
     sh_sites.clear()
     sh_img.clear()
 
+def data_append(data, marketplace, i):
+    if marketplace == 'kk':
+        data.append({
+                'id': None,
+                'marketplace': "kk",
+                'name': fh_names[i],
+                'price': fh_prices[i],
+                'link': fh_links[i],
+                'img': None,
+                'description': None,
+                'promoted': False,
+                'negotiable': False,
+                'id_seller': None,
+                'category': None,
+                'location': None
+            })
+    else:
+        data.append({
+                'id': None,
+                'marketplace': marketplace,
+                'name': sh_names[i],
+                'price': sh_prices[i],
+                'link': sh_links[i],
+                'img': sh_img[i],
+                'description': None,
+                'promoted': False,
+                'negotiable': False,
+                'id_seller': None,
+                'category': None,
+                'location': None
+            })
+
 
 def olx_search(location, search_term, max_pages):
     # Olx has a max of 25 pages
@@ -254,30 +286,34 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
 
     if 'olx' in marketplaces:
         olx_search(location_olx, olx_search_term, max_pages)               # Populate the list with OLX data
-        sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-        pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
-        data.append({'olx': [(sh_names[i], sh_prices[i], sh_links[i], sh_img[i]) for i in range(len(sh_names))]})
+        #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+        #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        for i in range(len(sh_names)):
+            data_append(data, 'olx', i)
         sh_clear()
 
     if 'cj' in marketplaces:
         cj_search(location_cj, cj_search_term, max_pages)       # Populate the list wtih CustoJusto data
-        sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-        pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
-        data.append({'cj': [(sh_names[i], sh_prices[i], sh_links[i], sh_img[i]) for i in range(len(sh_names))]})
+        #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+        #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        for i in range(len(sh_names)):
+            data_append(data, 'cj', i)
         sh_clear()
 
     if 'ebay' in marketplaces:
         ebay_search(ebay_search_term, max_pages)                # Populate the list wtih eBay data
-        sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-        pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
-        data.append({'ebay': [(sh_names[i], sh_prices[i], sh_links[i], sh_img[i]) for i in range(len(sh_names))]})
+        #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+        #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        for i in range(len(sh_names)):
+            data_append(data, 'ebay', i)
         sh_clear()
 
     if 'kk' in marketplaces:
         kk_search(kk_search_term)                    # Populate the list wtih KuantoKusta data
-        fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
-        pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
-        data.append({'kk': [(fh_names[i], fh_prices[i], fh_links[i]) for i in range(len(fh_names))]})
+        #fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
+        #pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
+        for i in range(len(sh_names)):
+            data_append(data, 'olx', i)
 
     print(data)
     return data
