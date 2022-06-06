@@ -6,7 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.core.files.storage import default_storage
 
 from rest_framework.parsers import JSONParser
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.exceptions import ValidationError
 from rest_framework.decorators import api_view, permission_classes
 
@@ -65,7 +65,7 @@ def update_ad_img_view(request, id):
 
 @csrf_exempt
 @api_view(["GET", ])
-@permission_classes([IsAuthenticated])
+@permission_classes([AllowAny])
 def get_all_ads_view(request):
     try:
         data = JSONParser().parse(request)
