@@ -325,6 +325,9 @@ def findImgOlx(product_link):
     soup = BeautifulSoup(page.text, 'lxml')
     links=[]
 
+
+    images = soup.find_all("img" ,  {"class": "swiper-lazy"})
+
     for image in images:
     
         links.append(image.get('data-src'))
@@ -335,4 +338,4 @@ def findImgOlx(product_link):
     return links[0]
 
 if __name__ == '__main__':
-    handler(argv[2], int(argv[3]))
+    handler(argv[1], int(argv[2]))
