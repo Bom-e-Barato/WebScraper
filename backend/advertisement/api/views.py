@@ -78,7 +78,7 @@ def get_all_ads_view(request):
         if 'marketplaces' in data:
             ads_list += handler(data['search_term'], data['max_pages'], data['marketplaces'])
         else:
-            ads_list +=handler(data['search_term'], data['max_pages'])
+            ads_list += handler(data['search_term'], data['max_pages'], [])
         
         return JsonResponse(ads_list, safe=False)
     except BaseException as e:
