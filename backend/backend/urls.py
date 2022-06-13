@@ -28,6 +28,9 @@ urlpatterns = [
     # Advertisement URLS
     path("advertisement/api/", include("advertisement.api.urls", "advertisement_api")),
 
+    # Conversation URLS
+    path("conversation/api/", include("conversation.api.urls", "conversation_api")),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

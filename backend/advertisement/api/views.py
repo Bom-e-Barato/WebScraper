@@ -52,7 +52,7 @@ def update_ad_img_view(request, id):
     
     file = request.FILES['img']
     extension = file.name.split('.')[-1]
-    file_name = "exercises/" + str(id) + "." + extension
+    file_name = "products/" + str(id) + "." + extension
 
     if default_storage.exists(file_name):
         default_storage.delete(file_name)

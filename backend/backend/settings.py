@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # Custom apps
     'account',
     'advertisement',
+    'conversation',
 
     # Security
     'corsheaders',
