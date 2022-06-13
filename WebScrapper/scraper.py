@@ -1,4 +1,3 @@
-from ast import arg
 from posixpath import pardir
 import re
 import os
@@ -33,7 +32,6 @@ fh_links = []
 
 
 def sh_append(name, price, link, site,img):
-
     sh_names.append(name)
     sh_prices.append(price)
     sh_links.append(link)
@@ -109,7 +107,7 @@ def olx_search(location, search_term, max_pages):
                     price_str = price_str[:-10]
 
                 product_price = float(price_str)
-                product_link = 'https://www.olx.pt/d' + product.find('a')['href']
+                product_link = 'https://www.olx.pt' + product.find('a')['href']
                 product_img = product.find('img')['src']
                 
                 # Append the data to the lists
@@ -308,13 +306,14 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
             data_append(data, 'ebay', i)
         sh_clear()
 
+    """
     if 'kk' in marketplaces:
         kk_search(kk_search_term)                    # Populate the list wtih KuantoKusta data
         #fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
         #pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
         for i in range(len(sh_names)):
             data_append(data, 'olx', i)
-
+    """
     print(data)
     return data
 

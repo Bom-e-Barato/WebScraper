@@ -80,7 +80,7 @@ def login_view(request):
             data['v'] = True
             data['m'] = None
             data['t'] = Token.objects.get_or_create(user=account)[0].key                # Creates or gets token for that specific user
-            #data["expired"], data["token"] = token_expire_handler(data["token"]) 
+            
             return JsonResponse(data, safe=False)
         else:
             data['v'] = False

@@ -64,7 +64,7 @@ def update_ad_img_view(request, id):
     return JsonResponse({ 'v': True, 'm': None}, safe=False)
 
 @csrf_exempt
-@api_view(["GET", ])
+@api_view(["POST", ])
 @permission_classes([AllowAny])
 def get_all_ads_view(request):
     try:
@@ -73,7 +73,7 @@ def get_all_ads_view(request):
         for ad in Advertisement.objects.all():
             ad_data = ShowAdvertisementSerializer(ad).data
             ad_data['marketplace'] = "Bom e Barato"
-            ad_data['link']= None
+            ad_data['link'] = None
             ads_list.append(ad_data)
         if 'marketplaces' in data:
             ads_list += handler(data['search_term'], data['max_pages'], data['marketplaces'])
