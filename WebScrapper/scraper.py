@@ -115,6 +115,9 @@ def olx_search(location, search_term, max_pages):
             except:
                 continue
 
+        if i == max_pages:
+            break
+
 
 def cj_search(location, search_term, max_pages):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'}
