@@ -80,42 +80,47 @@ def data_append(data, marketplace, i):
 
 def olx_search(location, search_term, max_pages):
     # Olx has a max of 25 pages
+    page = requests.get(f'https://www.olx.pt/d/{location}/q-{search_term}/?page=1')
+    soup = BeautifulSoup(page.text, 'lxml')
+    x = soup.find_all('svg', class_='css-pyu9k9')
+    print(x)
+    print(len(x))
+    
+
     if max_pages>25:
         max_pages=25
 
-    # Olx has a max of 25 pages
-    page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page=1')
-    soup = BeautifulSoup(page.text, 'lxml')
+    for i in range(1):
+        print(i+1)
+        try:
+            page = requests.get(f'https://www.olx.pt/d/{location}/q-{search_term}/?page={i+1}')
+            soup = BeautifulSoup(page.text, 'lxml')
+            products = soup.find_all('div', class_ ='css-19ucd76')
+            
+            print('passou')
 
-    n = soup.find_all('li', class_='pagination-item')
-    print(int(n[-1].text))
+            for product in products:
+                try:
+                    # Get the data
+                    product_name = product.find('h6', class_='css-v3vynn-Text').text
 
-    for i in range(int(n[-1].text)):
-        page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page={i+1}')
-        soup = BeautifulSoup(page.text, 'lxml')
+                    price_str = product.find('p', class_='css-l0108r-Text').text[:-2].replace('.', '').replace(',', '.')
+                    
+                    if price_str[-1] == 'v':
+                        price_str = price_str[:-10]
 
-        products = soup.find_all('div', class_ ='css-19ucd76')
-        
-        for product in products:
-            try:
-                # Get the data
-                product_name = product.find('h6', class_='css-v3vynn-Text').text
+                    product_price = float(price_str)
+                    product_link = 'https://www.olx.pt/d' + product.find('a')['href']
+                    product_img = findImgOlx(product_link)
+                    
+                    # Append the data to the lists
+                    sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
+                except:
+                    continue
 
-                price_str = product.find('p', class_='css-l0108r-Text').text[:-2].replace('.', '').replace(',', '.')
-                
-                if price_str[-1] == 'v':
-                    price_str = price_str[:-10]
-
-                product_price = float(price_str)
-                product_link = 'https://www.olx.pt/d' + product.find('a')['href']
-                product_img = findImgOlx(product_link)
-                
-                # Append the data to the lists
-                sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
-            except:
-                continue
-
-        if i == max_pages:
+            if i == max_pages:
+                break
+        except:
             break
 
 
@@ -293,21 +298,21 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
             data_append(data, 'olx', i)
         sh_clear()
 
-    if 'cj' in marketplaces:
-        cj_search(location_cj, cj_search_term, max_pages)       # Populate the list wtih CustoJusto data
-        #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-        #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
-        for i in range(len(sh_names)):
-            data_append(data, 'cj', i)
-        sh_clear()
+    # if 'cj' in marketplaces:
+    #     cj_search(location_cj, cj_search_term, max_pages)       # Populate the list wtih CustoJusto data
+    #     #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+    #     #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+    #     for i in range(len(sh_names)):
+    #         data_append(data, 'cj', i)
+    #     sh_clear()
 
-    if 'ebay' in marketplaces:
-        ebay_search(ebay_search_term, max_pages)                # Populate the list wtih eBay data
-        #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-        #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
-        for i in range(len(sh_names)):
-            data_append(data, 'ebay', i)
-        sh_clear()
+    # if 'ebay' in marketplaces:
+    #     ebay_search(ebay_search_term, max_pages)                # Populate the list wtih eBay data
+    #     #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
+    #     #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+    #     for i in range(len(sh_names)):
+    #         data_append(data, 'ebay', i)
+    #     sh_clear()
 
     """
     if 'kk' in marketplaces:
@@ -317,7 +322,7 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
         for i in range(len(sh_names)):
             data_append(data, 'olx', i)
     """
-    print(data)
+    print(len(data))
     return data
 
 def findImgOlx(product_link):
@@ -326,7 +331,6 @@ def findImgOlx(product_link):
     links=[]
 
     for image in images:
-    
         links.append(image.get('data-src'))
 
         if (image.get('src')==0):
@@ -335,4 +339,6 @@ def findImgOlx(product_link):
     return links[0]
 
 if __name__ == '__main__':
-    handler(argv[2], int(argv[3]))
+    print(argv[1])
+    print(argv[2])
+    handler(argv[1], int(argv[2]))
