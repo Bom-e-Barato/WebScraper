@@ -110,7 +110,7 @@ def olx_search(location, search_term, max_pages):
 
                 product_price = float(price_str)
                 product_link = 'https://www.olx.pt/d' + product.find('a')['href']
-                product_img = product.find('img')['src']
+                product_img = findImgOlx(product_link)
                 
                 # Append the data to the lists
                 sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
@@ -318,6 +318,19 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
     print(data)
     return data
 
+def findImgOlx(product_link):
+    page = requests.get(product_link)
+    soup = BeautifulSoup(page.text, 'lxml')
+    links=[]
+
+    for image in images:
+    
+        links.append(image.get('data-src'))
+
+        if (image.get('src')==0):
+            continue
+    
+    return links[0]
 
 if __name__ == '__main__':
     handler(argv[2], int(argv[3]))
