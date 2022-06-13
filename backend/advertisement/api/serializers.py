@@ -10,7 +10,7 @@ class AddAdvertisementSerializer(serializers.ModelSerializer):
     location    = serializers.CharField(max_length=100,required=False)
     class Meta:
         model = Advertisement
-        fields = ('id', 'seller', 'name', 'img', 'price', 'description', 'promoted', 'negotiable', 'category', 'location')
+        fields = ('name', 'img', 'price', 'description', 'promoted', 'negotiable', 'category', 'location')
 
     def save(self):
         advertisement = Advertisement(**self.validated_data)

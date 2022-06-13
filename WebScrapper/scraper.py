@@ -1,4 +1,3 @@
-from ast import arg
 from posixpath import pardir
 import re
 import os
@@ -33,7 +32,6 @@ fh_links = []
 
 
 def sh_append(name, price, link, site,img):
-
     sh_names.append(name)
     sh_prices.append(price)
     sh_links.append(link)
@@ -110,7 +108,7 @@ def olx_search(location, search_term, max_pages):
 
                 product_price = float(price_str)
                 product_link = 'https://www.olx.pt/d' + product.find('a')['href']
-                product_img = product.find('img')['src']
+                product_img = findImgOlx(product_link)
                 
                 # Append the data to the lists
                 sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
@@ -311,16 +309,33 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
             data_append(data, 'ebay', i)
         sh_clear()
 
+    """
     if 'kk' in marketplaces:
         kk_search(kk_search_term)                    # Populate the list wtih KuantoKusta data
         #fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
         #pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
         for i in range(len(sh_names)):
             data_append(data, 'olx', i)
-
+    """
     print(data)
     return data
 
+def findImgOlx(product_link):
+    page = requests.get(product_link)
+    soup = BeautifulSoup(page.text, 'lxml')
+    links=[]
+
+
+    images = soup.find_all("img" ,  {"class": "swiper-lazy"})
+
+    for image in images:
+    
+        links.append(image.get('data-src'))
+
+        if (image.get('src')==0):
+            continue
+    
+    return links[0]
 
 if __name__ == '__main__':
-    handler(argv[2], int(argv[3]))
+    handler(argv[1], int(argv[2]))
