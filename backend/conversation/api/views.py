@@ -61,9 +61,23 @@ def get_conversation_view(request, id):
 @permission_classes([IsAuthenticated])
 def get_my_conversations_view(request):
     try:
+        comunicated_with=[]
+        for msg in Conversation.objects.filter(Q(sender=request.user.id) | Q(receiver=request.user.id)).order_by('-timestamp'):
+            if msg.sender == request.user.id:
+                if msg.receiver not in comunicated_with:
+                    comunicated_with.append(msg.receiver)
+            else:
+                if msg.sender not in comunicated_with:
+                    comunicated_with.append(msg.sender)
+        
         chats_overview=[]
-        for msg in Conversation.objects.filter(Q(receiver=request.user.id) | Q(sender=request.user.id)).order_by('-timestamp'):
-            pass
+        for id in comunicated_with:
+            msg = Conversation.objects.filter(Q(sender=request.user.id, receiver=id) | Q(sender=id, receiver=request.user.id)).order_by('-timestamp')[0]
+            chats_overview.append({'name': msg.receiver.full_name() if msg.receiver!= request.user else msg.sender.full_name(), 'last_message': msg.message, 'timestamp': msg.timestamp})
+
+        if not chats_overview:
+            return JsonResponse({ 'v': True, 'm': 'No messages' }, safe=False)
+
         return JsonResponse(chats_overview, safe=False)
     except BaseException as e:
         return JsonResponse({ 'v': False, 'm': str(e) }, safe=False)
