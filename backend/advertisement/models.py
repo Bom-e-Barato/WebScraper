@@ -3,16 +3,16 @@ from django.db import models
 from account.models import Account
 
 
-CATEGORY_CHOICES=(  (0, "Automóveis"), 
-                (1, "Ferramentas"),
-                (2, "Roupa"),
-                (3, "Imóveis"),
-                (4, "Eletrodomésticos"),
-                (5, "Desporto"),
-                (6, "Tecnologia"),
-                (7, "Lazer"),
-                (8, "Móveis"),
-                (9, "Outros"))
+CATEGORY_CHOICES=(  ("Automóveis", "Automóveis"), 
+                ("Ferramentas", "Ferramentas"),
+                ("Roupa", "Roupa"),
+                ("Imóveis", "Imóveis"),
+                ("Eletrodomésticos", "Eletrodomésticos"),
+                ("Desporto", "Desporto"),
+                ("Tecnologia", "Tecnologia"),
+                ("Lazer", "Lazer"),
+                ("Móveis", "Móveis"),
+                ("Outros", "Outros"))
 
 class Advertisement(models.Model):
     id          = models.AutoField(primary_key=True)
@@ -23,6 +23,6 @@ class Advertisement(models.Model):
     description = models.TextField()
     promoted    = models.BooleanField(default=False)
     negotiable  = models.BooleanField(default=False)
-    category    = models.PositiveSmallIntegerField(choices=CATEGORY_CHOICES, null=True, blank=True)
+    category    = models.CharField(max_length=20, choices=CATEGORY_CHOICES, null=True, blank=True)
     location    = models.CharField(max_length=100, null=True, blank=True)
     date_created= models.DateTimeField(auto_now_add=True)
