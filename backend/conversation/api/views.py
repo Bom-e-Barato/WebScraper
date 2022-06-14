@@ -14,10 +14,11 @@ from django.db.models import Q
 @csrf_exempt
 @api_view(["POST", ])
 @permission_classes([IsAuthenticated])
-def add_message_view(request):
+def add_message_view(request, id):
     try:
         message_data = JSONParser().parse(request)
         message_data["sender"] = request.user.id 
+        message_data["receiver"] = id 
 
         msg_serializer = AddConversationSerializer(data=message_data)
         if msg_serializer.is_valid():

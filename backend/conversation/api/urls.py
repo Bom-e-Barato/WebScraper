@@ -8,6 +8,6 @@ from conversation.api.views import(
 app_name = "conversation"
 
 urlpatterns = [
-    path("add_message", add_message_view, name="add_message"),
+    path("add_message/<int:id>", add_message_view, name="add_message"),
     path("conversation_with/<int:id>", get_conversation_view, name="my_conversation"),
 ]
