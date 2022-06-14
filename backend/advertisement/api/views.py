@@ -70,15 +70,14 @@ def get_all_ads_view(request):
     try:
         data = JSONParser().parse(request)
         ads_list = []
+        
         for ad in Advertisement.objects.all():
             ad_data = ShowAdvertisementSerializer(ad).data
             ad_data['marketplace'] = "Bom e Barato"
             ad_data['link'] = None
             ads_list.append(ad_data)
-        if 'marketplaces' in data:
-            ads_list += handler(data['search_term'], data['max_pages'], data['marketplaces'])
-        else:
-            ads_list += handler(data['search_term'], data['max_pages'], [])
+        
+        ads_list += handler(data['search_term'], data['max_pages'], data['marketplaces'], data['location'])
         
         return JsonResponse(ads_list, safe=False)
     except BaseException as e:
