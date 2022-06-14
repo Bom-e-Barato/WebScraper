@@ -92,7 +92,7 @@ def get_promoted_ads_view(request):
         for ad in Advertisement.objects.all():
             ad_data = ShowAdvertisementSerializer(ad).data
             ad_data['marketplace'] = "Bom e Barato"
-            ad_data['link']= None
+            ad_data['link'] = None
             ads_list.append(ad_data)
         return JsonResponse(ads_list, safe=False)
     except BaseException as e:
