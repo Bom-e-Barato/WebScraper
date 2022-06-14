@@ -6,7 +6,7 @@ class AddAdvertisementSerializer(serializers.ModelSerializer):
     img       = serializers.ImageField(allow_null=True, required=False)
     promoted    = serializers.BooleanField(required=False)
     negotiable  = serializers.BooleanField(required=False)
-    category    = serializers.IntegerField(allow_null=True, required=False)
+    category    = serializers.CharField(max_length=20, allow_null=True, required=False)
     location    = serializers.CharField(max_length=100,required=False)
     class Meta:
         model = Advertisement
