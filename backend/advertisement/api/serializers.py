@@ -1,4 +1,3 @@
-from email.policy import default
 from rest_framework import serializers
 
 from advertisement.models import Advertisement
@@ -25,16 +24,4 @@ class ShowAdvertisementSerializer(serializers.ModelSerializer):
 
 
 
-
-""" marketplace: string;
-  name: string;
-  price: number;
-  link: string;
-  img: string;
-  description: string;
-  promoted: boolean;
-  negotiable: boolean;
-  id_seller?: number;
-  category?: string[];
-  location?: string;   """      
         

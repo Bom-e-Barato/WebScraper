@@ -154,7 +154,6 @@ def profile_view(request):
     info['email'] = account.email
     info['birth_date'] = account.birth_date
     info['joined'] = account.date_joined
-    info['role'] = "Student" if account.role==1 else "Teacher"
 
     try:
         info['avatar'] = account.avatar.url
