@@ -1,21 +1,9 @@
-from posixpath import pardir
 import re
-import os
 from sys import argv
-from time import process_time
 import requests
 import pandas as pd
 import urllib.parse
-from os.path import join, dirname
-from dotenv import load_dotenv
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.webdriver import WebDriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-from time import sleep
-from selenium.webdriver.common.action_chains import ActionChains
 
 
 # Lists to store second hand names, prices and links of the products
@@ -79,43 +67,45 @@ def data_append(data, marketplace, i):
 
 
 def olx_search(location, search_term, max_pages):
-    # Olx has a max of 25 pages
+    headers = {'user-agent': 'Mozilla/5.0'}
+
+    # Olx has a max of 25 pages    
     if max_pages>25:
         max_pages=25
 
-    # Olx has a max of 25 pages
-    page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page=1')
-    soup = BeautifulSoup(page.text, 'lxml')
+    for i in range(max_pages):
+        try:
+            page = requests.get(f'https://www.olx.pt/d/{location}/q-{search_term}/?page={i+1}', headers=headers)
+            soup = BeautifulSoup(page.text, 'lxml')
+            next = soup.select('a[data-testid="pagination-forward"]')
 
-    n = soup.find_all('li', class_='pagination-item')
-    print(int(n[-1].text))
+            products = soup.find_all('div', class_ ='css-19ucd76')
 
-    for i in range(int(n[-1].text)):
-        page = requests.get(f'https://www.olx.pt/{location}/q-{search_term}/?page={i+1}')
-        soup = BeautifulSoup(page.text, 'lxml')
+            for product in products:
+                try:
+                    # Get the data
+                    product_name = product.find('h6', class_='css-v3vynn-Text').text
 
-        products = soup.find_all('div', class_ ='css-19ucd76')
-        
-        for product in products:
-            try:
-                # Get the data
-                product_name = product.find('h6', class_='css-v3vynn-Text').text
+                    price_str = product.find('p', class_='css-l0108r-Text').text[:-2].replace('.', '').replace(',', '.')
+                    
+                    if price_str[-1] == 'v':
+                        price_str = price_str[:-10]
 
-                price_str = product.find('p', class_='css-l0108r-Text').text[:-2].replace('.', '').replace(',', '.')
-                
-                if price_str[-1] == 'v':
-                    price_str = price_str[:-10]
+                    product_price = float(price_str)
+                    product_link = 'https://www.olx.pt' + product.find('a')['href']
+                    product_img = product.find('img')['src']#findImgOlx(product_link)
+                    
+                    # Append the data to the lists
+                    sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
+                except:
+                    continue
+            
+            if next == []:
+                break
 
-                product_price = float(price_str)
-                product_link = 'https://www.olx.pt/d' + product.find('a')['href']
-                product_img = findImgOlx(product_link)
-                
-                # Append the data to the lists
-                sh_append(name=product_name, price=product_price, link=product_link, site='olx' , img=product_img)
-            except:
-                continue
-
-        if i == max_pages:
+            if i == max_pages:
+                break
+        except:
             break
 
 
@@ -202,46 +192,6 @@ def ebay_search(search_term, max_pages):
             break
 
 
-# FacebookMarketplace search function------------------------------------------------------Probabbly illegal, too bad
-def fb_search(search_term):
-    """ opts = Options()
-    opts.headless = True
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opts) """
-
-    dotenv_path = join(dirname(__file__),'.env')
-    load_dotenv(dotenv_path)
-    EMAIL = os.environ.get("EMAIL")
-    PASSWORD = os.environ.get("PASSWORD")
-
-    driver = webdriver.Chrome(ChromeDriverManager().install())
-    driver.get("https://www.facebook.com")
-    sleep(3)
-
-    email_input=driver.find_element_by_id("email")
-    email_input.send_keys(EMAIL)
-
-    sleep(0.5)
-
-    pass_input=driver.find_element_by_id("pass")
-    pass_input.send_keys(PASSWORD)
-
-    sleep(0.5)
-
-    actions = ActionChains(driver)
-    actions.send_keys(Keys.ENTER)
-    actions.perform()
-   
-    sleep(5)
-    search_term=f"https://www.facebook.com/marketplace/search/?query={search_term}"
-    driver.get(search_term)
-    sleep(60)
-    
-    #content=driver.page_source
-    #soup=BeautifulSoup(content,'lxml')
-    #print(soup.prettify())
-    #driver.close
-
-
 def kk_search(search_term):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
     page = requests.get(f'https://www.kuantokusta.pt/search?q={search_term}&sort=3', headers=headers)
@@ -270,13 +220,21 @@ def kk_search(search_term):
         fh_prices.append(product_price)
         fh_links.append(product_link)
 
-def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
+def handler(search_term, max_pages, marketplaces, location):
+    if marketplaces is None:
+        marketplaces = ['olx', 'ebay', 'cj', 'kk']
+
+    if location is '':
+        location_olx = 'ads'
+        location_cj = 'portugal'
+    else:
+        location_olx = location
+        location_cj = location
+
     print("Searching for: " + search_term)
+    print("Location: " + location_olx)
     print("Max pages: " + str(max_pages))
     print("Marketplaces: " + str(marketplaces))
-
-    location_olx = 'ads'
-    location_cj = 'portugal'
 
     olx_search_term = re.sub('\\s+', '-', search_term.lower().strip())      # Replace white spaces rows with '-'
     kk_search_term = re.sub('\\s+', '+', search_term.lower().strip())       # Replace white spaces rows with '+'
@@ -286,27 +244,22 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
     data = []
 
     if 'olx' in marketplaces:
-        olx_search(location_olx, olx_search_term, max_pages)               # Populate the list with OLX data
-        #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-        #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        print('olx procura ' + search_term + ' em ' + location_olx)
+        olx_search(location_olx, olx_search_term, max_pages)                # Populate the list with OLX data
         for i in range(len(sh_names)):
-            data_append(data, 'olx', i)
+            data_append(data, 'OLX', i)
         sh_clear()
 
     if 'cj' in marketplaces:
-        cj_search(location_cj, cj_search_term, max_pages)       # Populate the list wtih CustoJusto data
-        #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-        #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        cj_search(location_cj, cj_search_term, max_pages)                   # Populate the list wtih CustoJusto data
         for i in range(len(sh_names)):
-            data_append(data, 'cj', i)
+            data_append(data, 'Custo Justo', i)
         sh_clear()
 
     if 'ebay' in marketplaces:
-        ebay_search(ebay_search_term, max_pages)                # Populate the list wtih eBay data
-        #sh_d = {'nomes': sh_names, 'precos': sh_prices, 'links': sh_links, 'sites': sh_sites}
-        #pd.DataFrame(sh_d).sort_values('precos').to_json('sh_products.json', orient='index', indent=2, force_ascii=False)
+        ebay_search(ebay_search_term, max_pages)                            # Populate the list wtih eBay data
         for i in range(len(sh_names)):
-            data_append(data, 'ebay', i)
+            data_append(data, 'eBay', i)
         sh_clear()
 
     """
@@ -317,7 +270,7 @@ def handler(search_term, max_pages, marketplaces=['olx', 'cj', 'ebay', 'kk']):
         for i in range(len(sh_names)):
             data_append(data, 'olx', i)
     """
-    print(data)
+    print(len(data))
     return data
 
 def findImgOlx(product_link):
@@ -329,7 +282,6 @@ def findImgOlx(product_link):
     images = soup.find_all("img" ,  {"class": "swiper-lazy"})
 
     for image in images:
-    
         links.append(image.get('data-src'))
 
         if (image.get('src')==0):
@@ -338,4 +290,4 @@ def findImgOlx(product_link):
     return links[0]
 
 if __name__ == '__main__':
-    handler(argv[1], int(argv[2]))
+    handler(argv[1], int(argv[2]), argv[3], argv[4])
