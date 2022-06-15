@@ -41,6 +41,35 @@ def add_ad_view(request):
     except KeyError as e:
         return JsonResponse({ 'v': False, 'm': str(e) }, safe=False)
 
+
+@csrf_exempt
+@api_view(["DELETE", ])
+@permission_classes([IsAuthenticated])
+def delete_ad_view(request, id):
+    try:
+        Advertisement.objects.filter(id=id).delete()
+        file_name = "products/" + str(id) + '.png'
+        default_storage.delete(file_name)
+    except BaseException as e:
+        return JsonResponse({ 'v': False, 'm': str(e) }, safe=False)
+
+    return JsonResponse({ 'v': True, 'm': None}, safe=False)
+
+
+@csrf_exempt
+@api_view(["GET", ])
+@permission_classes([IsAuthenticated])
+def get_ad_view(request, id):
+    try:
+        ad = Advertisement.objects.get(id=id)
+        ad_data = ShowAdvertisementSerializer(ad).data
+        ad_data['marketplace'] = "Bom e Barato"
+        ad_data['link'] = None
+    except BaseException as e:
+        return JsonResponse({ 'v': False, 'm': str(e) }, safe=False)
+
+    return JsonResponse(ad_data, safe=False)
+
 @csrf_exempt
 @api_view(["POST", ])
 @permission_classes([IsAuthenticated])
@@ -85,11 +114,11 @@ def get_all_ads_view(request):
 
 @csrf_exempt
 @api_view(["GET", ])
-@permission_classes([IsAuthenticated])
+@permission_classes([AllowAny])
 def get_promoted_ads_view(request):
     try:
         ads_list=[]
-        for ad in Advertisement.objects.all():
+        for ad in Advertisement.objects.filter(promoted=True):
             ad_data = ShowAdvertisementSerializer(ad).data
             ad_data['marketplace'] = "Bom e Barato"
             ad_data['link'] = None
