@@ -102,9 +102,11 @@ def get_all_ads_view(request):
         
         for ad in Advertisement.objects.all():
             ad_data = ShowAdvertisementSerializer(ad).data
-            ad_data['marketplace'] = "Bom e Barato"
-            ad_data['link'] = None
-            ads_list.append(ad_data)
+            if data["search_term"].lower() in ad_data["name"].lower():
+                if data['location'] == '' or data["location"].lower() == ad_data["location"].lower():
+                    ad_data['marketplace'] = "Bom e Barato"
+                    ad_data['link'] = None
+                    ads_list.append(ad_data)
         
         ads_list += handler(data['search_term'], data['max_pages'], data['marketplaces'], data['location'])
         
