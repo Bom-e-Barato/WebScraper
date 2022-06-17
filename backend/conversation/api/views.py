@@ -1,6 +1,8 @@
+from django.dispatch import receiver
 from django.http.response import JsonResponse
 from django.db import IntegrityError
 from django.views.decorators.csrf import csrf_exempt
+from account.models import Account
 from conversation.models import Conversation
 
 from rest_framework.parsers import JSONParser
@@ -64,18 +66,18 @@ def get_my_conversations_view(request):
     try:
         comunicated_with=[]
         for msg in Conversation.objects.filter(Q(sender=request.user.id) | Q(receiver=request.user.id)).order_by('-timestamp'):
-            if msg.sender == request.user.id:
+            if msg.sender.id == request.user.id:
                 if msg.receiver not in comunicated_with:
                     comunicated_with.append(msg.receiver)
             else:
                 if msg.sender not in comunicated_with:
                     comunicated_with.append(msg.sender)
-        
+        print('comunicated_with')
+        print(comunicated_with)
         chats_overview=[]
         for id in comunicated_with:
             msg = Conversation.objects.filter(Q(sender=request.user.id, receiver=id) | Q(sender=id, receiver=request.user.id)).order_by('-timestamp')[0]
             chats_overview.append({'name': msg.receiver.full_name() if msg.receiver!= request.user else msg.sender.full_name(), 'last_message': msg.message, 'timestamp': msg.timestamp})
-
         if not chats_overview:
             return JsonResponse({ 'v': True, 'm': 'No messages' }, safe=False)
 
