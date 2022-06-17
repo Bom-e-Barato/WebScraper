@@ -1,7 +1,6 @@
 import re
 from sys import argv
 import requests
-import pandas as pd
 import urllib.parse
 from bs4 import BeautifulSoup
 
