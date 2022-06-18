@@ -20,7 +20,7 @@ def add_message_view(request, id):
     try:
         message_data = JSONParser().parse(request)
         message_data["sender"] = request.user.id 
-        message_data["receiver"] = id 
+        message_data["receiver"] = id
 
         msg_serializer = AddConversationSerializer(data=message_data)
         if msg_serializer.is_valid():
@@ -75,7 +75,7 @@ def get_my_conversations_view(request):
         chats_overview=[]
         for id in comunicated_with:
             msg = Conversation.objects.filter(Q(sender=request.user.id, receiver=id) | Q(sender=id, receiver=request.user.id)).order_by('-timestamp')[0]
-            chats_overview.append({'name': msg.receiver.full_name() if msg.receiver!= request.user else msg.sender.full_name(), 'id': msg.receiver.id, 'last_message': msg.message, 'timestamp': msg.timestamp})
+            chats_overview.append({'name': msg.receiver.full_name() if msg.receiver!= request.user else msg.sender.full_name(), 'id': msg.receiver.id if msg.receiver!= request.user else msg.sender.id, 'last_message': msg.message, 'timestamp': msg.timestamp})
         if not chats_overview:
             return JsonResponse({ 'v': True, 'm': 'No messages' }, safe=False)
 

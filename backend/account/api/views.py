@@ -154,6 +154,7 @@ def profile_view(request):
     info['email'] = account.email
     info['birth_date'] = account.birth_date
     info['joined'] = account.date_joined
+    info['id'] = account.id
 
     try:
         info['avatar'] = account.avatar.url
