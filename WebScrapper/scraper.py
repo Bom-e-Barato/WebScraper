@@ -79,13 +79,12 @@ def olx_search(location, search_term, max_pages):
             next = soup.select('a[data-testid="pagination-forward"]')
 
             products = soup.find_all('div', class_ ='css-19ucd76')
-
             for product in products:
                 try:
                     # Get the data
                     product_name = product.find('h6', class_='css-v3vynn-Text').text
 
-                    price_str = product.find('p', class_='css-l0108r-Text').text[:-2].replace('.', '').replace(',', '.')
+                    price_str = product.find('p', class_='css-wpfvmn-Text').text[:-2].replace('.', '').replace(',', '.')
                     
                     if price_str[-1] == 'v':
                         price_str = price_str[:-10]
@@ -219,11 +218,12 @@ def kk_search(search_term):
         fh_prices.append(product_price)
         fh_links.append(product_link)
 
+
 def handler(search_term, max_pages, marketplaces, location):
     if marketplaces is None:
         marketplaces = ['olx', 'ebay', 'cj', 'kk']
 
-    if location is '':
+    if location == '':
         location_olx = 'ads'
         location_cj = 'portugal'
     else:
@@ -261,14 +261,13 @@ def handler(search_term, max_pages, marketplaces, location):
             data_append(data, 'eBay', i)
         sh_clear()
 
-    """
     if 'kk' in marketplaces:
         kk_search(kk_search_term)                    # Populate the list wtih KuantoKusta data
         #fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
         #pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
         for i in range(len(sh_names)):
-            data_append(data, 'olx', i)
-    """
+            data_append(data, 'Kuantokusta', i)
+    
     print(len(data))
     return data
 
