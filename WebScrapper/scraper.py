@@ -41,6 +41,13 @@ def sh_clear():
     sh_sites.clear()
     sh_img.clear()
 
+def fh_clear():
+    fh_names.clear()
+    fh_prices.clear()
+    fh_links.clear()
+    fh_sites.clear()
+    fh_img.clear()
+
 def data_append(data, marketplace, i):
     if marketplace == 'Kuantokusta':
         data.append({
@@ -278,6 +285,7 @@ def handler(search_term, max_pages, marketplaces, location):
         #pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
         for i in range(len(fh_names)):
             data_append(data, 'Kuantokusta', i)
+        fh_clear()
     
     print(len(data))
     return data
