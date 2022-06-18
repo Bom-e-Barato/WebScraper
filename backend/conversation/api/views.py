@@ -42,10 +42,7 @@ def add_message_view(request, id):
 def get_conversation_view(request, id):
     try:
         message_list = []
-        print("aqui")
-        print(Conversation.objects.filter(receiver=id, sender=request.user.id))
-        print(Conversation.objects.filter(receiver=request.user.id, sender=id))
-        for message in Conversation.objects.filter(receiver=id, sender=request.user.id).order_by('timestamp'):
+        for message in Conversation.objects.filter(Q(receiver=id, sender=request.user.id) | Q(receiver=request.user.id, sender=id)).order_by('timestamp'):
             if message.sender.id == request.user.id:
                 message_list.append( 'sender' + ':' + message.message )
             elif message.receiver.id == request.user.id:
@@ -75,8 +72,6 @@ def get_my_conversations_view(request):
             else:
                 if msg.sender not in comunicated_with:
                     comunicated_with.append(msg.sender)
-        print('comunicated_with')
-        print(comunicated_with)
         chats_overview=[]
         for id in comunicated_with:
             msg = Conversation.objects.filter(Q(sender=request.user.id, receiver=id) | Q(sender=id, receiver=request.user.id)).order_by('-timestamp')[0]
