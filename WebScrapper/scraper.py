@@ -10,20 +10,29 @@ sh_names = []
 sh_prices = []
 sh_links = []
 sh_sites = []
-sh_img=[]
+sh_img = []
 
 # Lists to store first hand names, prices and links of the products
 fh_names = []
 fh_prices = []
 fh_links = []
+fh_sites = []
+fh_img = []
 
 
-def sh_append(name, price, link, site,img):
+def sh_append(name, price, link, site, img):
     sh_names.append(name)
     sh_prices.append(price)
     sh_links.append(link)
     sh_sites.append(site)
     sh_img.append(img)
+
+def fh_append(name, price, link, site, img):
+    fh_names.append(name)
+    fh_prices.append(price)
+    fh_links.append(link)
+    fh_sites.append(site)
+    fh_img.append(img)
 
 def sh_clear():
     sh_names.clear()
@@ -33,14 +42,14 @@ def sh_clear():
     sh_img.clear()
 
 def data_append(data, marketplace, i):
-    if marketplace == 'kk':
+    if marketplace == 'Kuantokusta':
         data.append({
                 'id': None,
-                'marketplace': "kk",
+                'marketplace': marketplace,
                 'name': fh_names[i],
                 'price': fh_prices[i],
                 'link': fh_links[i],
-                'img': None,
+                'img': fh_img[i],
                 'description': None,
                 'promoted': False,
                 'negotiable': False,
@@ -192,19 +201,22 @@ def ebay_search(search_term, max_pages):
 
 def kk_search(search_term):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
-    page = requests.get(f'https://www.kuantokusta.pt/search?q={search_term}&sort=3', headers=headers)
+    page = requests.get(f'https://www.kuantokusta.pt/search?q={search_term}&sort=1', headers=headers)
     soup = BeautifulSoup(page.text, 'lxml')
 
     products = soup.find_all('div', class_='product-item-inner')
-    
+
     for product in products:
         # Get the data
+        
         product_name = product.find('a', class_='product-item-name')['title']
         product_price = product.find('a', class_='product-item-price').find('span').text[:-1].replace('.', '').replace(',', '.').strip()
         # Done when the price tag has text
         if 'Desde' in product_price:
             product_price = product_price[5:].strip()
         product_price = float(product_price)
+
+        product_img = product.find('img')['src']
 
         product_link = 'https://kuantokusta.pt/' + product.find('a', class_='product-item-store')['href']
 
@@ -214,9 +226,8 @@ def kk_search(search_term):
             product_link = urllib.parse.unquote(encoded_link)
         
         # Append the data to the lists
-        fh_names.append(product_name)
-        fh_prices.append(product_price)
-        fh_links.append(product_link)
+        # Append the data to the lists
+        fh_append(name=product_name, price=product_price, link=product_link, site='kk', img=product_img)
 
 
 def handler(search_term, max_pages, marketplaces, location):
@@ -265,7 +276,7 @@ def handler(search_term, max_pages, marketplaces, location):
         kk_search(kk_search_term)                    # Populate the list wtih KuantoKusta data
         #fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
         #pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
-        for i in range(len(sh_names)):
+        for i in range(len(fh_names)):
             data_append(data, 'Kuantokusta', i)
     
     print(len(data))
