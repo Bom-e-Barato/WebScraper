@@ -1,6 +1,8 @@
+from django.dispatch import receiver
 from django.http.response import JsonResponse
 from django.db import IntegrityError
 from django.views.decorators.csrf import csrf_exempt
+from account.models import Account
 from conversation.models import Conversation
 
 from rest_framework.parsers import JSONParser
@@ -14,10 +16,11 @@ from django.db.models import Q
 @csrf_exempt
 @api_view(["POST", ])
 @permission_classes([IsAuthenticated])
-def add_message_view(request):
+def add_message_view(request, id):
     try:
         message_data = JSONParser().parse(request)
         message_data["sender"] = request.user.id 
+        message_data["receiver"] = id 
 
         msg_serializer = AddConversationSerializer(data=message_data)
         if msg_serializer.is_valid():
@@ -39,10 +42,10 @@ def add_message_view(request):
 def get_conversation_view(request, id):
     try:
         message_list = []
-        for message in Conversation.objects.filter(receiver=request.user.id, sender=id).order_by('timestamp'):
-            if message.sender == request.user.id:
+        for message in Conversation.objects.filter(Q(receiver=id, sender=request.user.id) | Q(receiver=request.user.id, sender=id)).order_by('timestamp'):
+            if message.sender.id == request.user.id:
                 message_list.append( 'sender' + ':' + message.message )
-            elif message.receiver == request.user.id:
+            elif message.receiver.id == request.user.id:
                 message_list.append( 'receiver' + ':' + message.message )
 
         if not message_list:
@@ -63,18 +66,16 @@ def get_my_conversations_view(request):
     try:
         comunicated_with=[]
         for msg in Conversation.objects.filter(Q(sender=request.user.id) | Q(receiver=request.user.id)).order_by('-timestamp'):
-            if msg.sender == request.user.id:
+            if msg.sender.id == request.user.id:
                 if msg.receiver not in comunicated_with:
                     comunicated_with.append(msg.receiver)
             else:
                 if msg.sender not in comunicated_with:
                     comunicated_with.append(msg.sender)
-        
         chats_overview=[]
         for id in comunicated_with:
             msg = Conversation.objects.filter(Q(sender=request.user.id, receiver=id) | Q(sender=id, receiver=request.user.id)).order_by('-timestamp')[0]
-            chats_overview.append({'name': msg.receiver.full_name() if msg.receiver!= request.user else msg.sender.full_name(), 'last_message': msg.message, 'timestamp': msg.timestamp})
-
+            chats_overview.append({'name': msg.receiver.full_name() if msg.receiver!= request.user else msg.sender.full_name(), 'id': msg.receiver.id, 'last_message': msg.message, 'timestamp': msg.timestamp})
         if not chats_overview:
             return JsonResponse({ 'v': True, 'm': 'No messages' }, safe=False)
 
