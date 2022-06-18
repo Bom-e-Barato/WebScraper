@@ -107,7 +107,7 @@ def get_all_ads_view(request):
                     ad_data['marketplace'] = "Bom e Barato"
                     ad_data['link'] = None
                     ads_list.append(ad_data)
-        
+                    
         ads_list += handler(data['search_term'], data['max_pages'], data['marketplaces'], data['location'])
         
         return JsonResponse(ads_list, safe=False)
