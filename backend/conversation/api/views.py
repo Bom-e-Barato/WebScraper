@@ -42,10 +42,13 @@ def add_message_view(request, id):
 def get_conversation_view(request, id):
     try:
         message_list = []
-        for message in Conversation.objects.filter(receiver=request.user.id, sender=id).order_by('timestamp'):
-            if message.sender == request.user.id:
+        print("aqui")
+        print(Conversation.objects.filter(receiver=id, sender=request.user.id))
+        print(Conversation.objects.filter(receiver=request.user.id, sender=id))
+        for message in Conversation.objects.filter(receiver=id, sender=request.user.id).order_by('timestamp'):
+            if message.sender.id == request.user.id:
                 message_list.append( 'sender' + ':' + message.message )
-            elif message.receiver == request.user.id:
+            elif message.receiver.id == request.user.id:
                 message_list.append( 'receiver' + ':' + message.message )
 
         if not message_list:
@@ -77,7 +80,7 @@ def get_my_conversations_view(request):
         chats_overview=[]
         for id in comunicated_with:
             msg = Conversation.objects.filter(Q(sender=request.user.id, receiver=id) | Q(sender=id, receiver=request.user.id)).order_by('-timestamp')[0]
-            chats_overview.append({'name': msg.receiver.full_name() if msg.receiver!= request.user else msg.sender.full_name(), 'last_message': msg.message, 'timestamp': msg.timestamp})
+            chats_overview.append({'name': msg.receiver.full_name() if msg.receiver!= request.user else msg.sender.full_name(), 'id': msg.receiver.id, 'last_message': msg.message, 'timestamp': msg.timestamp})
         if not chats_overview:
             return JsonResponse({ 'v': True, 'm': 'No messages' }, safe=False)
 
