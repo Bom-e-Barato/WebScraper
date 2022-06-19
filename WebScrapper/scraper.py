@@ -281,8 +281,6 @@ def handler(search_term, max_pages, marketplaces, location):
 
     if 'kk' in marketplaces:
         kk_search(kk_search_term)                    # Populate the list wtih KuantoKusta data
-        #fh_d = {'nomes': fh_names, 'precos': fh_prices, 'links': fh_links}
-        #pd.DataFrame(fh_d).sort_values('precos').to_json('fh_products.json', orient='index', indent=2, force_ascii=False)
         for i in range(len(fh_names)):
             data_append(data, 'Kuantokusta', i)
         fh_clear()

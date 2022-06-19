@@ -115,7 +115,7 @@ def get_all_ads_view(request):
         return JsonResponse({ 'v': False, 'm': str(e) }, safe=False)
 
 @csrf_exempt
-@api_view(["GET", ])
+@api_view(["POST", ])
 @permission_classes([AllowAny])
 def get_promoted_ads_view(request):
     try:
